@@ -76,7 +76,7 @@ if a > b
 
 #### 格式化输出
 
-	```
+```
 	name = input("Name")
 	age = input("Age")
 	job = input("Job")
@@ -95,7 +95,7 @@ Hometwon		: %s
 	# %f = float
 	print(info)
 	"""
-	```
-	info of %s中的%s就是一个占位符，这一行中的代表后面%（中的第一个）
-	%s在没有要求必须是数字或者小数的情况下是万能的
+```
+info of %s中的%s就是一个占位符，这一行中的代表后面%（中的第一个）
+%s在没有要求必须是数字或者小数的情况下是万能的
 	
