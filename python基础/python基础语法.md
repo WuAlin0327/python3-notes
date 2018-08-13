@@ -62,7 +62,6 @@ python3只有两种数字类型
 #### 布尔型（bool）
 布尔类型：True（真）  False（假），主要用于逻辑判断，例：
 
-
 ```
 if a > b
 
@@ -72,12 +71,10 @@ if a > b
 
 	else
 
-	print(a is smaller
-	than
-	b )
-	```
+	print(a is smallerthan b )
+```
 
-	#### 格式化输出
+#### 格式化输出
 
 	```
 	name = input("Name")
