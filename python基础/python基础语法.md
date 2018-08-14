@@ -61,26 +61,22 @@ python3只有两种数字类型
 布尔类型：True（真）  False（假），主要用于逻辑判断，例：
 
 ```
-if a > b
+if a > b：
+    print(a is bigger than b )
 
-	print(a is bigger
-	than
-	b )
-
-	else
-
-	print(a is smallerthan b )
+else：
+    print(a is smallerthan b )
 ```
 
 #### 格式化输出
 
 ```
-	name = input("Name")
-	age = input("Age")
-	job = input("Job")
-	hometwon = input("Hometwon")
+name = input("Name")
+age = input("Age")
+job = input("Job")
+hometwon = input("Hometwon")
 
-	info = '''
+info = '''
 ----------info of %s ----------- 
 Name			: %s
 Age			: %s
@@ -88,11 +84,10 @@ Job			: %s
 Hometwon		: %s
 ----------end------------------- 
 ''' % (name, name, age, job, hometwon)
-	# %s = string
-	# %d = difit
-	# %f = float
-	print(info)
-	"""
+# %s = string
+# %d = difit
+# %f = float
+print(info)
 ```
 info of %s中的%s就是一个占位符，这一行中的代表后面%（中的第一个）
 
