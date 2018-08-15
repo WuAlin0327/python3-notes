@@ -18,7 +18,7 @@ while count <= 100:
 """
 #第50次不打印，第60-80打印对应值的平方
 
-unt = 0
+count = 0
 while count <=100:
 	if count == 50:
 		pass
