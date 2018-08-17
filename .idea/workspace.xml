@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/python基础/day3/打印商品列表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python基础/day3/购物车.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python基础/day4/列表练习题.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python基础/day4/字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python基础/集合.md" afterDir="false" />
+    <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="updata.notes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础/day1/user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day2/user.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础/day1/作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day2/作业.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础/day1/作业1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day2/作业1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础/day1/作业3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day2/作业3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +23,7 @@
     <session id="-2108126260">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -67,13 +58,13 @@
           <entry key="dummy" value="31" />
           <entry key="md" value="23" />
           <entry key="py" value="19237" />
-          <entry key="txt" value="15" />
+          <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="21" />
-          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="PLAIN_TEXT" value="68" />
           <entry key="Python" value="19387" />
         </counts>
       </usages-collector>
@@ -239,12 +230,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python基础/day2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/python基础/day3" />
       <recent name="$PROJECT_DIR$/python基础/day1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python基础/day2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -557,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534217568492</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updata.notes">
+      <created>1534498869646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534498869646</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -577,8 +575,8 @@
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1920" height="965" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5210773" visible="true" weight="0.24625267" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.47892272" side_tool="true" visible="true" weight="0.24625267" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.52006984" visible="true" weight="0.24625267" />
+      <window_info id="Structure" order="1" sideWeight="0.4799302" side_tool="true" visible="true" weight="0.24625267" />
       <window_info id="Favorites" order="2" sideWeight="0.5027523" side_tool="true" weight="0.22269808" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -588,9 +586,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286052" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946466" visible="true" weight="0.3290398" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5005353" side_tool="true" visible="true" weight="0.3290398" />
       <window_info anchor="bottom" id="调试" order="11" weight="0.32786885" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286052" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32786885" />
@@ -659,7 +657,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新分支控制与while循环" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新分支控制与while循环" />
+    <MESSAGE value="updata.notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updata.notes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
