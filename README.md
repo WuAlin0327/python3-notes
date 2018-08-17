@@ -1,13 +1,13 @@
 # python3学习笔记：
-##### [python基础语法](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md)
+### [python基础语法](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md)
 * [变量](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md#%E5%8F%98%E9%87%8F%E4%B8%8E%E5%B8%B8%E9%87%8F)
 * [基本数据类型](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md#%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
 * [运算符](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md#%E8%BF%90%E7%AE%97%E7%AC%A6)
 * [流程控制：条件分支if，elif，else](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md#%E8%BF%90%E7%AE%97%E7%AC%A6)
 * [while循环](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md#while%E5%BE%AA%E7%8E%AF)
-##### [集合](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E9%9B%86%E5%90%88.md)
-* 列表
-* 字符串的操作
+### [集合](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E9%9B%86%E5%90%88.md)
+* [列表](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E9%9B%86%E5%90%88.md#%E5%88%97%E8%A1%A8)
+* [字符串](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E9%9B%86%E5%90%88.md#%E5%AD%97%E7%AC%A6%E4%B8%B2)
 * 元祖
 * 哈希
 * 字典
