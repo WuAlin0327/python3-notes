@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="updata.notes">
-      <change beforePath="$PROJECT_DIR$/python基础/集合.md" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/集合.md" afterDir="false" />
+    <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/python基础/day5/字典.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +20,27 @@
     <SUITE FILE_PATH="coverage/python$__1_.coverage" NAME="变量与数据类型 (1) Coverage Results" MODIFIED="1534129470829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础语法" />
     <SUITE FILE_PATH="coverage/python$1.coverage" NAME="作业1 Coverage Results" MODIFIED="1534292883156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day1" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2108126260">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
@@ -36,14 +52,14 @@
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitattributes" value="1" />
           <entry key="md" value="6" />
-          <entry key="py" value="31" />
+          <entry key="py" value="32" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -51,7 +67,7 @@
         <counts>
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="31" />
+          <entry key="Python" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -59,15 +75,15 @@
           <entry key="Python Console" value="150" />
           <entry key="dummy" value="31" />
           <entry key="md" value="63" />
-          <entry key="py" value="19237" />
-          <entry key="txt" value="35" />
+          <entry key="py" value="19364" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="61" />
-          <entry key="PLAIN_TEXT" value="68" />
-          <entry key="Python" value="19387" />
+          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="Python" value="19514" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -87,16 +103,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python基础/集合.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="491">
-                <caret line="187" column="2" selection-start-line="187" selection-start-column="2" selection-end-line="187" selection-end-column="2" />
+              <first_editor relative-caret-position="73">
+                <caret line="165" column="6" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
               </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python基础/day5/字典.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -132,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/python基础/python基础语法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="100">
+              <first_editor relative-caret-position="133">
                 <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               </first_editor>
               <second_editor>
@@ -183,6 +208,7 @@
         <option value="$PROJECT_DIR$/python基础/字符串.md" />
         <option value="$PROJECT_DIR$/python基础/day4/字符串.py" />
         <option value="$PROJECT_DIR$/python基础/集合.md" />
+        <option value="$PROJECT_DIR$/python基础/day5/字典.py" />
       </list>
     </option>
   </component>
@@ -199,7 +225,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-70" />
+    <option name="y" value="25" />
     <option name="width" value="1920" />
     <option name="height" value="969" />
   </component>
@@ -221,12 +248,6 @@
               <item name="python学习笔记" type="b2602c69:ProjectViewProjectNode" />
               <item name="python学习笔记" type="462c0819:PsiDirectoryNode" />
               <item name="python基础" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python学习笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="python基础" type="462c0819:PsiDirectoryNode" />
-              <item name="day4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -598,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534499170168</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="元组">
+      <created>1534557479776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534557479776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -616,11 +644,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="969" extended-state="6" />
+    <frame x="1081" y="431" width="1920" height="969" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5178268" visible="true" weight="0.25267667" />
-      <window_info id="Structure" order="1" sideWeight="0.48217317" side_tool="true" visible="true" weight="0.25267667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5110357" visible="true" weight="0.124197" />
+      <window_info id="Structure" order="1" sideWeight="0.48896435" side_tool="true" visible="true" weight="0.124197" />
       <window_info id="Favorites" order="2" sideWeight="0.5027523" side_tool="true" weight="0.22269808" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -632,15 +660,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.498394" weight="0.32786885" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5005353" side_tool="true" visible="true" weight="0.3135198" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005353" side_tool="true" visible="true" weight="0.3135198" />
       <window_info anchor="bottom" id="调试" order="11" weight="0.32786885" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286052" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32976446" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32976446" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4972477" visible="true" weight="0.22269808" />
@@ -702,7 +730,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新分支控制与while循环" />
     <MESSAGE value="updata.notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="updata.notes" />
+    <MESSAGE value="元组" />
+    <option name="LAST_COMMIT_MESSAGE" value="元组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -835,7 +864,7 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
+          <first_editor relative-caret-position="133">
             <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           </first_editor>
           <second_editor>
@@ -850,12 +879,19 @@
     <entry file="file://$PROJECT_DIR$/python基础/集合.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="491">
-            <caret line="187" column="2" selection-start-line="187" selection-start-column="2" selection-end-line="187" selection-end-column="2" />
+          <first_editor relative-caret-position="73">
+            <caret line="165" column="6" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python基础/day5/字典.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
