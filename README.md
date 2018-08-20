@@ -11,3 +11,4 @@
 * [元组](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%9A%84%E9%9B%86%E5%90%88.md#%E5%85%83%E7%BB%84tuple)
 * 哈希
 * [字典](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%9A%84%E9%9B%86%E5%90%88.md#%E5%AD%97%E5%85%B8)
+### [字符编码](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81.md)
