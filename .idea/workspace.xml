@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/python基础/day7/购物车2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python基础/day7/购物车作业.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python基础/字符编码.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础/day6/字典作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day6/字典作业.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础/数据的集合.md" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/数据类型.md" afterDir="false" />
-    </list>
+    <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +44,7 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
@@ -59,7 +53,7 @@
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,13 +79,13 @@
           <entry key="dummy" value="31" />
           <entry key="md" value="75" />
           <entry key="py" value="27375" />
-          <entry key="txt" value="43" />
+          <entry key="txt" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="73" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="PLAIN_TEXT" value="95" />
           <entry key="Python" value="27525" />
         </counts>
       </usages-collector>
@@ -112,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python基础/数据类型.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -143,7 +137,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="228">
-                <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+                <caret line="12" column="156" selection-start-line="12" selection-start-column="156" selection-end-line="12" selection-end-column="156" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -165,7 +159,7 @@
         <entry file="file://$PROJECT_DIR$/python基础/day3/购物车.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="36" />
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -193,11 +187,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python基础/day7/购物车作业.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="406">
+              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -770,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534651936552</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="购物车作业">
+      <created>1534760819615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534760819615</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -791,7 +792,7 @@
     <frame x="0" y="23" width="1920" height="965" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.50734097" visible="true" weight="0.12901498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50734097" visible="true" weight="0.13062099" />
       <window_info id="Structure" order="1" sideWeight="0.49185666" side_tool="true" weight="0.127409" />
       <window_info id="Favorites" order="2" sideWeight="0.5027523" side_tool="true" weight="0.22269808" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -878,7 +879,8 @@
     <MESSAGE value="元组" />
     <MESSAGE value="字典" />
     <MESSAGE value="字典作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="字典作业" />
+    <MESSAGE value="购物车作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="购物车作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -998,16 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python基础/数据类型.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python基础/字符编码.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1024,7 +1016,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="228">
-            <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <caret line="12" column="156" selection-start-line="12" selection-start-column="156" selection-end-line="12" selection-end-column="156" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -1042,7 +1034,7 @@
     <entry file="file://$PROJECT_DIR$/python基础/day3/购物车.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="36" />
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1054,6 +1046,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python基础/python基础语法.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="101" column="12" lean-forward="true" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="285">
@@ -1062,11 +1059,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="101" column="12" lean-forward="true" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1079,8 +1071,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python基础/day7/购物车作业.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="406">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python基础/数据类型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
