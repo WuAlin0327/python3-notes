@@ -51,15 +51,15 @@ lis = [['k',['qwe',20],{'k1':['tt',3,'1']},89],'ab']
 是列表类型，那就将li中的索引为奇数的对应元素，添加到'k1'这个键对应的键中
 '''
 # dic = {}
-# # li = [1,2,3,'a','b',4,'c']
-# # dic.fromkeys('k1',[])
-# # if 'k1' not in dic:
-# # 	dic['k1'] = []
-# # 	for index,i in enumerate(li):
-# # 		if index %2 != 0:
-# # 			dic['k1'].append(i)
-# #
-# # print(dic)
+# li = [1,2,3,'a','b',4,'c']
+# dic.fromkeys('k1',[])
+# if 'k1' not in dic:
+# 	dic['k1'] = []
+# 	for index,i in enumerate(li):
+# 		if index %2 != 0:
+# 			dic['k1'].append(i)
+#
+# print(dic)
 
 # dic = {'k1':[]}
 # l1 = [1,2,3,'a','b',4,'c']
