@@ -9,7 +9,7 @@
 * [列表](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md#%E5%88%97%E8%A1%A8)
 * [字符串](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md#%E5%AD%97%E7%AC%A6%E4%B8%B2)
 * [元组](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md#%E5%85%83%E7%BB%84tuple)
-* 哈希
+* [哈希](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md#%E5%93%88%E5%B8%8C)
 * [字典](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md#%E5%AD%97%E5%85%B8)
 * [集合](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md#%E9%9B%86%E5%90%88)
 ### [字符编码](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81.md)
