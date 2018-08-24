@@ -1,5 +1,6 @@
 # python3学习笔记：
-# 第一章
+=====
+# 模块一
 ### [python基础语法](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md)
 * [变量](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md#%E5%8F%98%E9%87%8F%E4%B8%8E%E5%B8%B8%E9%87%8F)
 * [基本数据类型](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/python%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md#%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
