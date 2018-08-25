@@ -34,7 +34,7 @@
 # print(l1-l2)
 
 # 对称差集
-l1 = {'tom','jack','jom','tonny'}
-l2 = {'tom','jom','lisa','namei'}
-print(l1.symmetric_difference(l2))
-print(l1^l2)
+# l1 = {'tom','jack','jom','tonny'}
+# l2 = {'tom','jom','lisa','namei'}
+# print(l1.symmetric_difference(l2))
+# print(l1^l2)

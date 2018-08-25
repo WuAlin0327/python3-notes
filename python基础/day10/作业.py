@@ -151,4 +151,42 @@ dic = {'k1':'v1','k2':'v2','k3':[11,22,33]}
 #
 # dic['k2'] = l2
 # print(dic)
+#
+# 打印99乘法表
+# print('\n'.join([ ' '.join([ "%d*%d=%2s" %(y,x,x*y) for y in range(1,x+1)]) for x in range(1,10)]))
 
+# 求100以内的素数和
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+# 素数又称为质数，它指的是只能被1和它本身整除的整数。其中，1不是素数，任何时候都不用考虑1。
+
+# L = [] # 定义一个初始的素数列表
+# for n in range(2,101): # 循环100以内的素数n,从2开始,0、1不是素数
+#     flag = True # 设置一个标志位,flag = True代表是素数，flag = Flase代表不是素数
+#     for i in range(2,n): # 除以比它小的所有数（不包括1和它本身）,看它是否还有其他因数
+#         if n % i == 0:
+#             flag = False # 出现一次余数为0就代表可以除尽，即代表这个数为素数，就可以设置flag = False
+#             break # 只要第一次出现flag = False，就不用继续往下循环，直接退出整个循环（第二层）
+#     if flag == True:
+#         L.append(n) # 当flag = True时代表n为素数,追加到素数列表中
+# print("100以内的所有素数:",L)
+# print(sum(L))
+
+# 在不改变列表中数据排列结构的前提下，找出以下列表中最接近最大值和最小值的平均值 的数
+li = [-100,1,3,2,7,6,120,121,140,23,411,99,243,33,85,56]
+max_n = li[0]
+min_n = li[0]
+
+for i in li:
+    if i > max_n:
+        max_n = i
+    if i < min_n:
+        min_n = i
+avg_n = (min_n+max_n)//2
+print(min_n,max_n,avg_n)
+
+avg_like = li[0]
+for i in li:
+    if abs(i - avg_n) < abs(avg_like - avg_n):
+        avg_like = i
+print('最接近平均值 的是',avg_like)
