@@ -14,3 +14,10 @@
 * [字典](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md#%E5%AD%97%E5%85%B8)
 * [集合](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md#%E9%9B%86%E5%90%88)
 ### [字符编码](https://github.com/WuAlin0327/python3-notes/blob/master/python%E5%9F%BA%E7%A1%80/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81.md)
+## 模块二
+### 文件操作、函数
+* [三元运算](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C.md#%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97)
+#### [文件处理](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C.md#%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86)
+* [读取、写入、追加](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C.md#%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6)
+* [文件的其他操作](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C.md#%E6%96%87%E4%BB%B6%E5%85%B6%E4%BB%96%E6%93%8D%E4%BD%9C)
+* [文件的修改](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C.md#%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9)
