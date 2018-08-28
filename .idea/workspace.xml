@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="">
       <change afterPath="$PROJECT_DIR$/文件、函数与常用模块/day2-函数/递归.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文件、函数与常用模块/day3/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文件、函数与常用模块/day3/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文件、函数与常用模块/day3/info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/day1-文件处理/f_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/day1-文件处理/f_read.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/day1-文件处理/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/day1-文件处理/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/day3/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/day3/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/day3/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/day3/info.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +21,7 @@
     <SUITE FILE_PATH="coverage/python$gender.coverage" NAME="gender Coverage Results" MODIFIED="1534209351601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础" />
     <SUITE FILE_PATH="coverage/python$111.coverage" NAME="111 Coverage Results" MODIFIED="1535162339200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day11" />
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="修改员工信息 Coverage Results" MODIFIED="1535448000641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/day3" />
-    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2 Coverage Results" MODIFIED="1535452101092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/day3" />
+    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2 Coverage Results" MODIFIED="1535452781538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/day3" />
     <SUITE FILE_PATH="coverage/python$3.coverage" NAME="作业3 Coverage Results" MODIFIED="1534378952993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day1" />
     <SUITE FILE_PATH="coverage/python$file_.coverage" NAME="file_修改 Coverage Results" MODIFIED="1535250684374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/day1-文件处理" />
     <SUITE FILE_PATH="coverage/python$11.coverage" NAME="三级菜单11 Coverage Results" MODIFIED="1534901657358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础/day9" />
@@ -101,15 +100,15 @@
           <entry key="Python Console" value="150" />
           <entry key="dummy" value="36" />
           <entry key="md" value="86" />
-          <entry key="py" value="49247" />
-          <entry key="txt" value="329" />
+          <entry key="py" value="49450" />
+          <entry key="txt" value="334" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="84" />
-          <entry key="PLAIN_TEXT" value="367" />
-          <entry key="Python" value="49397" />
+          <entry key="PLAIN_TEXT" value="372" />
+          <entry key="Python" value="49600" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -180,8 +179,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day3/2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1444">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="484">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -199,7 +198,7 @@
         <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day3/info.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -1192,7 +1191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535340099628</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="作业">
+      <created>1535452142867</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1535452142867</updated>
+    </task>
+    <task id="LOCAL-00021" summary="作业">
+      <created>1535452547655</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1535452547655</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1323,7 +1336,8 @@
     <MESSAGE value="update笔记" />
     <MESSAGE value="updata" />
     <MESSAGE value="更新笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新笔记" />
+    <MESSAGE value="作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="作业" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1729,7 +1743,7 @@
     <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day3/info.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1742,8 +1756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day3/2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="484">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>

@@ -18,6 +18,11 @@ info = {}
 run = True
 count = 0
 def modify_info(information):#修改个人信息
+	'''
+	将个人信息列表除了密码之外传入函数参数
+	输入需要更改列表的索引
+	打开文件并写入更改后的结果
+	'''
 	print("-----修改信息页面-----")
 	for index,i in enumerate(information):
 		print(index,i)
@@ -30,19 +35,11 @@ def modify_info(information):#修改个人信息
 	f.seek(0)
 	f.write(f1)
 	f.close()
-	information[select] = modify
-	print("---修改后信息---")
-	for index,i in enumerate(information):
-		print(index,i)
-
-while True:
-
-
+	print("修改成功")
+while True: #循环打开文件刷新修改后文件中的个人信息
 	f = open("info.txt", 'r+')
 	file = f.readlines()
 	f.close()
-	print("重新开始循环")
-
 	for i in file:
 		i = i.strip()
 		i = i.split(',')
@@ -74,7 +71,7 @@ while True:
 			print("登陆失败，请检查用户名与密码是否匹配")
 			break
 
-	count += 1
+	count += 1#最多登陆三次
 	if count == 3:
 		print("登陆次数过多，请稍后再试")
 		exit()

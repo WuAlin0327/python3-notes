@@ -18,3 +18,13 @@
 # for line in f:
 # 	print(line)
 # f.close()
+f = open("file.txt","r+")
+file = f.read()
+file = file.replace("喵喵喵","汪汪汪")
+f.seek(0)
+f.write(file)
+f.close()
+f2 = open("file.txt","r")
+file2 = f2.read()
+print(file2)
+f2.close()
