@@ -13,8 +13,11 @@ shanshan,1234,22,model,Pubilc
 2.每个选项写一个方法
 3.登录时输错3次退出程序
 '''
-
-def modify_info(information):
+lis = []
+info = {}
+run = True
+count = 0
+def modify_info(information):#修改个人信息
 	print("-----修改信息页面-----")
 	for index,i in enumerate(information):
 		print(index,i)
@@ -33,10 +36,7 @@ def modify_info(information):
 		print(index,i)
 
 while True:
-	lis = []
-	info = {}
-	run = True
-	count = 0
+
 
 	f = open("info.txt", 'r+')
 	file = f.readlines()
@@ -49,31 +49,37 @@ while True:
 		lis.append(i)
 	for index, i in enumerate(lis):
 		info[i[0]] = i
+	username = input("username>>>")
+	password = input("password>>>")
+	if username == info[username][0] and password == info[username][1]:
+		print("""
+	-----welcome-----
+	username:	%s
+	-------end-------
+	""" % (info[username][0]))
 	while run:# 主循环
-		username = input("username>>>")
-		password = input("password>>>")
 		if username == info[username][0] and password == info[username][1]:
-				print("""
-		-----welcome-----
-		username:	%s
-		-------end-------
-		"""%(info[username][0]))
+
+			print("""
+	1. 修改信息
+	2. 打印个人信息
+	3. 修改密码
+	""")
+			num = int(input("请选择操作："))
+			if num == 1:
+				lncoming = [info[username][0], info[username][2], info[username][3], info[username][4]]
+				modify_info(lncoming)
 
 		else:
 			print("登陆失败，请检查用户名与密码是否匹配")
-			count+=1
-			if count == 3:
-				exit()
-		print("""
-		1. 修改信息
-		2. 打印个人信息
-		3. 修改密码
-		""")
-		num = int(input("请选择操作："))
-		if num == 1:
-			lncoming = [info[username][0],info[username][2],info[username][3],info[username][4]]
-			modify_info(lncoming)
 			break
+
+	count += 1
+	if count == 3:
+		print("登陆次数过多，请稍后再试")
+		exit()
+
+
 
 
 
