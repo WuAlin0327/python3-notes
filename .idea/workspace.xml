@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/文件、函数与常用模块/day4/装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文件、函数与常用模块/day5/staff_table.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文件、函数与常用模块/day5/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文件、函数与常用模块/day5/生成器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文件、函数与常用模块/day5/第三章函数作业.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/函数.md" afterDir="false" />
     </list>
@@ -48,7 +43,7 @@
     <session id="-2108126260">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.16" value="1" />
@@ -61,7 +56,7 @@
           <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="3" />
+          <entry key="project.open.time.37" value="4" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="2" />
@@ -75,7 +70,7 @@
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,14 +95,14 @@
         <counts>
           <entry key="Python Console" value="150" />
           <entry key="dummy" value="36" />
-          <entry key="md" value="86" />
+          <entry key="md" value="87" />
           <entry key="py" value="55429" />
           <entry key="txt" value="376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="84" />
+          <entry key="Markdown" value="85" />
           <entry key="PLAIN_TEXT" value="414" />
           <entry key="Python" value="55579" />
         </counts>
@@ -145,8 +140,8 @@
         <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/函数.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="260">
-                <caret line="251" column="22" lean-forward="true" selection-start-line="251" selection-start-column="22" selection-end-line="251" selection-end-column="22" />
+              <first_editor relative-caret-position="1691">
+                <caret line="251" column="23" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="23" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -194,7 +189,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day5/第三章函数作业.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
+            <state relative-caret-position="2033">
               <caret line="107" selection-start-line="107" selection-end-line="107" />
               <folding>
                 <marker date="1535706964000" expanded="true" signature="1121:1337" ph="..." />
@@ -310,9 +305,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="110" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="969" />
   </component>
@@ -411,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.第三章函数作业">
+  <component name="RunManager" selected="Python.变量与数据类型">
     <configuration name="变量与数据类型" type="PythonConfigurationType" factoryName="Python">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -492,182 +486,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day3/2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="生成器" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day5/生成器.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="第三章函数作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day5/第三章函数作业.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="局部变量" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day2-函数" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day2-函数/局部变量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day4/字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="三级菜单" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day9/三级菜单.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="打印商品列表" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day3/打印商品列表.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="购物车" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day3/购物车.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="还是购物车" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day8/还是购物车.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -896,6 +714,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="生成器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day5/生成器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="购物车作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1072,6 +912,160 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="第三章函数作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day5/第三章函数作业.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="局部变量" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day2-函数" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day2-函数/局部变量.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day4/字符串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="三级菜单" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day9/三级菜单.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="打印商品列表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day3/打印商品列表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="购物车" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day3/购物车.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="还是购物车" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day8/还是购物车.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1144,13 +1138,9 @@
       <item itemvalue="Python.f_read" />
       <item itemvalue="Python.file_修改" />
       <item itemvalue="Python.2" />
-      <item itemvalue="Python.生成器" />
-      <item itemvalue="Python.第三章函数作业" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.第三章函数作业" />
-        <item itemvalue="Python.生成器" />
         <item itemvalue="Python.2" />
         <item itemvalue="Python.f_read" />
         <item itemvalue="Python.file_修改" />
@@ -1333,7 +1323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535511857904</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updata">
+      <created>1535706970932</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1535706970932</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1351,15 +1348,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="129" width="1920" height="969" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="969" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83441556" visible="true" weight="0.16702355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83441556" visible="true" weight="0.16916488" />
       <window_info id="Structure" order="1" sideWeight="0.16558442" side_tool="true" weight="0.13811563" />
       <window_info id="Favorites" order="2" sideWeight="0.5027523" side_tool="true" weight="0.22269808" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946466" weight="0.3290398" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49357602" visible="true" weight="0.2773893" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49357602" weight="0.2773893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1691,6 +1688,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/python基础/python基础语法.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="101" column="12" lean-forward="true" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="285">
@@ -1699,11 +1701,6 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="101" column="12" lean-forward="true" selection-start-line="101" selection-start-column="12" selection-end-line="101" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1723,17 +1720,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/文件操作.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="121" column="3" selection-start-line="121" selection-start-column="3" selection-end-line="121" selection-end-column="3" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="121" column="3" selection-start-line="121" selection-start-column="3" selection-end-line="121" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1796,9 +1793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" selection-start-line="26" selection-start-column="2" selection-end-line="29" selection-end-column="12" />
-          <folding>
-            <marker date="1535333975000" expanded="true" signature="28:32" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1832,9 +1826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day2-函数/函数的作用域.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day4/装饰器.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1845,20 +1836,6 @@
             <marker date="1535616149000" expanded="true" signature="454:456" ph="..." />
             <marker date="1535616149000" expanded="true" signature="491:511" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day3/info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day5/text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1881,7 +1858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day5/第三章函数作业.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
+        <state relative-caret-position="2033">
           <caret line="107" selection-start-line="107" selection-end-line="107" />
           <folding>
             <marker date="1535706964000" expanded="true" signature="1121:1337" ph="..." />
@@ -1892,11 +1869,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day5/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day3/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day2-函数/函数的作用域.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/函数.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="260">
-            <caret line="251" column="22" lean-forward="true" selection-start-line="251" selection-start-column="22" selection-end-line="251" selection-end-column="22" />
+          <first_editor relative-caret-position="1691">
+            <caret line="251" column="23" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="23" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
