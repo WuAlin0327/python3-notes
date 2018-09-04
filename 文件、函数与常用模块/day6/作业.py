@@ -104,8 +104,7 @@ def logger(filename,channel='file'):
 
 	while True:
 
-		a=num.__next__()
-		now_time = datetime.datetime.now().strftime('%y-%m-%d  %H:%M:%s ' + '[%s]'%(a))
+		now_time = datetime.datetime.now().strftime('%y-%m-%d  %H:%M:%s ' + '[%s]'%(num.__next__()))
 		ss = yield
 		if ss == None:
 			ss = ''
@@ -113,19 +112,17 @@ def logger(filename,channel='file'):
 			ss = ss
 		if channel == 'file':
 			f = open(filename,'r+')
-			f.write(now_time)
+			f.write(now_time+ss+'\n')
 			f.close()
 		if channel == 'terminal':
 			print(now_time)
 		if channel == 'both':
-			f = open(filename,'r+')
-			f.writelines(now_time)
+			f = open(filename,'a+')
+			f.write(now_time+ss+'\n')
 			f.close()
 			print(now_time,ss)
 
 log_obj = logger(filename='datetime.txt',channel='both')
-log_obj.__next__()
-log_obj.__next__()
 log_obj.__next__()
 log_obj.__next__()
 log_obj.send('user alex login success')
