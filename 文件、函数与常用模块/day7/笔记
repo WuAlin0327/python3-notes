@@ -1,0 +1,3 @@
+find name,age from staff_table where age > 22
+find * from staff_table where age > 22
+add staff_table wualin 22 15083623778 ME 2018-8-14
