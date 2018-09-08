@@ -1,3 +1,6 @@
 find name,age from staff_table where age > 22
-find * from staff_table where age > 22
+find * from staff_table where name = Alex
+del staff_table 1
 add staff_table wualin 22 15083623778 ME 2018-8-14
+update staff_table set dept = Market where  dept = IT
+update staff_table set dept = Market where  name = Alex
