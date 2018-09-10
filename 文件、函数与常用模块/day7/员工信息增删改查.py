@@ -3,7 +3,7 @@ import os
 
 FILENAME = 'staff_table.txt'
 DATA = ['id','name','age','phone','dept','date']
-FUNC = ['find','add','updata','del']
+FUNC = ['find','add','update','del']
 def staff_data():
 	'''
 	打开文件将文件内容输出为以字典形式的数据结构
@@ -67,7 +67,7 @@ def syntax_del(cmd):
 
 
 
-def big(decide,condition,res_data):# 大于
+def big(decide,condition,res_data):# day1
 	'''
 
 	:param decide: 条件前置 eg. age > 22
@@ -237,8 +237,7 @@ def main():
 			syntax_add(cmd)
 		if cmd.strip().split()[0]=='del':
 			syntax_del(cmd)
-		else:
-			print("输入错误！语句不是以'find','del','add','update'开头")
-
+		elif cmd.strip().split()[0] not in FUNC:
+			print("语句必须以'find','del','add','update'开头！")
 
 main()
