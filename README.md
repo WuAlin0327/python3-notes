@@ -22,3 +22,8 @@
 * [文件的其他操作](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C.md#%E6%96%87%E4%BB%B6%E5%85%B6%E4%BB%96%E6%93%8D%E4%BD%9C)
 * [文件的修改](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C.md#%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9)
 ### [函数](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%87%BD%E6%95%B0.md)
+### [常用模块](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md)
+* [time&datetime](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md#timedatetime-%E6%A8%A1%E5%9D%97)
+* [random](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md#random%E6%A8%A1%E5%9D%97)
+* [os](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md#os%E6%A8%A1%E5%9D%97
+* [sys](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md#sys%E6%A8%A1%E5%9D%97)
