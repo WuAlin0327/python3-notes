@@ -32,3 +32,5 @@
 * [shutil](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md#shutil-%E6%A8%A1%E5%9D%97)
 * [MD5](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md#md5)
 * [logging](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md#logging)
+* [subprocess](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md#subprocess%E6%A8%A1%E5%9D%97)
+* [re](https://github.com/WuAlin0327/python3-notes/blob/master/%E6%96%87%E4%BB%B6%E3%80%81%E5%87%BD%E6%95%B0%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97.md#re%E6%A8%A1%E5%9D%97)
