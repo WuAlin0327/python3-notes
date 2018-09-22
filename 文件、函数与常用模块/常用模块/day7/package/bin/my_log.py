@@ -1,0 +1,25 @@
+import logging
+def debug(message):# debug级别输出到文件
+
+	fh = logging.FileHandler('/Users/wualin/Documents/python学习笔记/文件、函数与常用模块/常用模块/day7/package/logs/bank.log')
+	fh.setLevel(logging.DEBUG)
+	fh_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(name)s - %(message)s')
+	fh.setFormatter(fh_formatter)
+	logger = logging.getLogger("start")
+	logger.setLevel(logging.DEBUG)
+	logger.addHandler(fh)
+	logger.debug(message)
+def info(message):#info级别输出到文件以及屏幕
+	ch = logging.StreamHandler()
+	ch.setLevel(logging.INFO)
+	fh = logging.FileHandler('/Users/wualin/Documents/python学习笔记/文件、函数与常用模块/常用模块/day7/package/logs/bank.log')
+	fh.setLevel(logging.DEBUG)
+	ch_formatter = logging.Formatter('%(asctime)s-%(message)s')
+	fh_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(name)s - %(message)s')
+	ch.setFormatter(ch_formatter)
+	fh.setFormatter(fh_formatter)
+	logger = logging.getLogger("start")
+	logger.setLevel(logging.INFO)
+	logger.addHandler(ch)
+	logger.addHandler(fh)
+	logger.info(message)

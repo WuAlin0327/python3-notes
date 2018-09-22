@@ -1,34 +1,54 @@
 import json
 import os
-BASE_DIR =os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+BASE_DIR =os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from . import transaction
 from . import shopping
+from . import logger
 def landing(func):
-	def inner(username,password):
-		f = open('%s/account/%s.json'%(BASE_DIR, username))
-		data = json.load(f)
-		if username == data['username'] and password == data['password']:
+	def inner(username,password,data):
+		if data['status'] == 1:
+			func(username,password,data)
+
+		elif username == data['username'] and password == data['password']:
 			print("登陆成功")
-			func(username,password)
+			logger.record('%s成功登陆了ATM'%(username),data)
+			data['status'] = 1
+			func(username,password,data)
+		else:
+			print("账号或者密码错误")
+			logger.record('%s尝试登陆ATM'%(username))
 
 	return inner
 @landing
-def laned(username,password):
+def laned(username,password,data):
 	while True:
 		print("""
-	----- 欢迎 -----
+	----- 欢迎%s -----
 	1. 查看账户信息
 	2. 商城
 	3. 取现
 	4. 转账
 	5. 还款	
-		""")
-
-		f = open('%s/account/%s.json'%(BASE_DIR,username))
-		data = json.load(f)
+		"""%(data['username']))
 		num = input(">>>")
 		if num == '1':
-			pass
+			logger.record('%s查看了账户信息'%(data['username']))
+			for i in data:
+				print(i,':',data[i])
 		if num == '2':
-			shopping.shopping(data['balance'])
-			print(data['balance'])
+			logger.record('%s进入了商城页面'%(data['username']))
+			shopping.shopping(data)
+		if num == '3':
+			logger.record('%s进入了提现页面'%(data['username']))
+			transaction.withdraw(data)
+		if num == '4':
+			logger.record('%s进入了转账页面'%(data['username']))
+			transaction.transfer(data)
+		if num == '5':
+			logger.record('%s进入了还款页面'%(data['username']))
+			transaction.repayment(data)
+
+
+
+

@@ -33,7 +33,9 @@ def main():
 		if num == "2": #登陆
 			username = input("username:")
 			password = input("password:")
-			landing.laned(username,password)
+			f = open('%s/account/%s.json'%(BASE_DIR,username))
+			data = json.load(f)
+			landing.laned(username,password,data)
 
 
 main()
