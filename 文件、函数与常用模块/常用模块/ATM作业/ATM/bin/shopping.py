@@ -1,12 +1,12 @@
 import json,os
 import configparser
-from . import landing
-from . import logger
+from foo import landing
+from foo import logger
 
 
 BASE_DIR =os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def shopping(data):
+def shopping(data):#购物车
 	shopping_cart = []
 	config = configparser.ConfigParser()
 	config.read('%s/conf/commodity.ini'%(BASE_DIR))

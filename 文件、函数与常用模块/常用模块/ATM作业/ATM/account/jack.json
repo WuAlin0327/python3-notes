@@ -1,1 +1,1 @@
-{"username": "jack", "password": "abc", "balance": 85.0, "login_time": "2018-09-20 21:18:40", "status": 1}
+{"username": "jack", "password": "abc", "balance": 85.0, "login_time": "2018-09-20 21:18:40", "status": 1, "freeze": 0, "amount": 300}

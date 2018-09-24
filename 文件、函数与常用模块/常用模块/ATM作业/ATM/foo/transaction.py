@@ -56,12 +56,16 @@ def repayment(data):
 	:return:
 	'''
 	return_money = input("请输入还款金额：")
-	if return_money.isdigit():
-		data['balance'] = data['balance'] + int(return_money)
-		logger.info("本次还款金额为：%s,账户内余额为：%s"%(return_money,data['balance']),data)
-		f = open('%s/account/%s.json'%(BASE_DIR,data['username']),'w')
-		json.dump(data,f)
-		f.close()
+	if data['amount'] > int(return_money):
+		if return_money.isdigit():
+			data['balance'] = data['balance'] + int(return_money)
+			logger.info("本次还款金额为：%s,账户内余额为：%s"%(return_money,data['balance']),data)
+			f = open('%s/account/%s.json'%(BASE_DIR,data['username']),'w')
+			json.dump(data,f)
+			f.close()
+		else:
+			print("还款必须为整数")
 	else:
-		print("还款必须为整数")
+		print("你的最大额度是：%s"%(data['amount']))
+
 

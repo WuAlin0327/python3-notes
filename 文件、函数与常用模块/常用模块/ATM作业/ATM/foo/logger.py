@@ -19,3 +19,6 @@ def info(message,data):#info级别输出到文件以及屏幕
 	logger.addHandler(ch)
 	logger.addHandler(fh)
 	logger.info(message)
+def admin_logger(message):
+	logging.basicConfig(filename='%s/logger/admin.log'%(BASE_DIR),format='%(asctime)s - %(levelname)s - %(message)s',level=logging.DEBUG)
+	logging.debug(message)
