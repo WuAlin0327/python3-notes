@@ -37,7 +37,23 @@ lis = [1,2,3,45,6,6,7,8,9,456,5,242,42,6,363,1]
 # 		print('找到了',data[0])
 # func(lis,37)
 # 生成式
-num = (i for i in lis)
-print(num)
-for i in num:
-	print(i)
+# num = (i for i in lis)
+# print(num)
+# for i in num:
+# 	print(i)
+
+def func(num):
+
+	while True:
+		if num > 0:
+			num = num-1
+			print(num-1)
+			yield num
+		else:
+			print(num)
+			break
+func = func(5)
+func.__next__()
+func.__next__()
+func.__next__()
+func.__next__()
