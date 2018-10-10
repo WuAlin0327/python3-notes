@@ -69,5 +69,5 @@ class Server:
 	def put(self):
 		pass
 
-server = Server(('127.0.0.1',8356))
+server = Server(('127.0.0.1',8256))
 server.run()
