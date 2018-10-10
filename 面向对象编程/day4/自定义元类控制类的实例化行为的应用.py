@@ -4,7 +4,7 @@
 # 	'''
 # 	__instance = None
 # 	def __init__(self):
-# 		self.host = '127.0.0.1'
+# 		self.host = '127.0.0.1.txt'
 # 		self.port = 3306
 #
 # 	@classmethod
@@ -36,7 +36,7 @@ class Mysql(object,metaclass=Mymeta):
 	xxx
 	'''
 	def __init__(self):
-		self.host = '127.0.0.1'
+		self.host = '127.0.0.1.txt'
 		self.port = 3306
 
 obj1 = Mysql()

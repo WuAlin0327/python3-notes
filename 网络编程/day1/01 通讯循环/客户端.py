@@ -2,7 +2,7 @@ import socket
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-s.connect(('127.0.0.1',8082))
+s.connect(('127.0.0.1.txt',8082))
 
 while True:
 	msg = input('发送信息：')

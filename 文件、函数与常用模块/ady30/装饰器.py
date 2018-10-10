@@ -37,7 +37,7 @@
 # def work(n):
 #     count = 0
 #     while count < n:
-#         count += 1
+#         count += 1.txt
 #         sign = yield count
 #         if not sign:
 #             yield count+2

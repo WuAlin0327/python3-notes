@@ -4,7 +4,7 @@ l = products
 print('''
 ---商品列表---
 0.%s	%s
-1.%s	%s
+1.txt.%s	%s
 2.%s	%s
 3.%s	%s
 4.%s	%s

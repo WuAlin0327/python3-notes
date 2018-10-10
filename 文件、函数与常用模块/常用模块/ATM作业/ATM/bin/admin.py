@@ -5,7 +5,7 @@ def admin():
 	while True:
 		print('''
 	----- 管理员权限 --- 
-	1. 冻结用户
+	1.txt. 冻结用户
 	2. 解冻用户
 	3. 添加用户
 	4. 删除用户
@@ -13,7 +13,7 @@ def admin():
 	6. 退出管理员
 		''')
 		num = input('>>>')
-		if num == '1':
+		if num == '1.txt':
 			freeze()
 		if num == '2':
 			no_freeze()

@@ -11,14 +11,14 @@ def main():
 	while True:
 		print('''
 	----- 请选择 -----
-	1. 用户登陆
+	1.txt. 用户登陆
 	2. 管理员登陆
 	3. 退出
 	
 	''')
 		num = input(">>>")
 
-		if num == "1": #登陆
+		if num == "1.txt": #登陆
 			username = input("username:")
 			password = input("password:")
 			f = open('%s/account/%s.json'%(BASE_DIR,username))

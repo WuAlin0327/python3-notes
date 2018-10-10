@@ -7,7 +7,7 @@
 # 		sum+=i
 # 	else:
 # 		sum-=i
-# 	i+=1
+# 	i+=1.txt
 # print(sum)
 # i = 0
 # while i<=12:
@@ -15,32 +15,32 @@
 # 		pass
 # 	else:
 # 		print(i)
-# 	i+=1
+# 	i+=1.txt
 
 # count = 100
 # sum = 0
 # while sum <= 50:
 # 	if sum <= 50:
 # 		print(sum)
-# 	sum += 1
+# 	sum += 1.txt
 # 	while count > 49:
 # 		if count>=50:
 # 			print(count)
 #
 #
-# 		count-=1
+# 		count-=1.txt
 
 # count = 0
 # while count<=100:
-# 	if count%2==1:
+# 	if count%2==1.txt:
 # 		print(count)
-# 	count+=1
+# 	count+=1.txt
 
 # count = 0
 # while count <=100:
 # 	if count%2==0:
 # 		print(count)
-# 	count+=1
+# 	count+=1.txt
 
 ##用户登陆认证
 # user = {'jack':123,'tom':456,'jom':789}
@@ -75,7 +75,7 @@
 # 			exit()
 #
 #
-# 	sum+=1
+# 	sum+=1.txt
 #
 # year = int(input("请输入年份："))
 # if year %4==0 and year%100!=0:

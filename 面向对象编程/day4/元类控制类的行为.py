@@ -10,7 +10,7 @@ class Mymeta(type):
 		'''
 		元类控制实例化对象的行为
 		实例化对象的步骤：
-		1. 创造一个obj
+		1.txt. 创造一个obj
 		2. 初始化一个obj
 		3. 返回一个obj
 		:param args:

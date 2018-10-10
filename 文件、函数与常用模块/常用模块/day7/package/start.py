@@ -57,13 +57,13 @@ def transfer(money):
 def main():
 	print("""
 	-----Luffy Bank-----
-	1. 账户信息
+	1.txt. 账户信息
 	2. 转账
 	3. 提现
 		""")
 	while True:
 		num = input(">>>")
-		if num == '1':
+		if num == '1.txt':
 			my_log.info('查询账户余额--账户余额是：%s'%(luffy['balance']))
 		elif num == '2':
 			money = input("请输入转账金额:")

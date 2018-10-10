@@ -5,8 +5,8 @@ rain,df2@432,25,Teacher,Teching
 jack,123,27,worker,Frame
 shanshan,1234,22,model,Pubilc
 
-1.输入用户名密码，正确后登录系统 ，打印
-1. 修改个人信息
+1.txt.输入用户名密码，正确后登录系统 ，打印
+1.txt. 修改个人信息
 2. 打印个人信息
 3. 修改密码
 
@@ -61,7 +61,7 @@ while run:# 主循环
 		if count == 3:
 			exit()
 	print("""
-	1. 修改信息
+	1.txt. 修改信息
 	2. 打印个人信息
 	3. 修改密码
 	""")

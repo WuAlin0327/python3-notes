@@ -5,7 +5,7 @@ any() : 列表中任意一个值是True，则返回True
 dir() :打印当前程序所有的变量
 hex() :将一个数转成16进制
 divmod() :传两个值进去返回两个值的整除与余数
-sorted() :将列表从大到小排序# sorted(d.items(),key = lambda x:x[1],reverse=True)
+sorted() :将列表从大到小排序# sorted(d.items(),key = lambda x:x[1.txt],reverse=True)
 items() :将字典转换成列表
 ascii() :返回ascii 码
 oct() :将十进制转换成八进制

@@ -5,8 +5,8 @@ rain,df2@432,25,Teacher,Teching
 jack,123,27,worker,Frame
 shanshan,1234,22,model,Pubilc
 
-1.输入用户名密码，正确后登录系统 ，打印
-1. 修改个人信息
+1.txt.输入用户名密码，正确后登录系统 ，打印
+1.txt. 修改个人信息
 2. 打印个人信息
 3. 修改密码
 
@@ -44,7 +44,7 @@ def modify_info(lncoming):# 修改信息
 	print("-----修改信息页面-----")
 	print("""
 0. username:   %s
-1. password:   %s
+1.txt. password:   %s
 2. age	   :   %s
 3. position:   %s
 4. department: %s	
@@ -96,13 +96,13 @@ while True: # 登陆循环
 			if username == info[username][0]:
 
 				print("""			
-1. 修改信息
+1.txt. 修改信息
 2. 打印个人信息
 3. 修改密码
 4. 退出
 		""")
 				num = input("请选择操作：")
-				if num == '1':
+				if num == '1.txt':
 					lncoming = [info[username]]
 					modify_info(lncoming)
 				if num == '2':

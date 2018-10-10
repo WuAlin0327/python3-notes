@@ -1,4 +1,4 @@
-#1. logging模块有几个日志级别？
+#1.txt. logging模块有几个日志级别？
 #答：logging 共有五个日志级别，DEBUG,INFO,WARNING,ERROR,CRITCAL
 
 # 请配置logging模块，使其在屏幕和文件里同时打印以下格式的日志
@@ -22,7 +22,7 @@
 #
 # logger.error('too many login attempts')
 #3.json、pickle、shelve三个区别是什么？
-# 1. json跨语言，体积小，用于网络传输
+# 1.txt. json跨语言，体积小，用于网络传输
 # 2. pickle只支持python，不能跨语言，支持python所有数据类型
 # 3. shelve支持多行dumps
 #4. json的作用的是什么
@@ -41,7 +41,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(index.html)))
 print(BASE_DIR)
 """
-#1. 打印的内容是什么？
+#1.txt. 打印的内容是什么？
 #2.os.path.dirname和os.path.abspath含义是什么？
 # 答：os.path.dirname的含义是返回上一级,os.path.abspath的含义是获得绝对路径
 
@@ -64,7 +64,7 @@ tmpdir = /tmp
 datadir = /data/mysql_3306
 default-time-zone = '+8:00'
 
-1.修改时区 default-time-zone = '+8:00' 为 校准的全球时间 +00:00
+1.txt.修改时区 default-time-zone = '+8:00' 为 校准的全球时间 +00:00
 2.删除 explicit_defaults_for_timestamp = true
 3.为DEFAULT增加一条 character-set-server = utf8
 """
@@ -111,7 +111,7 @@ default-time-zone = '+8:00'
 当执行start.py时，出现交互窗口
 
    ------- Luffy Bank ---------
-  1.  账户信息
+  1.txt.  账户信息
   2.  转账
 选择1 账户信息 显示luffy的当前账户余额。
 选择2 转账 直接扣掉75万和利息费用并且tesla账户增加75万

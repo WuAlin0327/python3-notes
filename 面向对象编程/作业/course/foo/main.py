@@ -14,7 +14,7 @@ while True:
 			a = admin.Admin()
 			print('''
 	-----管理员模式-----
-	1. 添加学员
+	1.txt. 添加学员
 	2. 添加讲师
 	3. 创建课程
 	4. 创建班级
@@ -23,7 +23,7 @@ while True:
 	7. 创建学校
 			''')
 			num = input('>>>').strip()
-			if num == '1':
+			if num == '1.txt':
 				a.add_student()
 			if num == '2':
 				a.add_teacher()
@@ -43,12 +43,12 @@ while True:
 			while True:
 				print('''
 	-----学生模式----
-	1. 购买课程
+	1.txt. 购买课程
 	2. 查看信息	
 	3. 充值		
 				''')
 				pick = input('请选择：').strip()
-				if pick == '1':
+				if pick == '1.txt':
 					course_list = file_pickle.read_file('course_list')
 					for index,i in enumerate(course_list):
 						print(index,':',i)
@@ -68,7 +68,7 @@ while True:
 		elif data.number == 2:
 			print('''
 -----讲师模式-----
-1. 查看课程信息
+1.txt. 查看课程信息
 2. 查看班级
 3. 查看学员			
 			''')

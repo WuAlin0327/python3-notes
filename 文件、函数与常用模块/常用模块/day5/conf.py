@@ -1,5 +1,5 @@
 """
-1.修改时区 default-time-zone = '+8:00' 为 校准的全球时间 +00:00
+1.txt.修改时区 default-time-zone = '+8:00' 为 校准的全球时间 +00:00
 2.删除 explicit_defaults_for_timestamp = true
 3.为DEFAULT增加一条 character-set-server = utf8
 """

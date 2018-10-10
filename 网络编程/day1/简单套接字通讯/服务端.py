@@ -4,7 +4,7 @@ import socket
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)#
 
 #绑定ip地址
-s.bind(('127.0.0.1',8080)) #第一个是绑定的ip地址，第二个是绑定端口 0-65535:0-124
+s.bind(('127.0.0.1.txt',8080)) #第一个是绑定的ip地址，第二个是绑定端口 0-65535:0-124
 
 #监听
 s.listen(5) #最大挂起的链接数

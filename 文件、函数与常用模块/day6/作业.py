@@ -1,7 +1,7 @@
 # 计算圆，正方形，长方形面积
 # def area(*number,shape = ''):
 # 	'''
-# 	1.编写三个计算形状面积计算公式
+# 	1.txt.编写三个计算形状面积计算公式
 # 	2.通过判断shape传入参数是什么形状，number传入边长与半径
 #
 # 	:param shape:
@@ -14,7 +14,7 @@
 # 		return area1
 #
 # 	def rectangle():
-# 		x,y = int(number[0]),int(number[1])
+# 		x,y = int(number[0]),int(number[1.txt])
 # 		return x * y
 #
 # 	def round():
@@ -34,9 +34,9 @@
 
 # 计算一个数的阶乘
 # def cal(n):
-# 	if n == 1:
-# 		return 1
-# 	sum = n * cal(n-1)
+# 	if n == 1.txt:
+# 		return 1.txt
+# 	sum = n * cal(n-1.txt)
 # 	return sum
 # print(cal(4))
 
@@ -88,7 +88,7 @@
 # f = open('datetime.txt','r+')
 # while count <= 10:
 # 	f.write(datetime.datetime.now().strftime('%y-%m-%d  %H:%M:%s')+'\n')
-# 	count+=1
+# 	count+=1.txt
 # f.close()
 # r = open('datetime.txt','r')
 # read = r.read()

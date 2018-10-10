@@ -23,7 +23,7 @@ while count<= 2:
 		print("登陆成功")
 	else:
 		print("登陆失败")
-	count+=1
+	count+=1.txt
 '''
 '''
 _user = "seven" and "alex"
@@ -39,5 +39,5 @@ while count<= 2:
 		break
 	else:
 		print("登陆失败")
-	count+=1
+	count+=1.txt
 '''

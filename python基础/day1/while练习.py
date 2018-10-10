@@ -14,7 +14,7 @@ while count <=2:
 		print("猜对了")
 		break
 
-	count+=1
+	count+=1.txt
 """
 """
 count = 0
@@ -40,7 +40,7 @@ while count <= 10:
 		else:
 			break
 
-	count += 1
+	count += 1.txt
 """
 
 

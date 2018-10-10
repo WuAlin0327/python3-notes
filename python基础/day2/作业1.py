@@ -8,7 +8,7 @@ while count <= 12:
 	else:
 		print(count)
 
-	count+=1
+	count+=1.txt
 '''
 '''
 count = 100
@@ -16,10 +16,10 @@ sum = 0
 
 while sum >= 0 and sum <= 50:
 	print(sum)
-	sum += 1
+	sum += 1.txt
 	while count<101 and count>=50:
 		print(count)
-		count-=1
+		count-=1.txt
 
 print("end")
 '''
@@ -28,9 +28,9 @@ print("end")
 打印100以为的奇数
 count = 0
 while count<=100:
-	if count % 2==1:
+	if count % 2==1.txt:
 		print(count)
-	count+=1
+	count+=1.txt
 '''
 
 '''
@@ -40,7 +40,7 @@ count = 0
 while count<=100:
 	if count %2==0:
 		print(count)
-	count+=1
+	count+=1.txt
 '''
 '''
 name = input('请输入你的名字：')

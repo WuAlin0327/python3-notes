@@ -16,7 +16,7 @@ while count <= 2:
 	username = input('请输入用户名：')
 	password = input('请输入密码：')
 	if int(password) == user[username]:#验证用户名与密码是否正确
-		print("\033[1;32;40m登陆成功\033[0m")
+		print("\033[1.txt;32;40m登陆成功\033[0m")
 		wage = input("请输入工资：")
 		balance = int(wage)#余额
 		print('-----商品列表-----')

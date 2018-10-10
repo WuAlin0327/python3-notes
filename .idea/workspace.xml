@@ -2,12 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/客户端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/服务端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/day3/文件传输/客户端/客户端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/day3/文件传输/服务端/server/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/day3/文件传输/服务端/服务端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/网络编程.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络编程/day1/03 模拟ssh远程执行命令/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/客户端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络编程/day1/03 模拟ssh远程执行命令/执行命令.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/执行命令.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络编程/day1/03 模拟ssh远程执行命令/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day1/break and continue.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day1/break and continue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day1/while练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day1/while练习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day1/while语句.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day1/while语句.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day10/作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day10/作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day11/111.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day11/111.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day12/作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day12/作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day2/作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day2/作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day2/作业1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day2/作业1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day3/打印商品列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day3/打印商品列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day4/列表练习题.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day4/列表练习题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day6/字典作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day6/字典作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day8/购物车.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day8/购物车.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python基础/day8/还是购物车.py" beforeDir="false" afterPath="$PROJECT_DIR$/python基础/day8/还是购物车.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/ady30/装饰器.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/ady30/装饰器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/day3/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/day3/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/day3/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/day3/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/day5/第三章函数作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/day5/第三章函数作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/day6/作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/day6/作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/day7/函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/day7/函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/内置函数/内置模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/内置函数/内置模块.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/常用模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/常用模块.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/ATM作业/ATM/bin/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/ATM作业/ATM/bin/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/ATM作业/ATM/foo/landing.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/ATM作业/ATM/foo/landing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/ATM作业/ATM/foo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/ATM作业/ATM/foo/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day5/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day5/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day7/package/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day7/package/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/练习题.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件、函数与常用模块/常用模块/练习题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day1/01 通讯循环/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day1/01 通讯循环/客户端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day1/01 通讯循环/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day1/01 通讯循环/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day1/02 修复bug/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day1/02 修复bug/客户端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day1/02 修复bug/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day1/02 修复bug/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day1/03 链接循环/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day1/03 链接循环/客户端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day1/03 链接循环/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day1/03 链接循环/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day1/简单套接字通讯/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day1/简单套接字通讯/客户端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day1/简单套接字通讯/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day1/简单套接字通讯/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/客户端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/客户端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day2/03  文件传输/客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day2/03  文件传输/客户端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络编程/day2/03  文件传输/服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/day2/03  文件传输/服务端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面向对象编程/day1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象编程/day1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面向对象编程/day2/封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象编程/day2/封装.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面向对象编程/day2/继承的实现原理.py" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象编程/day2/继承的实现原理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面向对象编程/day4/元类控制类的行为.py" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象编程/day4/元类控制类的行为.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面向对象编程/day4/异常处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象编程/day4/异常处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面向对象编程/day4/自定义元类控制类的实例化行为的应用.py" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象编程/day4/自定义元类控制类的实例化行为的应用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面向对象编程/作业/course/foo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象编程/作业/course/foo/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +89,7 @@
     <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1535451859031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/day3" />
     <SUITE FILE_PATH="coverage/python$settings.coverage" NAME="settings Coverage Results" MODIFIED="1536582284652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day2/my_proj/proj" />
     <SUITE FILE_PATH="coverage/python$111.coverage" NAME="111 Coverage Results" MODIFIED="1538641312253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程/作业/course/pickle" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME="客户端 Coverage Results" MODIFIED="1539051267062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="客户端 Coverage Results" MODIFIED="1539142285006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/day3/文件传输/客户端" />
     <SUITE FILE_PATH="coverage/python$f_read.coverage" NAME="f_read Coverage Results" MODIFIED="1535451567102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/day1-文件处理" />
     <SUITE FILE_PATH="coverage/python$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1537454620685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/常用模块/ATM作业/ATM/foo" />
     <SUITE FILE_PATH="coverage/python$__1_.coverage" NAME="服务端 (1) Coverage Results" MODIFIED="1539051948988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题" />
@@ -65,11 +112,11 @@
     <session id="-2108126260">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="76" />
+          <entry key="project.closed" value="77" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="2" />
@@ -105,11 +152,12 @@
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.95" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="82" />
+          <entry key="project.opened" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="1" value="1" />
           <entry key="cnf" value="1" />
           <entry key="commodity" value="1" />
           <entry key="course_info" value="1" />
@@ -119,16 +167,16 @@
           <entry key="jack" value="1" />
           <entry key="json" value="16" />
           <entry key="log" value="14" />
-          <entry key="md" value="24" />
+          <entry key="md" value="25" />
           <entry key="new" value="7" />
           <entry key="pickle" value="14" />
           <entry key="pstat" value="7" />
-          <entry key="py" value="210" />
+          <entry key="py" value="228" />
           <entry key="student_info" value="1" />
           <entry key="students_info" value="1" />
           <entry key="teachers_info" value="1" />
           <entry key="team_info" value="1" />
-          <entry key="txt" value="17" />
+          <entry key="txt" value="19" />
           <entry key="userinfo" value="1" />
           <entry key="wualin" value="1" />
           <entry key="函数模块重点知识" value="1" />
@@ -140,10 +188,10 @@
           <entry key="HTML" value="1" />
           <entry key="Ini" value="4" />
           <entry key="JSON" value="16" />
-          <entry key="Markdown" value="23" />
-          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="Markdown" value="24" />
+          <entry key="PLAIN_TEXT" value="71" />
           <entry key="Profiler Session" value="7" />
-          <entry key="Python" value="210" />
+          <entry key="Python" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -155,9 +203,9 @@
           <entry key="json" value="289" />
           <entry key="log" value="3" />
           <entry key="md" value="591" />
-          <entry key="py" value="138305" />
+          <entry key="py" value="142967" />
           <entry key="teachers_info" value="2" />
-          <entry key="txt" value="716" />
+          <entry key="txt" value="727" />
           <entry key="userinfo" value="83" />
           <entry key="wualin" value="1" />
           <entry key="笔记" value="164" />
@@ -168,8 +216,8 @@
           <entry key="Ini" value="418" />
           <entry key="JSON" value="289" />
           <entry key="Markdown" value="589" />
-          <entry key="PLAIN_TEXT" value="1053" />
-          <entry key="Python" value="138455" />
+          <entry key="PLAIN_TEXT" value="1064" />
+          <entry key="Python" value="143117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -182,25 +230,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/客户端.py">
+        <entry file="file://$PROJECT_DIR$/网络编程/day3/文件传输/服务端/服务端.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="193">
+              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+                <marker date="1539142282000" expanded="true" signature="119:120" ph="..." />
+                <marker date="1539142282000" expanded="true" signature="119:121" ph="..." />
+                <marker date="1539142282000" expanded="true" signature="1484:1644" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/服务端.py">
+        <entry file="file://$PROJECT_DIR$/网络编程/day3/文件传输/客户端/客户端.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="381">
+              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+                <marker date="1539142282000" expanded="true" signature="615:617" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网络编程/day3/文件传输/服务端/server/1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -231,11 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/面向对象编程/day3/封装与扩展性.py" />
-        <option value="$PROJECT_DIR$/面向对象编程/day3/property.py" />
-        <option value="$PROJECT_DIR$/面向对象编程/day3/绑定方法与非绑定方法.py" />
-        <option value="$PROJECT_DIR$/面向对象编程/day3/conf.py" />
-        <option value="$PROJECT_DIR$/面向对象编程/day3/绑定方法与非绑定方法的实际应用场景.py" />
         <option value="$PROJECT_DIR$/面向对象编程/day3/反射.py" />
         <option value="$PROJECT_DIR$/面向对象编程/面向对象.md" />
         <option value="$PROJECT_DIR$/面向对象编程/day3/内置方法.py" />
@@ -282,6 +338,11 @@
         <option value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/客户端.py" />
         <option value="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/服务端.py" />
         <option value="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题/客户端.py" />
+        <option value="$PROJECT_DIR$/网络编程/网络编程.md" />
+        <option value="$PROJECT_DIR$/网络编程/day2/03  文件传输/服务端.py" />
+        <option value="$PROJECT_DIR$/网络编程/day3/文件传输/服务端/server/1" />
+        <option value="$PROJECT_DIR$/网络编程/day3/文件传输/服务端/服务端.py" />
+        <option value="$PROJECT_DIR$/网络编程/day3/文件传输/客户端/客户端.py" />
       </list>
     </option>
   </component>
@@ -298,8 +359,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="53" />
+    <option name="x" value="83" />
+    <option name="y" value="70" />
     <option name="width" value="1920" />
     <option name="height" value="1003" />
   </component>
@@ -326,12 +387,6 @@
               <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="网络编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="网络编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="day2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -339,14 +394,45 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="网络编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="day2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="01  解决粘包问题" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="03  文件传输" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="网络编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="day2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="02  解决粘包问题" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="网络编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="文件传输" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="网络编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="文件传输" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="客户端" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="网络编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="文件传输" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="服务端" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="网络编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="文件传输" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="服务端" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -419,7 +505,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.客户端 (2)">
+  <component name="RunManager" selected="Python.客户端">
     <configuration name="客户端 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -604,12 +690,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day3/文件传输/服务端" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/服务端.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day3/文件传输/服务端/服务端.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -626,144 +712,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day3/文件传输/客户端" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/客户端.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="员工信息增删改查" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day7/员工信息增删改查.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="元类控制类的行为" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程/day4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/day4/元类控制类的行为.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="购物车" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day3/购物车.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="参数" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day2-函数" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day2-函数/参数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="打印商品列表" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day3/打印商品列表.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="服务端" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day1/简单套接字通讯/服务端.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day3/文件传输/客户端/客户端.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -992,6 +946,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="服务端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/服务端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="局部变量" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1204,6 +1180,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day1/作业.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="客户端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/客户端.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1432,6 +1430,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="员工信息增删改查" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day7/员工信息增删改查.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="联系" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1652,6 +1672,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="元类控制类的行为" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程/day4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/day4/元类控制类的行为.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="继承" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1784,6 +1826,94 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="购物车" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day3/购物车.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="参数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day2-函数" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day2-函数/参数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="打印商品列表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day3/打印商品列表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="服务端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day1/简单套接字通讯/服务端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1810,17 +1940,15 @@
       <item itemvalue="Python.变量与数据类型" />
       <item itemvalue="Python.作业1" />
       <item itemvalue="Python.客户端 (1)" />
+      <item itemvalue="Python.客户端 (2)" />
       <item itemvalue="Python.服务端" />
       <item itemvalue="Python.客户端" />
-      <item itemvalue="Python.服务端 (1)" />
-      <item itemvalue="Python.客户端 (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.客户端 (2)" />
-        <item itemvalue="Python.服务端 (1)" />
         <item itemvalue="Python.客户端" />
         <item itemvalue="Python.服务端" />
+        <item itemvalue="Python.客户端 (2)" />
         <item itemvalue="Python.客户端 (1)" />
       </list>
     </recent_temporary>
@@ -1839,13 +1967,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534123438943</updated>
-    </task>
-    <task id="LOCAL-00002" summary="updata.notes">
-      <created>1534498869646</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1534498869646</updated>
     </task>
     <task id="LOCAL-00003" summary="updata.notes">
       <created>1534499170168</created>
@@ -2183,7 +2304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538994431570</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="文件传输与粘包问题解决">
+      <created>1539052141717</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1539052141718</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2201,14 +2329,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="398" y="23" width="1920" height="1003" extended-state="0" />
-    <editor active="true" />
+    <frame x="83" y="70" width="1920" height="1003" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82204723" weight="0.16916488" />
-      <window_info id="Structure" order="1" sideWeight="0.17795275" side_tool="true" weight="0.1627409" />
-      <window_info id="Favorites" order="2" sideWeight="0.5027523" side_tool="true" weight="0.22269808" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6185567" visible="true" weight="0.16916488" />
+      <window_info id="Structure" order="1" sideWeight="0.3814433" side_tool="true" weight="0.16916488" />
+      <window_info id="Favorites" order="2" sideWeight="0.3814433" side_tool="true" weight="0.16916488" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49892932" weight="0.32867134" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49892932" weight="0.32847533" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -2216,12 +2343,12 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.12098501" side_tool="true" weight="0.25990677" />
-      <window_info anchor="bottom" id="调试" order="9" sideWeight="0.4962527" weight="0.32517484" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.498394" weight="0.3255814" />
+      <window_info anchor="bottom" id="调试" order="9" sideWeight="0.4962527" weight="0.3251121" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.498394" visible="true" weight="0.3251121" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32750583" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946466" weight="0.32750583" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32790697" />
-      <window_info active="true" anchor="bottom" id="Run" order="14" sideWeight="0.87901497" visible="true" weight="0.23878923" />
+      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.87901497" weight="0.23878923" />
       <window_info anchor="bottom" id="缩略图" order="15" weight="0.32983682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2323,7 +2450,8 @@
     <MESSAGE value="面向对象的编程" />
     <MESSAGE value="作业" />
     <MESSAGE value="网络编程" />
-    <option name="LAST_COMMIT_MESSAGE" value="网络编程" />
+    <MESSAGE value="文件传输与粘包问题解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件传输与粘包问题解决" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2452,30 +2580,13 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="socket_family" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/面向对象编程/day4/异常处理.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象编程/作业/course/pickle/wualin" />
-    <entry file="file://$PROJECT_DIR$/面向对象编程/作业/course/foo/landing.py" />
-    <entry file="file://$PROJECT_DIR$/面向对象编程/作业/course/bin/Teacher.py" />
-    <entry file="file://$PROJECT_DIR$/面向对象编程/作业/course/bin/Studen.py" />
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象编程/作业/course/bin/Course.py" />
-    <entry file="file://$PROJECT_DIR$/面向对象编程/day3/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/面向对象编程/面向对象.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -2718,6 +2829,80 @@
           <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/网络编程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="439">
+            <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/day2/03  文件传输/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="213" column="17" selection-start-line="213" selection-start-column="17" selection-end-line="213" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/day2/03  文件传输/客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/day3/文件传输/服务端/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1539142282000" expanded="true" signature="119:120" ph="..." />
+            <marker date="1539142282000" expanded="true" signature="119:121" ph="..." />
+            <marker date="1539142282000" expanded="true" signature="1484:1644" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/day3/文件传输/服务端/server/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/day3/文件传输/客户端/download/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/day3/文件传输/客户端/客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1539142282000" expanded="true" signature="615:617" ph="..." />
           </folding>
         </state>
       </provider>

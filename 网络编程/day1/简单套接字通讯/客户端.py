@@ -5,7 +5,7 @@ import socket
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)#
 
 #发起链接
-s.connect(('127.0.0.1',8080)) #第一个是绑定的ip地址，第二个是绑定端口
+s.connect(('127.0.0.1.txt',8080)) #第一个是绑定的ip地址，第二个是绑定端口
 
 # 发，收消息
 s.send('hello'.encode('utf-8'))

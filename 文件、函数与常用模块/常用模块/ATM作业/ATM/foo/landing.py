@@ -27,7 +27,7 @@ def laned(username,password,data):
 	while True:
 		print("""
 	----- 欢迎%s -----
-	1. 查看账户信息
+	1.txt. 查看账户信息
 	2. 商城
 	3. 取现
 	4. 转账
@@ -35,7 +35,7 @@ def laned(username,password,data):
 	6. 退出
 		"""%(data['username']))
 		num = input(">>>")
-		if num == '1':
+		if num == '1.txt':
 			logger.record('%s查看了账户信息'%(data['username']))
 			for i in data:
 				print(i,':',data[i])

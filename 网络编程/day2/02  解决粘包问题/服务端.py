@@ -5,7 +5,7 @@ import json
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-s.bind(('127.0.0.1',8022))
+s.bind(('127.0.0.1.txt',8022))
 s.listen(500)
 while True:#链接循环
 	conn,addr = s.accept()
@@ -23,7 +23,7 @@ while True:#链接循环
 			stderr = obj.stderr.read()
 			#把命令返回
 
-			#1.制作固定长度报头
+			#1.txt.制作固定长度报头
 			header_dic = {
 				'filename':'xxx',
 				'md5':'423123wdw',

@@ -18,7 +18,7 @@
 #print(li)
 
 #* 请在列表的第一个位置插入元素'tony'，并输出添加后的列表
-#li.insert(1,'tony')
+#li.insert(1.txt,'tony')
 
 #* 请修改列表第二个位置的元素为'kelly'，并输出修改后的列表
 #li[2] = 'kelly'
@@ -40,7 +40,7 @@
 # print(li)
 
 #* 请将列表所有的元素反转，并输出反转后的列表
-# l2 = li[::-1]
+# l2 = li[::-1.txt]
 # print(l2)
 
 #* 通过for，len，range输出列表的索引
@@ -57,7 +57,7 @@
 #4.写代码，如又下列表，请按照功能要求实现每一个功能
 # li = ['hello','seven',['mon',['he','kelly'],'all'],123,456]
 # 请根据索引输出kelly
-# l1 = li[2][1][1]
+# l1 = li[2][1.txt][1.txt]
 # print(l1)
 # li[2][2] = 'ALL'
 # print(li)
@@ -69,7 +69,7 @@
 # #* 获取元组的第二个元素，并输出
 # print(tu[2])
 # #*  获取元组第1-2个元素，并输出
-# print(tu[1:2])
+# print(tu[1.txt:2])
 # #* 请使用for，len，rang输出元组的索引
 # for i in range(len(tu)):
 # 	print(i)
@@ -84,7 +84,7 @@
 # #* 请问变量tu中的第一个元素'alex'是否可以被修改
 # # 不可被修改
 # #* 请问tu变量中的'k2'对应的值是什么类型？是否可以被修改？如果可以，请在其后面添加元素'seven
-# # tu[1][2]['k2'].append('seven')
+# # tu[1.txt][2]['k2'].append('seven')
 # # print(tu)			元组中可变元素不可被更改
 # #* tu变量中'k3'对应的值是什么类型...
 # # tu变量中k3对应的值是元组类型，不可被修改
@@ -108,7 +108,7 @@ dic = {'k1':'v1','k2':'v2','k3':[11,22,33]}
 # dic['k3'].append(44)
 # print(dic)
 #* 请在k3对应的值的第一个位置插入元素18，输出修改后的字典
-# dic['k3'].insert(1,18)
+# dic['k3'].insert(1.txt,18)
 # print(dic)
 
 # 转换
@@ -153,7 +153,7 @@ dic = {'k1':'v1','k2':'v2','k3':[11,22,33]}
 # print(dic)
 #
 # 打印99乘法表
-# print('\n'.join([ ' '.join([ "%d*%d=%2s" %(y,x,x*y) for y in range(1,x+1)]) for x in range(1,10)]))
+# print('\n'.join([ ' '.join([ "%d*%d=%2s" %(y,x,x*y) for y in range(1.txt,x+1.txt)]) for x in range(1.txt,10)]))
 
 # 求100以内的素数和
 #!/usr/bin/env python

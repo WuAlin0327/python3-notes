@@ -13,5 +13,5 @@
 #
 # for index,s in enumerate(l):
 # 	print(index,s)
-# 	sum += int(s[1])*int(s[2])
+# 	sum += int(s[1.txt])*int(s[2])
 # 	print(sum)

@@ -16,7 +16,7 @@ stu1 = LuffyStudent('wualin','man',29)#LuffyStudent.__init__(stu1,'wualin','man'
 
 # 加上__init__方法后，实例化步骤
 '''
-1. 先产生一个空对象stu1
+1.txt. 先产生一个空对象stu1
 2. 触发LuffyStudent.__init__(stu1,'wualin','man',29)
 '''
 #

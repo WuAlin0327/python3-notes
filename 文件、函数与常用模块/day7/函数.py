@@ -17,14 +17,14 @@
 #
 # print(print_num(5))
 # def func(num):
-# 	if num == 1:
-# 		return 1
-# 	return num * func(num-1)
+# 	if num == 1.txt:
+# 		return 1.txt
+# 	return num * func(num-1.txt)
 # print(func(4))
 # 递归：二分查找法
 lis = [1,2,3,45,6,6,7,8,9,456,5,242,42,6,363,1]
 # def func(data,num):
-# 	if len(data) > 1:
+# 	if len(data) > 1.txt:
 # 		meso = int(len(data)/2)
 #
 # 		if num in data[0:meso]:
