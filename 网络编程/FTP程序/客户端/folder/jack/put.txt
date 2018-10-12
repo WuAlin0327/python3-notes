@@ -1,0 +1,39 @@
+# 网络编程
+* cs架构
+* 五层协议
+* 客户端
+* 服务端
+### Scoket
+##### socket 实例类
+```
+socket.socket(family=AF_INET, type=SOCK_STREAM, proto=0, fileno=None)
+```
+* family(socket家族)
+    * socket.AF_UNIX：用于本机进程间通讯
+    * socket.AF_INET
+* socket type类型
+    * socket.SOCK_STREAM #for tcp
+    * socket.SOCK_DGRAM #for udp
+    * socket.SOCK_RAW #原始套接字，普通的套接字无法处理ICMP、IGMP等网络报文，而SOCK_RAW可以；其次，SOCK_RAW也可以处理特殊的IPv4报文；此外，利用原始套接字，可以通过IP_HDRINCL套接字选项由用户构造IP头。
+    * socket.SOCK_RDM #是一种可靠的UDP形式，即保证交付数据报但不保证顺序。SOCK_RAM用来提供对原始协议的低级访问，在需要执行某些特殊操作时使用，如发送ICMP报文。SOCK_RAM通常仅限于高级用户或管理员运行的程序使用。
+
+##### 服务端套接字函数
+* s.bind() 绑定(主机,端口号)到套接字
+* s.listen() 开始TCP监听
+* s.accept() 被动接受TCP客户的连接,(阻塞式)等待连接的到来
+
+##### 客户端套接字函数
+* s.connect() 主动初始化TCP服务器连接
+* s.connect_ex() connect()函数的扩展版本,出错时返回出错码,而不是抛出异常
+
+##### 公共用途的套接字函数
+* s.recv() 接收数据
+* s.send() 发送数据(send在待发送数据量大于己端缓存区剩余空间时,数据丢失,不会发完，可后面通过实例解释)
+* s.sendall() 发送完整的TCP数据(本质就是循环调用send,sendall在待发送数据量大于己端缓存区剩余空间时,数据不丢失,循环调用send直到发完)
+* s.recvfrom() Receive data from the socket. The return value is a pair (bytes, address)
+* s.getpeername() 连接到当前套接字的远端的地址
+* s.close() 关闭套接字
+* socket.setblocking(flag) #True or False,设置socket为非阻塞模式，以后讲io异步时会用
+* socket.getaddrinfo(host, port, family=0, type=0, proto=0, flags=0) 返回远程主机的地址信息，例子socket.getaddrinfo('luffycity.com',80)
+* socket.getfqdn() 拿到本机的主机名
+* socket.gethostbyname() 通过域名解析ip地址

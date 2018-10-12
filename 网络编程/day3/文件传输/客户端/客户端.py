@@ -63,10 +63,11 @@ class Client:
 				recv_data = self.socket.recv(1024)
 				f.write(recv_data)
 				recv_size+=len(recv_data)
-				print('文件总大小：%s  已下载：%s'%(filesize,recv_size))
+
+				recv_len = int((recv_size/filesize)*100)
+				print('已下载：','-'*int(recv_len/10))
 
 
 
-
-clinet = Client(('127.0.0.1',8256))
+clinet = Client(('127.0.0.1',8446))
 clinet.run()
