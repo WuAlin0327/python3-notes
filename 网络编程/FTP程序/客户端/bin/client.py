@@ -29,9 +29,9 @@ class Client:
 		while True:
 			head = self.landing()
 			self.socket.send(head)
-			res = self.socket.recv(1024)
-			print(res)
-			if res.decode(self.coding) == 'True':
+			res = self.socket.recv(1024).decode(self.coding)
+			res_dic = json.loads(res)
+			if res_dic['status']:
 				while True:
 					inp = input('>>>:')
 					if not inp:continue
@@ -75,7 +75,7 @@ class Client:
 
 
 
-	def get(self,args):
+	def get(self,args):#下载文件
 		cmd = args[0]
 		filename = args[1]
 		if not os.path.isfile('%s/%s/%s'%(server_dir,self.name,filename)):
@@ -88,7 +88,7 @@ class Client:
 			'cmd':cmd,
 			'filename':filename,
 			'filesize':filesize
-		}
+		}#报头
 		head_bytes = json.dumps(head).encode(self.coding)
 		head_len = struct.pack('i',len(head_bytes))
 		self.socket.send(head_len)
@@ -113,7 +113,7 @@ class Client:
 		}
 		self.name = username
 		return json.dumps(info).encode(self.coding)
-	def ls(self,args):
+	def ls(self,args): #查看当前文件夹下的列表
 		cmd = args[0]
 		head = {
 			'userinfo':self.name,
@@ -131,7 +131,5 @@ class Client:
 	def cd(self):
 		pass
 
-c = Client(('127.0.0.1',8381))
-c.run()
 
 

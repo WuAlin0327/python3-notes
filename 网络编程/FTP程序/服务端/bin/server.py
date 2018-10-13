@@ -4,8 +4,10 @@ import struct
 import os
 import sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+mb = 1048576
 
 from bin import import_conf
+from bin import storage
 socket_air = '%s/conf/socket_conf.ini'%BASE_DIR
 info_dir = '%s/conf/userinfo.ini'%BASE_DIR
 socket_conf = import_conf.socket_conf(socket_air)
@@ -33,6 +35,8 @@ class Server:
 	def server_close(self):
 		self.socket.close()
 
+
+
 	def run(self):
 		while True:
 			self.conn,self.addr = self.socket.accept()
@@ -41,8 +45,11 @@ class Server:
 					res = self.conn.recv(1024)
 					if not res:continue
 					status = self.landing(res)
-					if status:
-						self.conn.send(str(status).encode(self.coding))
+					print(status['status'])
+					if status['status']:
+						head = json.dumps(status).encode(self.coding)
+						print(head)
+						self.conn.send(head)
 						while True:
 							res = self.conn.recv(4)
 							res_len = struct.unpack('i',res)[0]
@@ -59,11 +66,17 @@ class Server:
 					break
 
 	def put(self,args):#上传
-		size = 0
-		with open('%s/warehouse/%s/%s'%(BASE_DIR,args['userinfo'],args['filename']),'wb') as f:
-			res = self.conn.recv(1024)
-			f.write(res)
-			size+=len(res)
+		folder_size = storage.storage(args['userinfo'])
+		if folder_size > self.info['menmory_size']: #用户服务端磁盘配额
+
+			size = 0
+			with open('%s/warehouse/%s/%s'%(BASE_DIR,args['userinfo'],args['filename']),'wb') as f:
+				res = self.conn.recv(1024)
+				f.write(res)
+				size+=len(res)
+		else:
+			return
+
 
 	def get(self,args):#下载
 		size = 0
@@ -86,6 +99,12 @@ class Server:
 		password = head_dic['password']
 		info = import_conf.userinfo(info_dir)
 		if username in info and password == info[username]['password']:
-			return True
+			print('成功')
+			return {
+				'userinfo':username,
+				'password':password,
+				'menmory_size':info[username]['menmory_size'],
+				'status':True
+			}
 		else:
 			return False
