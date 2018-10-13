@@ -5,7 +5,7 @@ sys.path.append(BASE_DIR)
 from bin import server
 
 def main():
-	s = server.Server(('127.0.0.1',8487))
+	s = server.Server(('127.0.0.1',8082))
 	s.run()
 
 main()

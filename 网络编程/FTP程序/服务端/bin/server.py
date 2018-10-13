@@ -2,9 +2,11 @@ import socket
 import json
 import struct
 import os
-import sys
+import hashlib
+
+hash = hashlib.md5()
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-mb = 1048576
+
 
 from bin import import_conf
 from bin import storage
@@ -66,26 +68,29 @@ class Server:
 					break
 
 	def put(self,args):#上传
-		folder_size = storage.storage(args['userinfo'])
-		if folder_size > self.info['menmory_size']: #用户服务端磁盘配额
-
+		if args['md5'] == hash.update(args['filename'].encode(self.coding)):
 			size = 0
 			with open('%s/warehouse/%s/%s'%(BASE_DIR,args['userinfo'],args['filename']),'wb') as f:
 				res = self.conn.recv(1024)
 				f.write(res)
 				size+=len(res)
 		else:
+			print('两次md5值不一致')
 			return
 
 
 	def get(self,args):#下载
-		size = 0
-		print(args)
-		with open('%s/warehouse/%s/%s'%(BASE_DIR,args['userinfo'],args['filename']),'rb') as f:
-			for line in f:
-				self.conn.send(line)
-				size+=len(line)
-				print(size)
+		if args['md5'] == hash.update(args['filename'].encode(self.coding)):
+			size = 0
+			print(args)
+			with open('%s/warehouse/%s/%s'%(BASE_DIR,args['userinfo'],args['filename']),'rb') as f:
+				for line in f:
+					self.conn.send(line)
+					size+=len(line)
+					print(size)
+		else:
+			print('两次md5值不一致')
+			return
 	def ls(self,args):#查看服务端用户名下面的文件列表
 		lis = os.listdir('%s/warehouse/%s'%(BASE_DIR,args['userinfo']))
 		lis_byets = json.dumps(lis).encode(self.coding)
@@ -101,8 +106,7 @@ class Server:
 		if username in info and password == info[username]['password']:
 			print('成功')
 			return {
-				'userinfo':username,
-				'password':password,
+				'storage':storage.storage(username),
 				'menmory_size':info[username]['menmory_size'],
 				'status':True
 			}

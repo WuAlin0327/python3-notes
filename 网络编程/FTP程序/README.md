@@ -14,6 +14,7 @@
 * bin/
     * import_conf.py    解析配置文件
     * server.py    服务端
+    * storage.py      计算用户文件夹（home）大小
 * conf/
     * socket_conf.ini   socket配置
     * userinfo.ini   用户配置
@@ -27,9 +28,10 @@
 * 用户名与密码：jack,123 或者 wualin,abc
 
 * 支持的命令操作：
-    * ls /     查看当前用户目录下文件
+    * ls /     查看当前用户目录下文件以及存储空间大小
     * get filename  从服务端用户目录下载文件到客户端用户目录下
     * put filename  从客户端用户目录上传文件到服务端用户目录下
+    * exit      退出程序
     * cd ..     切换文件夹（待实现）
 
 
