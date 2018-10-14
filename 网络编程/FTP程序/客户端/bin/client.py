@@ -8,7 +8,7 @@ hash = hashlib.md5()
 mb = 1048576
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-server_dir = '/Users/wualin/Documents/python学习笔记/网络编程/FTP程序/服务端/warehouse'
+server_dir = '%s/服务端/warehouse'%os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 class Client:
 	protocol = socket.AF_INET
@@ -47,7 +47,7 @@ class Client:
 			else:
 				print('账号或者密码错误')
 
-	def put(self,args):
+	def put(self,args):#从本地上传到服务端文件
 		if self.res_dic['storage']/mb < int(self.res_dic['menmory_size']):
 			cmd = args[0]
 			filename = args[1]

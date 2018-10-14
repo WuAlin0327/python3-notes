@@ -27,7 +27,6 @@ class Server:
 			self.__server_bind()
 			self.__server_activation()
 
-
 	def __server_bind(self):
 		self.socket.bind(self.address)
 
@@ -39,7 +38,7 @@ class Server:
 
 
 
-	def run(self):
+	def run(self):#程序入口
 		while True:
 			self.conn,self.addr = self.socket.accept()
 			while True:
@@ -47,10 +46,8 @@ class Server:
 					res = self.conn.recv(1024)
 					if not res:continue
 					status = self.landing(res)
-					print(status['status'])
 					if status['status']:
 						head = json.dumps(status).encode(self.coding)
-						print(head)
 						self.conn.send(head)
 						while True:
 							res = self.conn.recv(4)
@@ -104,7 +101,6 @@ class Server:
 		password = head_dic['password']
 		info = import_conf.userinfo(info_dir)
 		if username in info and password == info[username]['password']:
-			print('成功')
 			return {
 				'storage':storage.storage(username),
 				'menmory_size':info[username]['menmory_size'],
