@@ -46,7 +46,6 @@ class Client:
 						func(l)
 			else:
 				print('账号或者密码错误')
-
 	def put(self,args):#从本地上传到服务端文件
 		if self.res_dic['storage']/mb < int(self.res_dic['menmory_size']):
 			cmd = args[0]
