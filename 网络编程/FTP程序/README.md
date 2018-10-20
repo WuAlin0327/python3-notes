@@ -8,7 +8,7 @@
     * name/download 下载文件路径
     * name/         上传文件路径
 
-* ftp/main.py   客户端程序入口
+* ftp/test.py   客户端程序入口
 
 ##### 服务端各文件夹以及各文件作用：
 * bin/
@@ -19,7 +19,7 @@
     * socket_conf.ini   socket配置
     * userinfo.ini   用户配置
 * ftp/
-    * main.py   服务端程序入口
+    * test.py   服务端程序入口
 * logger/ 保存日志（待开发）
 * warehouse/ 服务器端保存文件路径
     * /name  用户保存在服务端的文件
