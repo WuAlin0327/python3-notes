@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/并发编程/FTP/server/logger/dd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/并发编程/FTP/client/core/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/并发编程/FTP/client/core/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/并发编程/FTP/server/conf/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/并发编程/FTP/server/conf/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/并发编程/FTP/server/core/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/并发编程/FTP/server/core/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/并发编程/FTP/server/core/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/并发编程/FTP/server/core/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +137,7 @@
           <entry key="jack" value="1" />
           <entry key="json" value="16" />
           <entry key="log" value="14" />
-          <entry key="md" value="36" />
+          <entry key="md" value="37" />
           <entry key="new" value="7" />
           <entry key="pickle" value="14" />
           <entry key="png" value="5" />
@@ -164,7 +160,7 @@
           <entry key="Image" value="5" />
           <entry key="Ini" value="14" />
           <entry key="JSON" value="16" />
-          <entry key="Markdown" value="35" />
+          <entry key="Markdown" value="36" />
           <entry key="PLAIN_TEXT" value="99" />
           <entry key="Profiler Session" value="8" />
           <entry key="Python" value="326" />
@@ -178,7 +174,7 @@
           <entry key="ini" value="808" />
           <entry key="json" value="289" />
           <entry key="log" value="3" />
-          <entry key="md" value="1812" />
+          <entry key="md" value="1830" />
           <entry key="py" value="169744" />
           <entry key="teachers_info" value="2" />
           <entry key="txt" value="845" />
@@ -191,7 +187,7 @@
         <counts>
           <entry key="Ini" value="808" />
           <entry key="JSON" value="289" />
-          <entry key="Markdown" value="1810" />
+          <entry key="Markdown" value="1828" />
           <entry key="PLAIN_TEXT" value="1239" />
           <entry key="Python" value="169894" />
         </counts>
@@ -231,7 +227,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/core/auth.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
@@ -240,6 +236,20 @@
                 <marker date="1540807135000" expanded="true" signature="93:95" ph="..." />
                 <marker date="1540807135000" expanded="true" signature="116:199" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="19">
+                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -336,7 +346,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/网络编程/作业.py" />
         <option value="$PROJECT_DIR$/文件、函数与常用模块/day7/作业.py" />
         <option value="$PROJECT_DIR$/网络编程/FTP程序/客户端/bin/client.py" />
         <option value="$PROJECT_DIR$/网络编程/day4/my.py" />
@@ -387,6 +396,7 @@
         <option value="$PROJECT_DIR$/并发编程/FTP/server/conf/setting.py" />
         <option value="$PROJECT_DIR$/并发编程/FTP/server/core/auth.py" />
         <option value="$PROJECT_DIR$/并发编程/FTP/server/core/server.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/README.md" />
       </list>
     </option>
   </component>
@@ -432,68 +442,6 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="bin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="conf" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="bin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="conf" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -2300,13 +2248,6 @@
       <option name="presentableId" value="Default" />
       <updated>1534123438943</updated>
     </task>
-    <task id="LOCAL-00018" summary="updata">
-      <created>1535340086524</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1535340086524</updated>
-    </task>
     <task id="LOCAL-00019" summary="更新笔记">
       <created>1535340099628</created>
       <option name="number" value="00019" />
@@ -2643,7 +2584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540806361699</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="重写FTP">
+      <created>1540807164798</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1540807164798</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2922,13 +2870,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络编程/day4/my_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/文件、函数与常用模块/day7/作业.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -3282,6 +3223,18 @@
             <marker date="1540807135000" expanded="true" signature="93:95" ph="..." />
             <marker date="1540807135000" expanded="true" signature="116:199" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
