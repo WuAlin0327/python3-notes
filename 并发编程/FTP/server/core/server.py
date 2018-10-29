@@ -19,7 +19,8 @@ class Server:
 			ret = self.server_recv()
 			if hasattr(self.auth,ret['operating']):
 				func = getattr(self.auth,ret['operating'])
-				func(ret)
+				bo = func(ret)
+
 
 
 
@@ -27,4 +28,6 @@ class Server:
 		ret = self.conn.recv(1024)
 		ret_d = json.loads(ret.decode(setting.code))
 		return ret_d
-
+	def server_send(self,msg):
+		head = json.dumps(msg).encode(setting.code)
+		self.conn.send(head)

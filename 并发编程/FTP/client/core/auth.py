@@ -30,8 +30,11 @@ class Select:
 					'operating':'registered'
 				}
 				self.socket.my_send(userinfo)
-				print('注册成功')
-				break
+				ret = self.socket.my_recv()
+				if ret:
+					print('注册成功')
+					break
+
 			else:
 				print('请重新输入!')
 				continue
