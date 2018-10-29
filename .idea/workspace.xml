@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/并发编程/IO模型/非阻塞IO/客户端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/并发编程/IO模型/非阻塞IO/服务端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/并发编程/多线程/gevent模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/client/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/client/bin/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/client/conf/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/client/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/client/core/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/client/core/client_link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/server/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/server/bin/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/server/conf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/server/conf/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/server/conf/userinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/server/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/server/core/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/并发编程/FTP/server/core/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/并发编程/多线程/协程.py" beforeDir="false" afterPath="$PROJECT_DIR$/并发编程/多线程/协程.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +28,7 @@
     <SUITE FILE_PATH="coverage/python$while.coverage" NAME="while练习 Coverage Results" MODIFIED="1534218953393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础" />
     <SUITE FILE_PATH="coverage/python$Studen.coverage" NAME="Studen Coverage Results" MODIFIED="1538542360261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程/作业/course/bin" />
     <SUITE FILE_PATH="coverage/python$__2_.coverage" NAME="客户端 (2) Coverage Results" MODIFIED="1539051952455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/day2/02  解决粘包问题" />
-    <SUITE FILE_PATH="coverage/python$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1537369623953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day7/package/bin" />
+    <SUITE FILE_PATH="coverage/python$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1540806319692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/并发编程/FTP/server/bin" />
     <SUITE FILE_PATH="coverage/python$my.coverage" NAME="my Coverage Results" MODIFIED="1539682535114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/day4" />
     <SUITE FILE_PATH="coverage/python$gender.coverage" NAME="gender Coverage Results" MODIFIED="1534209351601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python基础" />
     <SUITE FILE_PATH="coverage/python$2.coverage" NAME="员工信息增删改查2 Coverage Results" MODIFIED="1536414906111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/day7" />
@@ -46,9 +56,9 @@
     <SUITE FILE_PATH="coverage/python$mange.coverage" NAME="mange Coverage Results" MODIFIED="1536582482596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day2/my_proj" />
     <SUITE FILE_PATH="coverage/python$file_.coverage" NAME="file_修改 Coverage Results" MODIFIED="1535250684374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/day1-文件处理" />
     <SUITE FILE_PATH="coverage/python$main.coverage" NAME="main Coverage Results" MODIFIED="1540630989345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/并发编程/FTP程序/服务端/ftp" />
-    <SUITE FILE_PATH="coverage/python$start.coverage" NAME="start Coverage Results" MODIFIED="1537368787895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day7/bin" />
     <SUITE FILE_PATH="coverage/python$_1s.coverage" NAME="+1s Coverage Results" MODIFIED="1540016081567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象编程" />
     <SUITE FILE_PATH="coverage/python$queue.coverage" NAME="线程queue Coverage Results" MODIFIED="1540446738660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/并发编程/多线程" />
+    <SUITE FILE_PATH="coverage/python$start.coverage" NAME="start Coverage Results" MODIFIED="1540806324662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/并发编程/FTP/client/bin" />
     <SUITE FILE_PATH="coverage/python$1.coverage" NAME="1 Coverage Results" MODIFIED="1535451859031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/day3" />
     <SUITE FILE_PATH="coverage/python$client.coverage" NAME="client Coverage Results" MODIFIED="1539439719407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/FTP程序/客户端/bin" />
     <SUITE FILE_PATH="coverage/python$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1539682525825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/day4" />
@@ -80,7 +90,7 @@
     <session id="-2108126260">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="96" />
+          <entry key="project.closed" value="97" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
@@ -89,7 +99,7 @@
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="4" />
-          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -124,7 +134,7 @@
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.95" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="102" />
+          <entry key="project.opened" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -139,18 +149,18 @@
           <entry key="jack" value="1" />
           <entry key="json" value="16" />
           <entry key="log" value="14" />
-          <entry key="md" value="35" />
+          <entry key="md" value="36" />
           <entry key="new" value="7" />
           <entry key="pickle" value="14" />
           <entry key="png" value="5" />
           <entry key="pstat" value="8" />
-          <entry key="py" value="303" />
+          <entry key="py" value="325" />
           <entry key="student_info" value="1" />
           <entry key="students_info" value="1" />
           <entry key="teachers_info" value="1" />
           <entry key="team_info" value="1" />
           <entry key="txt" value="46" />
-          <entry key="userinfo" value="1" />
+          <entry key="userinfo" value="2" />
           <entry key="wualin" value="1" />
           <entry key="函数模块重点知识" value="1" />
           <entry key="笔记" value="2" />
@@ -162,25 +172,25 @@
           <entry key="Image" value="5" />
           <entry key="Ini" value="14" />
           <entry key="JSON" value="16" />
-          <entry key="Markdown" value="34" />
-          <entry key="PLAIN_TEXT" value="98" />
+          <entry key="Markdown" value="35" />
+          <entry key="PLAIN_TEXT" value="99" />
           <entry key="Profiler Session" value="8" />
-          <entry key="Python" value="303" />
+          <entry key="Python" value="325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="150" />
           <entry key="cnf" value="19" />
-          <entry key="dummy" value="110" />
+          <entry key="dummy" value="116" />
           <entry key="ini" value="808" />
           <entry key="json" value="289" />
           <entry key="log" value="3" />
           <entry key="md" value="1812" />
-          <entry key="py" value="164727" />
+          <entry key="py" value="169050" />
           <entry key="teachers_info" value="2" />
-          <entry key="txt" value="804" />
-          <entry key="userinfo" value="83" />
+          <entry key="txt" value="833" />
+          <entry key="userinfo" value="87" />
           <entry key="wualin" value="1" />
           <entry key="笔记" value="164" />
         </counts>
@@ -190,8 +200,8 @@
           <entry key="Ini" value="808" />
           <entry key="JSON" value="289" />
           <entry key="Markdown" value="1810" />
-          <entry key="PLAIN_TEXT" value="1188" />
-          <entry key="Python" value="164877" />
+          <entry key="PLAIN_TEXT" value="1227" />
+          <entry key="Python" value="169200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -204,75 +214,98 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/客户端/ftp/main.py">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/core/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/conf/socket_conf.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="504">
-                <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/客户端/bin/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/conf/userinfo.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/ftp/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="290">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1540805199000" expanded="true" signature="150:152" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/bin/server.py">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/bin/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <element signature="e#1#10#0" expanded="true" />
+                <marker date="1540803736000" expanded="true" signature="156:158" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/core/auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/conf/userinfo">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/conf/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/conf/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/core/client_link.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1540630917000" expanded="true" signature="2071:2072" ph="..." />
+                <marker date="1540805762000" expanded="true" signature="243:349" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/bin/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1540804060000" expanded="true" signature="159:465" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/core/auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <marker date="1540805593000" expanded="true" signature="93:121" ph="..." />
+                <marker date="1540805593000" expanded="true" signature="137:407" ph="..." />
+                <marker date="1540805593000" expanded="true" signature="442:835" ph="..." />
               </folding>
             </state>
           </provider>
@@ -307,22 +340,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/conf/socket_conf.ini" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/bin/analysis_cmd.py" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/warehouse/jack/miao.txt" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/客户端/folder/jack/put.txt" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/test/进度条.py" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/客户端/bin/进度条.py" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/客户端/bin/progress.py" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/客户端/bin/text.py" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/warehouse/jack/put.txt" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/客户端/folder/jack/download/put.txt" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/bin/storage.py" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/bin/import_conf.py" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/ftp/main.py" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/客户端/ftp/main.py" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/README.md" />
-        <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/conf/userinfo.ini" />
         <option value="$PROJECT_DIR$/网络编程/FTP程序/服务端/bin/server.py" />
         <option value="$PROJECT_DIR$/网络编程/作业.py" />
         <option value="$PROJECT_DIR$/文件、函数与常用模块/day7/作业.py" />
@@ -352,12 +369,28 @@
         <option value="$PROJECT_DIR$/并发编程/多线程/gevent模块.py" />
         <option value="$PROJECT_DIR$/并发编程/IO模型/非阻塞IO/客户端.py" />
         <option value="$PROJECT_DIR$/并发编程/IO模型/非阻塞IO/服务端.py" />
-        <option value="$PROJECT_DIR$/并发编程/FTP程序/客户端/bin/client.py" />
         <option value="$PROJECT_DIR$/并发编程/FTP程序/服务端/bin/server.py" />
         <option value="$PROJECT_DIR$/并发编程/FTP程序/服务端/conf/socket_conf.ini" />
         <option value="$PROJECT_DIR$/并发编程/FTP程序/客户端/ftp/main.py" />
         <option value="$PROJECT_DIR$/并发编程/FTP程序/服务端/ftp/main.py" />
         <option value="$PROJECT_DIR$/并发编程/FTP程序/README.md" />
+        <option value="$PROJECT_DIR$/并发编程/并发编程.md" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/server/core/__init__.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/server/bin/__init__.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/client/bin/__init__.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/client/core/__init__.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP程序/客户端/bin/client.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/server/conf/__init__.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/server/bin/start.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/server/core/land_segis.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/server/core/server.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/client/core/auth.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/client/core/client_link.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/client/bin/start.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/server/conf/userinfo" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/server/core/auth.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/server/conf/setting.py" />
+        <option value="$PROJECT_DIR$/并发编程/FTP/client/conf/setting.py" />
       </list>
     </option>
   </component>
@@ -373,7 +406,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="35" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -402,22 +435,66 @@
               <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP程序" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP程序" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="客户端" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="FTP程序" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="客户端" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ftp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="bin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="conf" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="conf" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="并发编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="FTP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python学习笔记" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="网络编程" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -463,19 +540,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/网络编程" />
-      <recent name="$PROJECT_DIR$/网络编程/FTP程序/客户端/folder/jack" />
-      <recent name="$PROJECT_DIR$/网络编程/FTP程序/客户端/bin" />
-      <recent name="$PROJECT_DIR$/网络编程/FTP程序/服务端/warehouse/jack" />
-      <recent name="$PROJECT_DIR$/网络编程/day3/文件传输/客户端" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/并发编程" />
       <recent name="$PROJECT_DIR$/文件、函数与常用模块/day7" />
       <recent name="$PROJECT_DIR$/网络编程/FTP程序/服务端/bin" />
       <recent name="$PROJECT_DIR$/网络编程/FTP程序/客户端/bin" />
       <recent name="$PROJECT_DIR$/网络编程/FTP程序/服务端/warehouse/wualin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/网络编程" />
+      <recent name="$PROJECT_DIR$/网络编程/FTP程序/客户端/folder/jack" />
+      <recent name="$PROJECT_DIR$/网络编程/FTP程序/客户端/bin" />
+      <recent name="$PROJECT_DIR$/网络编程/FTP程序/服务端/warehouse/jack" />
+      <recent name="$PROJECT_DIR$/网络编程/day3/文件传输/客户端" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -490,29 +567,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="进程池 线程池" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多线程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多线程/进程池 线程池.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.start">
     <configuration name="变量与数据类型" type="PythonConfigurationType" factoryName="Python">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -571,182 +626,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day3/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="在子类中重用父类的方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程/day2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/day2/在子类中重用父类的方法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="绑定方法与非绑定方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/day3/绑定方法与非绑定方法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="队列" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多进程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多进程/队列.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="异步调用与回调机制" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多线程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多线程/异步调用与回调机制.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day12/作业.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="乘法表" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day10/乘法表.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/作业.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="服务端" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/服务端.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -975,6 +854,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="在子类中重用父类的方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/day2/在子类中重用父类的方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="打印商品列表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1187,6 +1088,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day4/列表练习题.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="绑定方法与非绑定方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/day3/绑定方法与非绑定方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1415,6 +1338,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="队列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多进程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多进程/队列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="第三章函数作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1627,6 +1572,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/作业1/选课系统.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="异步调用与回调机制" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多线程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多线程/异步调用与回调机制.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1855,6 +1822,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day12/作业.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="员工信息增删改查" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2075,6 +2064,72 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="乘法表" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day10/乘法表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/作业.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="服务端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day2/01  解决粘包问题/服务端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2089,28 +2144,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gevent" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多线程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多线程/gevent模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -2185,22 +2218,66 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/FTP/server/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/FTP/server/bin/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/FTP/client/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/FTP/client/bin/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.变量与数据类型" />
       <item itemvalue="Python.作业1" />
-      <item itemvalue="Python.进程池 线程池" />
-      <item itemvalue="Python.gevent" />
       <item itemvalue="Python.server" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.start" />
+      <item itemvalue="Python.start (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.start (1)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.server" />
-        <item itemvalue="Python.gevent" />
-        <item itemvalue="Python.进程池 线程池" />
       </list>
     </recent_temporary>
   </component>
@@ -2218,27 +2295,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534123438943</updated>
-    </task>
-    <task id="LOCAL-00014" summary="update">
-      <created>1535171524461</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1535171524461</updated>
-    </task>
-    <task id="LOCAL-00015" summary="文件处理">
-      <created>1535254997927</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1535254997928</updated>
-    </task>
-    <task id="LOCAL-00016" summary="函数">
-      <created>1535255011415</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1535255011415</updated>
     </task>
     <task id="LOCAL-00017" summary="update笔记">
       <created>1535255146736</created>
@@ -2562,7 +2618,28 @@
       <option name="project" value="LOCAL" />
       <updated>1540453890502</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="IO模型">
+      <created>1540631117711</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1540631117711</updated>
+    </task>
+    <task id="LOCAL-00064" summary="更新功能，支持并发">
+      <created>1540631170538</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1540631170539</updated>
+    </task>
+    <task id="LOCAL-00065" summary="并发编程.md">
+      <created>1540631281703</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1540631281703</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2580,10 +2657,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="23" width="1920" height="1003" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="1003" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61538464" visible="true" weight="0.20610279" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61538464" visible="true" weight="0.20877944" />
       <window_info id="Structure" order="1" sideWeight="0.3846154" side_tool="true" weight="0.20610279" />
       <window_info id="Favorites" order="2" sideWeight="0.3814433" side_tool="true" weight="0.16916488" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2600,7 +2676,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32735425" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946466" weight="0.32750583" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32735425" />
-      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.87901497" weight="0.3150224" />
+      <window_info active="true" anchor="bottom" id="Run" order="14" sideWeight="0.87901497" visible="true" weight="0.3150224" />
       <window_info anchor="bottom" id="缩略图" order="15" weight="0.32983682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2610,8 +2686,8 @@
       <window_info anchor="right" id="Database" order="5" weight="0.32976446" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6171516" visible="true" weight="0.19271949" />
-      <window_info id="Structure" order="1" sideWeight="0.38284838" side_tool="true" weight="0.17344753" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61538464" visible="true" weight="0.20877944" />
+      <window_info id="Structure" order="1" sideWeight="0.3846154" side_tool="true" weight="0.20610279" />
       <window_info id="Favorites" order="2" sideWeight="0.3814433" side_tool="true" weight="0.16916488" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49892932" weight="0.32847533" />
@@ -2624,10 +2700,10 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.12098501" side_tool="true" weight="0.25990677" />
       <window_info anchor="bottom" id="调试" order="9" sideWeight="0.4962527" weight="0.3251121" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.498394" weight="0.3251121" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32750583" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32735425" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946466" weight="0.32750583" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32790697" />
-      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.87901497" weight="0.36883408" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32735425" />
+      <window_info active="true" anchor="bottom" id="Run" order="14" sideWeight="0.87901497" visible="true" weight="0.3150224" />
       <window_info anchor="bottom" id="缩略图" order="15" weight="0.32983682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2680,9 +2756,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="字典作业" />
-    <MESSAGE value="购物车作业" />
-    <MESSAGE value="三级菜单" />
     <MESSAGE value="练习作业" />
     <MESSAGE value="update集合" />
     <MESSAGE value="文件处理" />
@@ -2705,7 +2778,10 @@
     <MESSAGE value="update" />
     <MESSAGE value="多进程" />
     <MESSAGE value="多线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程" />
+    <MESSAGE value="IO模型" />
+    <MESSAGE value="更新功能，支持并发" />
+    <MESSAGE value="并发编程.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发编程.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2841,98 +2917,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络编程/FTP程序/客户端/bin/progress.py" />
-    <entry file="file://$PROJECT_DIR$/网络编程/FTP程序/服务端/warehouse/jack/miao.png" />
-    <entry file="file://$PROJECT_DIR$/网络编程/FTP程序/客户端/bin/text.py" />
-    <entry file="file://$PROJECT_DIR$/网络编程/FTP程序/客户端/folder/jack/miao.png" />
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/客户端/folder/jack/download/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/客户端/folder/jack/download/miao.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/客户端/folder/jack/download/put.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程/网络编程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" column="20" selection-end-line="38" selection-end-column="35" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象编程/面向对象.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="703">
-            <caret line="37" selection-start-line="37" selection-end-line="37" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/warehouse/wualin/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/bin/import_conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/warehouse/jack/miao.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/warehouse/jack/put.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/bin/storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络编程/day4/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -3000,9 +2984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" selection-start-line="15" selection-end-line="31" />
-          <folding>
-            <marker date="1540283155000" expanded="true" signature="343:345" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3031,10 +3012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <marker date="1540366349000" expanded="true" signature="221:223" ph="..." />
-            <marker date="1540366349000" expanded="true" signature="277:416" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3080,11 +3057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <marker date="1540452292000" expanded="true" signature="84:86" ph="..." />
-            <marker date="1540452292000" expanded="true" signature="254:256" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3092,9 +3064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <marker date="1540600497000" expanded="true" signature="149:151" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3109,9 +3078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="35" />
-          <folding>
-            <marker date="1540602156000" expanded="true" signature="102:104" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3146,41 +3112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/conf/userinfo.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/客户端/bin/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/bin/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1540630917000" expanded="true" signature="2071:2072" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/ftp/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/客户端/ftp/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -3198,12 +3129,154 @@
     <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/并发编程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="504">
+            <caret line="480" selection-start-line="480" selection-end-line="480" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/bin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/bin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/conf/userinfo.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/ftp/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/服务端/bin/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1540630917000" expanded="true" signature="2071:2072" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP程序/客户端/bin/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/core/client_link.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1540805762000" expanded="true" signature="243:349" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/core/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <marker date="1540805593000" expanded="true" signature="93:121" ph="..." />
+            <marker date="1540805593000" expanded="true" signature="137:407" ph="..." />
+            <marker date="1540805593000" expanded="true" signature="442:835" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/core/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1540805199000" expanded="true" signature="150:152" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/bin/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+            <marker date="1540803736000" expanded="true" signature="156:158" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/conf/userinfo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/bin/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1540804060000" expanded="true" signature="159:465" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/core/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/server/conf/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/并发编程/FTP/client/conf/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
