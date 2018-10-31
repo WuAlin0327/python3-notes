@@ -13,13 +13,25 @@ def main():
 	for index,item in enumerate(func_l,1):
 		print(index,item[0])
 	while True:
-		num = int(input('>>>').strip())
-		func_str = func_l[num-1][1]
+		num = input('请选择：').strip()
+		if not num.isdigit() or int(num)>3:
+			print('请输入正确序号选择操作')
+			continue
+		func_str = func_l[int(num)-1][1]
 		if hasattr(Select,func_str):
-			obj = Select()
-			func = getattr(obj,func_str)
-			func()
+			obj = Select()#建立与服务端的链接，
+			func1 = getattr(obj,func_str)
+			ret = func1()
 
+			if ret:
+				while True:
+					in_cmd = input('>>>').strip()
+					cmd,filename = in_cmd.split()
+					if hasattr(obj,cmd):
+						func2 = getattr(obj,cmd)
+						func2(cmd,filename)
+			else:
+				print('登陆失败')
 
 if __name__ == '__main__':
 	main()
