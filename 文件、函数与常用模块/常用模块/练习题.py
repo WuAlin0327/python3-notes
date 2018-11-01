@@ -21,7 +21,7 @@
 # logger.addHandler(fh)# 将输出到文件绑定到logger
 #
 # logger.error('too many login attempts')
-#3.json、pickle、shelve三个区别是什么？
+#3.json、user_pickle、shelve三个区别是什么？
 # 1.txt. json跨语言，体积小，用于网络传输
 # 2. pickle只支持python，不能跨语言，支持python所有数据类型
 # 3. shelve支持多行dumps

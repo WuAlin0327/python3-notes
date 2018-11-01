@@ -18,12 +18,12 @@ def main():
 			print('请输入正确序号选择操作')
 			continue
 		func_str = func_l[int(num)-1][1]
+		print(func_str)
 		if hasattr(Select,func_str):
-			obj = Select()#建立与服务端的链接，
+			obj = Select()#建立与服务端的链接，并继承了Trans类
 			func1 = getattr(obj,func_str)
 			ret = func1()
-
-			if ret:
+			if ret['status']:
 				while True:
 					in_cmd = input('>>>').strip()
 					cmd,filename = in_cmd.split()
@@ -32,6 +32,9 @@ def main():
 						func2(cmd,filename)
 			else:
 				print('登陆失败')
+				continue
 
+		else:
+			print('没有该方法')
 if __name__ == '__main__':
 	main()

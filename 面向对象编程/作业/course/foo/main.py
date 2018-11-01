@@ -34,7 +34,7 @@ while True:
 			if num == '7':
 				a.add_school()
 
-	elif username +'.pickle' not in os.listdir('%s/pickle/'%BASE_DIR):
+	elif username +'.user_pickle' not in os.listdir('%s/user_pickle/'%BASE_DIR):
 		print('该用户不存在，请联系管理员')
 
 	else:

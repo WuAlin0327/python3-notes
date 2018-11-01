@@ -18,8 +18,3 @@ class User:
 		self.filesize = 0
 		self.file_pick = '%s/conf/user_pickle/%s'%(BASE_DIR,self.name)#用户对象保存文件路径
 
-	def upload(self):
-		pass
-
-	def download(self):
-		pass

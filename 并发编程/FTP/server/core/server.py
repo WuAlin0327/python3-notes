@@ -2,9 +2,12 @@ import socket
 import json
 import queue
 import struct
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 from concurrent.futures import ThreadPoolExecutor
 from conf import setting
 from core import auth
+
 
 class Server:
 	def __init__(self):
@@ -14,15 +17,35 @@ class Server:
 		self.q = queue.Queue(setting.queue_size)#线程queue大小
 		self.pool = ThreadPoolExecutor(setting.thread_size)#线程池大小
 		self.auth = auth.Auth()
-	def monitor(self):
+	def run(self):
 		while True:
 			self.conn,self.addr = self.socket.accept()
+			print(self.addr)
+			self.pool.submit(self.deal_with)
+	def deal_with(self):
+		while True:
 			ret = self.server_recv()
-			if hasattr(self.auth,ret['operating']):
-				func = getattr(self.auth,ret['operating'])
+			print(ret)
+			if hasattr(self.auth, ret['operating']):
+				func = getattr(self.auth, ret['operating'])
 				res = func(ret)
-				if res:
-					self.server_send(res['status'])
+
+				self.server_send(res['status'])
+				if res['status']:
+					self.name = res['username']
+					while True:
+
+						user = res['user_obj']
+						head = self.recv_head()
+						print(head)
+						if hasattr(self,head['cmd']):
+							func = getattr(self,head['cmd'])
+							func(head)
+
+				else:
+					continue
+
+
 
 
 
@@ -41,7 +64,7 @@ class Server:
 		head = json.dumps(msg).encode(setting.code)
 		self.conn.send(head)
 
-	def recv_headler(self):
+	def recv_head(self):
 		'''
 		接收并解析报头：
 			cmd：操作指令
@@ -49,5 +72,34 @@ class Server:
 			filesize：文件对象的大小
 			md5：文件的MD5值，确保文件一致性
 		:return:
+		res = conn.recv(4)
+		res_len = struct.unpack('i', res)[0]
+		head_bytes = conn.recv(res_len)
 		'''
+		res = self.conn.recv(4)
+		head_len = struct.unpack('i',res)[0]
+		head_bytes = self.conn.recv(head_len)
+		head = json.loads(head_bytes.decode(setting.code))
+		head['name'] = self.name
+		return head
+
+	def put(self, head):
+		print('put', head)
+
+	def get(self, head):
+		if os.path.exists('%s/home/%s/%s'%(BASE_DIR,head['name'],head['filename'])):
+			filesize = os.path.getsize('%s/home/%s/%s' % (BASE_DIR, head['name'], head['filename']))
+			self.server_send(filesize)
+			with open('%s/home/%s/%s' % (BASE_DIR, head['name'], head['filename']), 'rb') as f:
+				for line in f:
+					self.conn.send(line)
+
+		else:
+			self.server_send('该文件不存在')
+
+	def ls(self, head):
 		pass
+
+	def cd(self, head):
+		pass
+

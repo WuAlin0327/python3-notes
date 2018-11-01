@@ -54,7 +54,7 @@ class Admin:
 		team_list = []
 		team_name = input('Team_Name:')
 		course = input('班级绑定的课程：')
-		if course + '.pickle' in os.listdir('%s/pickle/' % BASE_DIR):
+		if course + '.user_pickle' in os.listdir('%s/user_pickle/' % BASE_DIR):
 			data = file_pickle.read_file(course)
 			team_obj = team.Team(team_name,data)
 			team_list.append(team_name)

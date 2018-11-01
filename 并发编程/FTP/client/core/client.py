@@ -28,14 +28,15 @@ class Mylink:
 		ret_d = json.loads(ret.decode(setting.code))
 		return ret_d
 
-	def send_headler(self,msg):
+	def send_head(self,msg):
 		'''
-		msg:需要发送的数据（字典类型）
-			cmd：操作指令
-			filename：需要操作的文件对象
-			filesize：文件对象的大小
-			md5：文件的MD5值，确保文件一致性
+		msg:发送的字典的长度
 		使用struct打包发送给服务端，交给服务端的recv_headler解析出需要的数据
 		:param msg:
 		:return:
 		'''
+		print(msg)
+		head_bytes = json.dumps(msg).encode(setting.code)
+		head = struct.pack('i',len(head_bytes))
+		self.socket.send(head)
+		self.my_send(msg)

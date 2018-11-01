@@ -8,7 +8,7 @@ from core import server
 
 def main():
 	s = server.Server()
-	s.monitor()
+	s.run()
 
 
 if __name__ == '__main__':

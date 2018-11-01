@@ -18,7 +18,8 @@ class Auth:
 						#登陆成功之后返回登陆状态和用户对象
 						return {
 							'status':True,
-							'user_obj':user_obj
+							'user_obj':user_obj,
+							'username':username
 						}
 				else:
 					return {'status':False}
@@ -44,3 +45,4 @@ class Auth:
 			except FileExistsError:#不能创建同名字的文件夹
 				print('该用户已存在')
 				return {'status':False}
+
