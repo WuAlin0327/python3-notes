@@ -1,5 +1,6 @@
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import pickle
 class User:
 	'''
 	保存用户信息的pickle文件
@@ -17,4 +18,3 @@ class User:
 		self.home = os.path.join('%s/home'%BASE_DIR,self.name)#保存用户上传文件的目录
 		self.filesize = 0
 		self.file_pick = '%s/conf/user_pickle/%s'%(BASE_DIR,self.name)#用户对象保存文件路径
-

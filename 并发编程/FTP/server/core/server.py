@@ -2,6 +2,7 @@ import socket
 import json
 import queue
 import struct
+import pickle
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 from concurrent.futures import ThreadPoolExecutor
@@ -20,7 +21,6 @@ class Server:
 	def run(self):
 		while True:
 			self.conn,self.addr = self.socket.accept()
-			print(self.addr)
 			self.pool.submit(self.deal_with)
 	def deal_with(self):
 		while True:
@@ -34,13 +34,13 @@ class Server:
 				if res['status']:
 					self.name = res['username']
 					while True:
-
 						user = res['user_obj']
 						head = self.recv_head()
+						self.q.put(head)
 						print(head)
 						if hasattr(self,head['cmd']):
 							func = getattr(self,head['cmd'])
-							func(head)
+							func(user)
 
 				else:
 					continue
@@ -83,23 +83,68 @@ class Server:
 		head['name'] = self.name
 		return head
 
-	def put(self, head):
-		print('put', head)
+	def put(self,user):
+		head = self.q.get()
+		size = 0
+		if not os.path.exists('%s/%s'%(user.home,head['filename'])):#判断服务器中是否有该文件，如果有则磁盘覆盖该文件，磁盘空间大小不变
+			if user.filesize < user.disk:
+				self.server_send(True)
+				with open('%s/%s'%(user.home,head['filename']),'wb') as f:
+					while size < head['filesize']:
+						res = self.conn.recv(1024)
+						f.write(res)
+						size += len(res)
+						user.filesize += len(res)
+				with open('%s'%user.file_pick,'wb') as f1:
+					pickle.dump(user,f1)
 
-	def get(self, head):
-		if os.path.exists('%s/home/%s/%s'%(BASE_DIR,head['name'],head['filename'])):
-			filesize = os.path.getsize('%s/home/%s/%s' % (BASE_DIR, head['name'], head['filename']))
+		else:
+			self.server_send(True)
+			with open('%s/%s'%(user.home,head['filename']),'wb') as f:
+				while size < head['filesize']:
+					res = self.conn.recv(1024)
+					f.write(res)
+					size+=len(res)
+	def get(self, user):
+		head = self.q.get()
+		file_dir = '%s/%s'%(user.home,head['filename'])
+		if os.path.exists(file_dir):
+			filesize = os.path.getsize(file_dir)
 			self.server_send(filesize)
-			with open('%s/home/%s/%s' % (BASE_DIR, head['name'], head['filename']), 'rb') as f:
+			with open(file_dir, 'rb') as f:
 				for line in f:
 					self.conn.send(line)
 
 		else:
 			self.server_send('该文件不存在')
 
-	def ls(self, head):
-		pass
-
+	def ls(self,user):
+		lis = os.listdir('%s'%user.home)
+		dic = {
+			'disk':user.disk,
+			'filesize':user.filesize,
+			'lis':lis
+		}
+		self.server_send(dic)
 	def cd(self, head):
 		pass
+
+	def remove(self,user):
+		'''
+
+		:param user:
+		:param head: {'cmd': 'remove', 'file': 'miao', 'md5': 2654612354, 'name': 'wualin'}
+		:return:
+		'''
+		head = self.q.get()
+		file_dir = '%s/%s'%(user.home,head['filename'])
+		file_size = os.path.getsize(file_dir)
+		if os.path.exists(file_dir):
+			os.remove(file_dir)
+			user.filesize -= file_size
+			self.server_send(True)
+			with open(user.file_pick,'wb') as f:
+				pickle.dump(user,f)
+		else:
+			self.server_send(False)
 

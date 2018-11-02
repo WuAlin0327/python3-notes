@@ -10,7 +10,6 @@ class Auth:
 
 		with open('%s/conf/userinfo'%BASE_DIR,'r') as f1:
 			for line in f1:
-				print(line)
 				username,password,user_dir = line.strip().split('|')
 				if msg['username'] == username and msg['password'] == password:
 					with open(r'%s'%user_dir,'rb') as f2:
@@ -21,8 +20,6 @@ class Auth:
 							'user_obj':user_obj,
 							'username':username
 						}
-				else:
-					return {'status':False}
 			else:
 				return {'status':False}
 

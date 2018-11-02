@@ -11,13 +11,13 @@ class Mylink:
 		self.socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 		self.socket.connect(setting.addr)
 
-	def __new__(cls, *args, **kwargs):
-
-		if not cls.__instance:
-			obj = object.__new__(cls)
-			cls.__instance = obj
-		return cls.__instance
-
+	# def __new__(cls, *args, **kwargs):
+	#
+	# 	if not cls.__instance:
+	# 		obj = object.__new__(cls)
+	# 		cls.__instance = obj
+	# 	return cls.__instance
+	#
 
 	def my_send(self,msg):
 		massage = json.dumps(msg).encode(setting.code)
@@ -35,7 +35,6 @@ class Mylink:
 		:param msg:
 		:return:
 		'''
-		print(msg)
 		head_bytes = json.dumps(msg).encode(setting.code)
 		head = struct.pack('i',len(head_bytes))
 		self.socket.send(head)

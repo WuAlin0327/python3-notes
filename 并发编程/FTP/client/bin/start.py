@@ -8,7 +8,7 @@ def main():
 	func_l = [
 		('登陆','laned'),
 		('注册','registered'),
-		('退出','exit')
+		('退出','quit')
 	]
 	for index,item in enumerate(func_l,1):
 		print(index,item[0])
@@ -18,9 +18,8 @@ def main():
 			print('请输入正确序号选择操作')
 			continue
 		func_str = func_l[int(num)-1][1]
-		print(func_str)
 		if hasattr(Select,func_str):
-			obj = Select()#建立与服务端的链接，并继承了Trans类
+			obj = Select()
 			func1 = getattr(obj,func_str)
 			ret = func1()
 			if ret['status']:
