@@ -18,7 +18,8 @@ while count < 20:
 	print(sql)
 	coursor.execute(sql)
 	count+=1
+	conn.commit()
 
-conn.commit()
+
 coursor.close()
 conn.close()
