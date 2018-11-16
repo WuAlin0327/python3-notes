@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用的标签</title>
+</head>
+<body>
+    <!--body相关标签-->
+    <!--heading:标题h1~h6-->
+    喵
+    <!--块级元素：独占一行-->
+    <div class="heading">
+        <p style="height: 500px" id="p1">顶部</p>
+        <h1>哈哈哈</h1>
+        <h2>哈哈哈</h2>
+        <h3>哈哈哈</h3>
+        <h4>哈哈哈</h4>
+        <h5>哈哈哈</h5>
+        <h6>哈哈哈</h6>
+    </div>
+    <div class="p">
+        <p><b>这是段落标签</b>，与标题标签一行，也是独占一行</p>
+    </div>
+    <!--<a href="http://www.baidu.com">单击跳转到百度首页</a>-->
+
+    <!--target对应的属性默认是_self 改成_blank在新的标签页打开
+    title属性：将鼠标移动上去会变成title内容-->
+    <div class="a">
+        <a href="http://www.baidu.com" target="_blank" title="百度首页">单击跳转到百度首页</a>
+
+        <a href="./a.zip">下载这个文件</a>
+        <a href="mailto:1032298871@qq.com">跳转到邮箱</a>
+        <a href="#">跳转到顶部</a>
+        <a href="#p1">跳转到pi</a>
+
+        <!-- javascript:是表示在触发<a>默认动作时，执行一段JavaScript代码，而 javascript:; 表示什么都不执行，这样点击<a>时就没有任何反应。 -->
+        <a href="javascript:alert(1)">内容</a>
+        <a href="javascript:;">内容</a>
+    </div>
+    <div class="lists">
+        <ul>
+            <li>我的账户></li>
+            <li>我的订单></li>
+            <li>我的优惠卷></li>
+            <li>我的收藏></li>
+            <li>退出></li>
+        </ul>
+        <hr>
+        <ol>
+            <li>我的账户></li>
+            <li>我的订单></li>
+            <li>我的优惠卷></li>
+            <li>我的收藏></li>
+            <li>退出></li>
+        </ol>
+
+
+    </div>
+    <div>
+        <ul type="none">
+            <li><img src="./car1.png" alt="第一只猫" height="500px" width="500px"></li>
+            <li><img src="./car2.png" alt="第二只猫" height="500px" width="500px"></li>
+        </ul>
+    </div>
+</body>
+</html>
+
