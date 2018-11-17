@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>from表单标签</title>
+</head>
+<body>
+    <div class="form">
+        <form action="http://www.baidu.com" method="get" enctype="application/x-www-form-urlencoded">
+            <hr>
+            <p>
+                <!--lable标签：行内元素-->
+                <label for="user"> 用户名</label>
+                <input type="text" name="username" placeholder="请输入用户名" id="user">
+            </p>
+            <p>
+                密码：
+                <input type="password" name="password" placeholder="请输入密码">
+            </p>
+            <p>
+                <input type="button" name="but" value="这只是一个按钮">
+                <input type="submit" name="sub" value="提交">
+                <input type="reset" value="重置">
+            </p>
+            <p>
+                选择地区：
+                <select name="sel" id="sel">
+                    <option value="北京">北京</option>
+                    <option value="上海">上海</option>
+                    <option value="深圳">深圳</option>
+                    <option value="喵">喵</option>
+                </select>
+                选择简历：
+                <input type="file" name="fileobj" disabled="">
+            </p>
+            <p>
+                自我介绍
+                <textarea name="txt" id="text" cols="30" rows="10"></textarea>
+            </p>
+            <hr>
+
+        </form>
+    </div>
+</body>
+</html>

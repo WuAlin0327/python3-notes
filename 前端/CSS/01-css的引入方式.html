@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css引入方式</title>
+    <style>
+        /*内接样式*/
+        p{
+            fonts-size: 30px;
+        }
+        #list1{
+            font-size: 25px;
+            color: #ff7e79;
+        }
+    </style>
+
+    <!--外接样式：链接式-->
+    <!--<link rel="stylesheet" href="./index.css">-->
+    
+    <!--导入式-->
+    <!--<style>-->
+        <!--@import url(css/index.css);-->
+    <!--</style>-->
+</head>
+<body>
+    <!--
+        1. 行内样式
+        2. 内接样式
+        3. 外接样式
+            3.1 链接式
+            3.2 导入式
+    -->
+    <div>
+        <!--行内样式-->
+        <p style="color: aqua;font-size: 30px;">这是一个段落</p>
+        <a href="http://www.baidu.com"> 单击跳转到百度</a>
+    </div>
+    <div>
+        <ul id="list1">
+            <li>喵喵喵</li>
+            <li>汪汪汪</li>
+            <li>咩咩咩</li>
+
+        </ul>
+    </div>
+</body>
+</html>

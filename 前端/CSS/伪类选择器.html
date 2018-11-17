@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类选择器</title>
+    <style>
+        /*访问过的超链接a标签样式：*/
+        a:visited{
+            color: darkblue;
+        }
+        /*鼠标点击瞬间的样式：*/
+        a:active{
+            color: black;
+        }
+        /*鼠标悬浮在元素上应用样式：*/
+        a:hover{
+            color: yellow;
+        }
+        /*没有访问过的超链接a标签样式*/
+        a:link{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <a href="#">第一个链接</a>
+                <a href="#">第二个链接</a>
+                <hr>
+            </li>
+            <li>
+                <a href="#">第三个链接</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
