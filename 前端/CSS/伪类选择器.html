@@ -4,35 +4,55 @@
     <meta charset="UTF-8">
     <title>伪类选择器</title>
     <style>
-        /*访问过的超链接a标签样式：*/
-        a:visited{
-            color: darkblue;
+        /*!*访问过的超链接a标签样式：*!*/
+        /*a:visited{*/
+            /*color: darkblue;*/
+        /*}*/
+        /*!*鼠标点击瞬间的样式：*!*/
+        /*a:active{*/
+            /*color: black;*/
+        /*}*/
+        /*!*鼠标悬浮在元素上应用样式：*!*/
+        /*a:hover{*/
+            /*color: yellow;*/
+        /*}*/
+        /*!*没有访问过的超链接a标签样式*!*/
+        /*a:link{*/
+            /*color: chartreuse;*/
+        /*}*/
+        /*伪类选择器*/
+        /*
+        nth-child()：
+            括号内数值设置：
+                    数字 选中那个哪个数字哪一行就使用更改元素，从1开始
+                    n 选中所有
+                    2n-1 隔一个选一个
+        */
+        div ul li:nth-child(2n-1){
+            color: darkgray;
         }
-        /*鼠标点击瞬间的样式：*/
-        a:active{
-            color: black;
+        ul li{
+            position:relative;
         }
-        /*鼠标悬浮在元素上应用样式：*/
-        a:hover{
-            color: yellow;
+        ul li img{
+            display: none;
+            position: absolute;
+            top: -16px;
+            left: 50px;
         }
-        /*没有访问过的超链接a标签样式*/
-        a:link{
-            color: chartreuse;
+        ul li:hover img{
+            display: block;
         }
+
+
     </style>
 </head>
 <body>
     <div class="box">
         <ul>
-            <li>
-                <a href="#">第一个链接</a>
-                <a href="#">第二个链接</a>
-                <hr>
-            </li>
-            <li>
-                <a href="#">第三个链接</a>
-            </li>
+            <li class="list1">
+                <a href="#"> 这是一个链接</a>
+                <img src="images/car1.png" alt="喵">
         </ul>
     </div>
 </body>

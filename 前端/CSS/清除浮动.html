@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style: none;
+        }
+        .course_list ul li{
+            background-color: red;
+            float: left;
+            width: 200px;
+            height: 40px;
+
+        }
+        .none{
+            background-color: black;
+            width: 500px;
+            height: 300px;
+        }
+        /*清除浮动的aftet方法*/
+        .course_list:after{
+            content: '.';
+            clear: both;
+            height: 0;
+            visibility: hidden;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="course_list">
+        <ul>
+            <li>Python</li>
+            <li>WEB</li>
+            <li>Liunx</li>
+        </ul>
+    </div>
+    <div class="none">
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行内元素与块级元素的互相转换</title>
+    <style type="text/css">
+        /*将行内元素转换为块级元素，转换后拥有块级元素的属性*/
+        span{
+            display:block;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            padding: 20px;
+        }
+        /*将块级元素转换为行内元素*/
+        p{
+            display: inline;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>这是一个段落</p>
+
+        <span>这是一个span标签</span>
+        <a href="#">这是一个链接</a>
+    </div>
+    <div class="div1">
+        <p>喵喵喵</p>
+    </div>
+
+</body>
+</html>
