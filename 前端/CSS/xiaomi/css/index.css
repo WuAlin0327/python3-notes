@@ -105,16 +105,15 @@ header{
     margin-left: 14px;
 }
 
-.nav ul li {
-    float: left;
+.spn{
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #727474;
 }
-.nav ul li a{
-    display: block;
-    margin-right: 20px;
-    text-decoration: none;
-    text-align: center;
+a{
     line-height: 40px;
-
+    text-decoration: none;
+    display:inline-block;
 }
 
 a:link{
@@ -122,7 +121,7 @@ a:link{
 }
 
 a:hover{
-    background-color: aliceblue;
-    font-size: 14px;
+    color: aliceblue;
+    /*font-size: 16px;*/
 }
 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>参考点</title>
+    <style>
+        .box1{
+            width: 400px;
+            height: 400px;
+            margin: 100px;
+            border: 5px solid red;
+            /*父级元素设置相对定位*/
+            position: relative;
+        }
+        .p{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            /*子元素设置绝对定位，参考点为父级元素的左上角*/
+            position: absolute;
+            top: 50px;
+            left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <p class="p">
+
+        </p>
+    </div>
+</body>
+</html>

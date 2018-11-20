@@ -1,0 +1,37 @@
+.rest{
+    width: 228px;
+    height: 164px;
+    padding: 3px;
+    float: left;
+    background-color: #5f5750;
+}
+.rest ul li{
+    display: block;
+    width: 70px;
+    height: 46px;
+    padding-top: 18px;
+    float: left;
+    line-height: 46px;
+    text-align: center;
+    font-size: 14px;
+
+}
+.rest ul li a{
+    color: rgba(255,255,255,0.7);
+    display: inline-block;
+}
+.rest-link:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.advertising ul li{
+    display: inline-block;
+    margin-left: 12px;
+}
+.img1{
+    width: 316px;
+    height: 170px;
+    float: right;
+
+
+}
