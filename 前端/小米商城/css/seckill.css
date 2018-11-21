@@ -1,0 +1,105 @@
+.seckill-box{
+    height: 340px;
+    padding-bottom: 40px;
+    width: 1240px;
+
+
+}
+.time-title{
+    width: 234px;
+    padding-top: 39px;
+    height: 300px;
+    border-top:1px solid red;
+    text-align: center;
+    background-color: #f1eded;
+    float: left;
+    margin-right: 14px;
+}
+.time-title .time{
+    padding-top: 15px;
+    text-align: center;
+    color: red;
+    font-size: 21px;
+}
+.time-title img{
+    margin: 25px auto;
+}
+.time-title .over-time{
+    color: rgba(0,0,0,0.6);
+    font-size: 15px;
+}
+.countdown{
+    margin: 28px auto 0;
+    width: 168px;
+
+}
+.timebox{
+    float: left;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 24px;
+    color: #fdffff;
+    background-color: #5f5750;
+}
+.box-interval{
+    float:left;
+    width: 15px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 24px;
+    color: #5f5750;
+    font-weight: bolder;
+}
+.seckill ul li{
+    width: 234px;
+    height: 339px;
+    margin-right: 14px;
+
+    float: left;
+    text-align: center;
+    background: rgba(0,0,0,0.02);
+}
+.seckill-1{
+    width: 234px;
+    height: 339px;
+    border-top: 1px solid yellow;
+}
+
+.seckill-img{
+    width: 160px;
+    margin: 0 auto 22px;
+    padding-top: 50px;
+}
+.flag{
+    width: 64px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: red;
+    color: #ffffff;
+}
+.share-h3{
+    font-weight: normal ;
+    font-size:14px;
+    color: #212121;
+}
+.p-3{
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+    margin: 10px 0;
+}
+.p-4{
+    font-size: 14px;
+    color: red;
+}
+.original-price{
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
+.seckill ul li a:hover{
+    text-decoration: none;
+}

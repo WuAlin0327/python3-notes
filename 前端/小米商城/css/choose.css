@@ -10,6 +10,7 @@
     position: absolute;
     top: 0;
     left: 0;
+
 }
 
 .choose ul li{
@@ -18,6 +19,7 @@
     width: 234px;
     line-height: 42px;
 }
+
 .choose ul li a{
     padding-left: 30px;
     color: #ffffff;
@@ -40,4 +42,10 @@
     right: 0;
     display: inline-block;
     padding-right: 20px;
+}
+.advertising-img{
+    width: 1226px;
+    height: 120px;
+    margin: 0 auto;
+
 }

@@ -35,3 +35,12 @@
 
 
 }
+.title{
+    padding-top: 20px;
+    height: 58px;
+    width: 1226px;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #333;
+    line-height: 58px;
+}
