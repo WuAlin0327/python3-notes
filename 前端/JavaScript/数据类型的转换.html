@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据类型的转换</title>
+</head>
+<body>
+<script type="text/javascript">
+    // // 数值类型转字符串类型
+    //     //1.隐式转换
+    //     var n1 = 123;
+    //     var n2 = '123';
+    //     var numStr = n1+n2;
+    //     console.log(typeof numStr);//string
+    //     //2.强制转换
+    //     //内置函数：toString()
+    //     var n3 = 100;
+    //     var StrNum = n3.toString();
+    //     console.log(typeof StrNum);//string
+    //
+    //     //内置函数：String()
+    //     var n4 = 100;
+    //     var strNum = String(n4);
+    //     console.log(typeof strNum)//string
+    // 字符串类型转换成数值类型 内置函数：Number()
+    var stringNum1 = '12345';
+    var num1 = Number(stringNum1);
+    console.log(typeof num1);//number
+
+    var stringNum2 = '1234dhwjuijdwio';
+    var num2 = Number(stringNum2);
+    console.log(typeof num2);//number
+    console.log(num2);//NaN Not a Number  不是一个数值，但是强制转换成了数值类型
+
+    // 解析字符串中的整数 内置方法：parseInt()
+    var num3 = parseInt(stringNum2);
+    console.log(num3);//stringNum2 = '1234dhwjuijdwio'; num3 = 1234
+
+    // 解析字符串中的浮点型 内置方法：parseFloat()
+    var stringNum3 = '1.2546dw485dwdhf';
+    var num4 = parseFloat(stringNum3);
+    console.log(num4);//1.2546
+
+</script>
+</body>
+</html>

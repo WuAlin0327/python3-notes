@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>switch</title>
+</head>
+<body>
+<script type="text/javascript">
+    var gamescore = 'good';
+    switch (gamescore) {
+        case 'good':
+            console.log('还可以');
+            break;
+        case 'better':
+            console.log('合格');
+            break;
+        case 'best':
+            console.log('优秀');
+            break;
+        default:
+            console.log('回家种田吧');
+            break;
+    }
+    //case穿透：switch语句 case表示一个条件，满足这个条件就会输出，直到遇到break跳出，如果break不屑，那么程序会遇到下一个break停止
+</script>
+</body>
+</html>

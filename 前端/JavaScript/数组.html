@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表</title>
+</head>
+<body>
+<script type="text/javascript">
+    // 创建列表的两种方式
+        // 1.字面量方式：
+            var colors = ['red','yello','blue'];
+            console.log(colors);
+        // 2.使用构造函数(js中创造对象使用的是构造函数)
+            var colors = new Array();
+            colors[0] = 'red';
+            colors[1] = 'yellow';
+            colors[2] = 'bule';
+            console.log(colors);
+    // 数组的常用方法：
+        // for循环遍历数组:length函数  返回数组的长度
+            for(var i=0;i<colors.length;i++){
+                console.log(i,colors[i])
+            }
+
+</script>
+</body>
+</html>
