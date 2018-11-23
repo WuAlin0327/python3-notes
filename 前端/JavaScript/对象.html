@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象</title>
+</head>
+<body>
+<script>
+    /*
+    //使用Object字面量创建对象
+    var person = new Object();
+    //给对象赋值
+    person.name = 'wualin';
+    person.age = 20;
+    console.log(person);
+
+    //字面量方式1：对象中的函数以匿名函数传给对象函数
+    var person2 = {
+        name : 'wualin',
+        age :22,
+        func:function () {
+            //this相当于python中的self，指的是对象本身
+            console.log(this)
+        }
+    };
+    //方式2：先定义好函数然后再将函数传入对象中
+    var person3 = {
+        name:'小黑',
+        age:12,
+        func:func
+    };
+    function func () {
+        console.log(this)
+    }
+
+    //调用对象中的方法与属性
+    person3.func();//调用方法
+    console.log(person3.name);//调用属性
+    */
+
+    // //工厂模式创建对象:避免代码重复
+    // function ceratePerson(name,age){
+    //     var obj = new Object();
+    //     obj.name = name;
+    //     obj.age = age;
+    //     return obj;
+    // }
+    // var person1 = ceratePerson('alex',21);
+    // var person2 = ceratePerson('wualin',22);
+    // console.log(person1 instanceof Object);//instanceof判断某某是某某，返回值是true或者false
+
+    /*
+    // 使用构造函数创建对象
+    //与python中类似，用来区分对象是属于哪个类型的
+    function Person(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    var p1 = new Person('alex',21);
+    console.log(p1 instanceof Person);//判断p1是不是Person类
+    */
+
+    //原型模式创建对象 propotype 它是当前类的父类
+    function Person(name,age) {
+        this.name = name;
+        this.age = age;
+
+    }
+    //prototype相当于继承
+    Person.prototype.alterNanem = function () {
+        alert(this.name)//this相当于Person
+    };
+    var p1 = new Person('alex',18);//对象继承父类的方法
+    p1.alterNanem();
+
+
+
+</script>
+</body>
+</html>

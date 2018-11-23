@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON的使用</title>
+</head>
+<body>
+<script>
+    //对象
+    // var packJSON = {"name":"wualin","age":29};
+    //数组
+    // var packJSON = ["wualin","miao","alex"];
+
+    //字符串转json
+    // var jsonStr = '{"name":"wualin","age":29}';
+    // var jsonobj = JSON.parse(jsonStr);
+    // console.log(jsonobj.name);
+
+    //json对象转字符串
+    // var jsonObj = [{"name":"wualin","age":29},{"name":"alex","age":19}];
+    // var jsonStr = JSON.stringify(jsonObj);
+    // console.log(jsonStr);
+    // console.log(typeof jsonStr);
+
+    // //遍历json对象
+    // var jsonobj = {"name":"wualin","age":19};
+    // for (var key in jsonobj){
+    //     console.log(key + ' ' + jsonobj[key]);
+    // }
+    var list = [1,2,3,4,5,6,7,8];
+
+    for (var i in list){
+        console.log(i,list[i])
+    }
+
+
+</script>
+</body>
+</html>

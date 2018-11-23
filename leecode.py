@@ -66,3 +66,8 @@
 # 		print(url,len(text))
 # 	end = time.time()
 # 	print(end-start)
+
+
+name = 'miao'
+age = 123
+print('姓名:%s 年龄:%s'%(name,age))

@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="作业">
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/do-while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/for循环.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/js/测试.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/switch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/while循环.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/双重for循环的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/基本的数据雷西行.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/字符串的常用方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/数据类型的转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/数组的常用方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/流程控制.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/第一个js代码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/JavaScript/逻辑运算符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/小米商城/css/afterbody.css" afterDir="false" />
+    <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="前端">
+      <change afterPath="$PROJECT_DIR$/前端/JavaScript/JSON的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端/JavaScript/arguments的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端/JavaScript/函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端/JavaScript/对象.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/小米商城/css/commodity.css" beforeDir="false" afterPath="$PROJECT_DIR$/前端/小米商城/css/commodity.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端/小米商城/xiaomi.html" beforeDir="false" afterPath="$PROJECT_DIR$/前端/小米商城/xiaomi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leecode.py" beforeDir="false" afterPath="$PROJECT_DIR$/leecode.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +57,7 @@
     <SUITE FILE_PATH="coverage/python$my_log.coverage" NAME="my_log Coverage Results" MODIFIED="1537368584933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day7/bin" />
     <SUITE FILE_PATH="coverage/python3_notes$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1541463491805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库开发" />
     <SUITE FILE_PATH="coverage/python$import_conf.coverage" NAME="import_conf Coverage Results" MODIFIED="1539432578879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/FTP程序/服务端/bin" />
-    <SUITE FILE_PATH="coverage/python3_notes$leecode.coverage" NAME="leecode Coverage Results" MODIFIED="1542245809963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python3_notes$leecode.coverage" NAME="leecode Coverage Results" MODIFIED="1542978098308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python3_notes$server.coverage" NAME="server Coverage Results" MODIFIED="1542342085403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/并发编程/IO模型/IO多路复用" />
     <SUITE FILE_PATH="coverage/python$run.coverage" NAME="run Coverage Results" MODIFIED="1534123991422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/python$withdraw.coverage" NAME="withdraw Coverage Results" MODIFIED="1537368781153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文件、函数与常用模块/常用模块/day7/core" />
@@ -251,7 +237,7 @@
           <entry key="JavaScript-modules-diagram//Users/wualin/Documents/pychon/python3-notes" value="1" />
           <entry key="crdownload" value="1" />
           <entry key="css" value="27" />
-          <entry key="html" value="53" />
+          <entry key="html" value="57" />
           <entry key="ico" value="2" />
           <entry key="img" value="2" />
           <entry key="jack" value="1" />
@@ -259,7 +245,7 @@
           <entry key="js" value="5" />
           <entry key="md" value="5" />
           <entry key="png" value="3" />
-          <entry key="py" value="109" />
+          <entry key="py" value="110" />
           <entry key="svg" value="2" />
           <entry key="txt" value="7" />
           <entry key="userinfo" value="6" />
@@ -268,12 +254,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="27" />
-          <entry key="HTML" value="53" />
+          <entry key="HTML" value="57" />
           <entry key="Image" value="8" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="109" />
+          <entry key="Python" value="110" />
           <entry key="SVG" value="2" />
           <entry key="UML" value="1" />
         </counts>
@@ -283,22 +269,22 @@
           <entry key="JavaScript Console" value="1" />
           <entry key="css" value="9984" />
           <entry key="dummy" value="14" />
-          <entry key="html" value="25643" />
+          <entry key="html" value="28799" />
           <entry key="js" value="311" />
           <entry key="md" value="730" />
-          <entry key="py" value="20856" />
-          <entry key="txt" value="34" />
+          <entry key="py" value="20940" />
+          <entry key="txt" value="38" />
           <entry key="userinfo" value="188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="9984" />
-          <entry key="HTML" value="25643" />
+          <entry key="HTML" value="28799" />
           <entry key="JavaScript" value="312" />
           <entry key="Markdown" value="730" />
-          <entry key="PLAIN_TEXT" value="236" />
-          <entry key="Python" value="20856" />
+          <entry key="PLAIN_TEXT" value="240" />
+          <entry key="Python" value="20940" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -310,50 +296,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/前端/小米商城/xiaomi.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="164" column="10" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#li#4;n#ul#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#p#0;n#div#0;n#div#2;n#div#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#1;n#div#0;n#div#2;n#div#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#div#8;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端/JavaScript/数组.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
               <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端/JavaScript/函数.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端/JavaScript/对象.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端/JavaScript/arguments的使用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端/JavaScript/JSON的使用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leecode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -406,11 +398,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/前端/CSS/伪元素选择器.html" />
-        <option value="$PROJECT_DIR$/前端/CSS/伪类选择器.html" />
-        <option value="$PROJECT_DIR$/前端/CSS/盒模型.html" />
-        <option value="$PROJECT_DIR$/前端/CSS/盒模型的计算.html" />
-        <option value="$PROJECT_DIR$/前端/CSS/css/reset.css" />
         <option value="$PROJECT_DIR$/前端/CSS/清除标签的默认样式.html" />
         <option value="$PROJECT_DIR$/前端/CSS/认识border.html" />
         <option value="$PROJECT_DIR$/前端/CSS/margin.html" />
@@ -457,6 +444,11 @@
         <option value="$PROJECT_DIR$/前端/JavaScript/数组.html" />
         <option value="$PROJECT_DIR$/前端/JavaScript/数组的常用方法.html" />
         <option value="$PROJECT_DIR$/前端/JavaScript/字符串的常用方法.html" />
+        <option value="$PROJECT_DIR$/前端/JavaScript/函数.html" />
+        <option value="$PROJECT_DIR$/前端/JavaScript/对象.html" />
+        <option value="$PROJECT_DIR$/前端/JavaScript/arguments的使用.html" />
+        <option value="$PROJECT_DIR$/前端/JavaScript/JSON的使用.html" />
+        <option value="$PROJECT_DIR$/leecode.py" />
       </list>
     </option>
   </component>
@@ -473,8 +465,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="121" />
-    <option name="y" value="80" />
+    <option name="x" value="448" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="984" />
   </component>
@@ -565,14 +557,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.xiaomi.html">
-    <configuration name="数组.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/数组.html">
+  <component name="RunManager" selected="Python.leecode">
+    <configuration name="JSON的使用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/JSON的使用.html">
       <method v="2" />
     </configuration>
-    <configuration name="数组的常用方法.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/数组的常用方法.html">
+    <configuration name="对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/对象.html">
       <method v="2" />
     </configuration>
-    <configuration name="字符串的常用方法.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/字符串的常用方法.html">
+    <configuration name="函数.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/函数.html">
       <method v="2" />
     </configuration>
     <configuration name="基本的数据雷西行.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/基本的数据雷西行.html">
@@ -611,13 +603,10 @@
     <configuration name="伪类选择器.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/CSS/伪类选择器.html">
       <method v="2" />
     </configuration>
-    <configuration name="for循环.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/for循环.html">
+    <configuration name="arguments的使用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/arguments的使用.html">
       <method v="2" />
     </configuration>
     <configuration name="双重for循环的使用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/双重for循环的使用.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="xiaomi.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/小米商城/xiaomi.html">
       <method v="2" />
     </configuration>
     <configuration name="变量与数据类型" type="PythonConfigurationType" factoryName="Python">
@@ -2468,6 +2457,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="leecode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leecode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2494,19 +2505,19 @@
       <item itemvalue="Python.变量与数据类型" />
       <item itemvalue="Python.作业1" />
       <item itemvalue="Python.test" />
-      <item itemvalue="JavaScript Debug.for循环.html" />
-      <item itemvalue="JavaScript Debug.数组.html" />
-      <item itemvalue="JavaScript Debug.数组的常用方法.html" />
-      <item itemvalue="JavaScript Debug.字符串的常用方法.html" />
-      <item itemvalue="JavaScript Debug.xiaomi.html" />
+      <item itemvalue="JavaScript Debug.函数.html" />
+      <item itemvalue="JavaScript Debug.对象.html" />
+      <item itemvalue="JavaScript Debug.arguments的使用.html" />
+      <item itemvalue="JavaScript Debug.JSON的使用.html" />
+      <item itemvalue="Python.leecode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.xiaomi.html" />
-        <item itemvalue="JavaScript Debug.字符串的常用方法.html" />
-        <item itemvalue="JavaScript Debug.数组的常用方法.html" />
-        <item itemvalue="JavaScript Debug.数组.html" />
-        <item itemvalue="JavaScript Debug.for循环.html" />
+        <item itemvalue="Python.leecode" />
+        <item itemvalue="JavaScript Debug.JSON的使用.html" />
+        <item itemvalue="JavaScript Debug.arguments的使用.html" />
+        <item itemvalue="JavaScript Debug.对象.html" />
+        <item itemvalue="JavaScript Debug.函数.html" />
       </list>
     </recent_temporary>
   </component>
@@ -2524,13 +2535,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534123438943</updated>
-    </task>
-    <task id="LOCAL-00032" summary="更新常用模块：time&amp;datetime，random，sys，os，">
-      <created>1536935752782</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1536935752782</updated>
     </task>
     <task id="LOCAL-00033" summary="更新了json&amp;pickle">
       <created>1536936460086</created>
@@ -2868,7 +2872,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542808726783</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="前端">
+      <created>1542947950212</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1542947950212</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2886,15 +2897,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="76" width="1920" height="984" extended-state="1" />
+    <frame x="448" y="23" width="1920" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" show_stripe_button="false" sideWeight="0.3846154" weight="0.20593081" />
       <window_info x="905" y="307" width="166" height="416" id="Favorites" order="1" sideWeight="0.3814433" side_tool="true" type="FLOATING" weight="0.16916488" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.61538464" visible="true" weight="0.16453674" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.61538464" visible="true" weight="0.16453674" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49892932" visible="true" weight="0.32681242" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.87901497" weight="0.36995515" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.87901497" visible="true" weight="0.3693901" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39722863" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2992,7 +3003,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新笔记" />
     <MESSAGE value="updata" />
     <MESSAGE value="员工信息增删改查作业完成～～～！" />
     <MESSAGE value="更新常用模块：time&amp;datetime，random，sys，os，" />
@@ -3017,7 +3027,8 @@
     <MESSAGE value="复习" />
     <MESSAGE value="html&amp;css" />
     <MESSAGE value="作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="作业" />
+    <MESSAGE value="前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3153,41 +3164,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端/CSS/清除标签的默认样式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/认识border.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/margin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/标准文档流.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/CSS/行内元素与块级元素的互相转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端/CSS/浮动.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -3442,13 +3418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端/JavaScript/数组.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端/JavaScript/数组的常用方法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -3465,8 +3434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端/小米商城/xiaomi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="164" column="10" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
+        <state relative-caret-position="342">
+          <caret line="70" column="10" lean-forward="true" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -3497,6 +3466,48 @@
             <element signature="n#p#1;n#div#0;n#div#2;n#div#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#2;n#div#8;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/JavaScript/数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/JavaScript/函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/JavaScript/对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/JavaScript/arguments的使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/JavaScript/JSON的使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leecode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
         </state>
       </provider>
     </entry>
