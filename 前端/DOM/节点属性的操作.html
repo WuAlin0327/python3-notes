@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节点属性的操作</title>
+</head>
+<body>
+<img src="image/car1.png" alt="第一张" id="IMG">
+<script>
+    // 需求：鼠标放到img上，更换为另一张图片，也就是修改路径（src的值）。
+            //步骤：
+            //1.获取事件源
+            //2.绑定事件
+            //3.书写事件驱动程序
+    window.onload = function () {
+        //获取事件源
+        var Img = document.getElementById('IMG');
+
+        //绑定事件
+        Img.onmouseover = function () {
+
+            //可以使用getAttribute获取属性，可以使用setAttribute设置属性（第一个值是属性名，第二个值是设置的属性）
+            //使用getAttribute获取属性的值是相对路径
+            // console.log(this.getAttribute('src'));
+
+            //也可以简写成获取的对象+属性名获得属性值
+            //获取的属性的值是绝对位置
+            console.log(Img.src);
+
+            //书写事件驱动程序（将Img.src图片路径更换）
+            //鼠标悬停后切换图片
+            Img.src = './image/car2.png';
+        };
+        Img.onmouseout = function () {
+            //鼠标离开后切换回1图片
+            Img.src = './image/car1.png';
+        };
+    }
+</script>
+</body>
+</html>

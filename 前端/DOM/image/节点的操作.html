@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节点的操作</title>
+</head>
+<body>
+    <button id="btn">设置</button>
+    <button id="btn2">删除自己节点</button>
+    <div id="box"></div>
+
+    <script>
+        window.onload = function () {
+            function $(id) {
+                return document.getElementById(id)
+            }
+            //创建节点
+            var oh3 = document.createElement("h3");
+
+            //将创建的节点插入
+            $('btn').onclick = function () {
+                $('box').appendChild(oh3);
+
+            };
+
+            //删除自己节点:用亲爹调用removeChild方法删除
+            $('btn2').onclick = function () {
+                //parentNode:获得自己父节点，亲爹
+                //childNodes:获得自己的子节点，是个复数，亲儿子
+                this.parentNode.removeChild(this);
+            }
+        }
+    </script>
+</body>
+</html>

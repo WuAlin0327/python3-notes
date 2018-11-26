@@ -1,34 +1,27 @@
-# class Student:
-# 	count = 0
-# 	def __init__(self,name):
-# 		self.name = name
-# 		Student.count+=1
-#
-# s = Student('111')
-# s2 = Student('1222')
-# print(Student.count)
-'''
-编写游戏角色交互 Garen，所属阵营Demacia，具有昵称，生命值200，攻击力100，具备攻击敌人技能 Riven，所属阵营Noxus，具有昵称，生命值100，攻击力200，具备攻击敌人技能 交互：Garen对象攻击了Riven对象
-'''
+import pymysql
+import time
+import random
+import string
 
+conn = pymysql.connect(
+		host='127.0.0.1',
+		port=3306,
+		user='root',
+		password='123456',
+		db='db2',
+		charset='utf8'
+	)
 
-class Hero:
-	def __init__(self,name,life,attack):
-		self.name = name
-		self.life = life
-		self.attack = attack
+cursor = conn.cursor()
 
-	def cut(self,enemy):
-		enemy.life -= self.attack
-		print('%s给了%s一刀'%(self.name,enemy.name))
+name_list = ['wualin','alex','egon','xiaoma','zhangzz']
 
-class Garen(Hero):
-	camp = 'Demacia'
+for name in name_list:
+	password = ''.join(random.sample(string.ascii_lowercase + string.digits, 6))
+	sql = "insert into t2(username,password) values ('%s','%s')"%(name,password)
+	print(sql)
+	cursor.execute(sql)
 
-
-class Riven(Hero):
-	camp = 'Noxus'
-
-g = Garen('大保健',200,100)
-r = Riven('锐萌萌',100,200)
-g.cut(r)
+conn.commit()
+conn.close()
+cursor.close()

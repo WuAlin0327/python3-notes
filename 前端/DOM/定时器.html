@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 40px;
+            background-color: red;
+            line-height: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="box">动画</div>
+<button id="btn1">开始</button>
+<button id="btn2">结束</button>
+
+<script>
+    /*
+    console.log('开始');
+    //一次性定时器，2秒之后会执行回调函数
+    //setTimeout()可以做异步操作
+    //未来如果对数据请求出现数据阻塞的问题，那么可以使用setTimeout来进行异步操作
+    setTimeout(function () {
+        console.log('走到尽头来');
+    },2000);
+    console.log('结束')
+    */
+    //周期性计时器
+
+    function $(id){
+        return document.getElementById(id);
+    }
+    var num = 0;
+    var oTime;
+    $('btn1').onclick = function () {
+            //每次使用 定时器前要先清除定时器
+            clearInterval(oTime);
+            oTime= setInterval(function () {//setInterval返回一个对象
+            num++;
+            console.log(num);
+            $('box').style.marginLeft = num+'px';
+
+
+        },100);
+    };
+    $('btn2').onclick = function () {
+        clearInterval(oTime);
+    }
+    /*
+    释放定时器：
+        clearInterval()清除周期性计时器
+        cleatTimeout()清除一次性定时器
+     */
+
+
+</script>
+</body>
+</html>

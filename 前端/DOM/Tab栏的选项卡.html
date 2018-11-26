@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tab栏的选项卡</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            width: 480px;
+            height: 300px;
+            margin: 0 auto;
+            border: 1px solid black;
+
+        }
+        ul{
+            list-style: none;
+        }
+        ul{
+            width: 100%;
+            overflow: hidden;
+        }
+        ul li{
+            width: 160px;
+            height: 60px;
+            float: left;
+            line-height: 60px;
+            text-align: center;
+            background-color: #cccccc;
+        }
+        ul li.active{
+            background-color: red;
+            color: #ffffff;
+        }
+        ul li a{
+            text-decoration: none;
+            display: block;
+        }
+        .box p{
+            width: 480px;
+            height: 200px;
+            display: none;
+            text-align: center;
+            background-color: red;
+        }
+        .box p.active{
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">图片</a></li>
+        </ul>
+        <p>首页内容</p>
+        <p>新闻内容</p>
+        <p>图片内容</p>
+    </div>
+
+    <script>
+        var tabs = document.getElementsByTagName('li');
+        var ps = document.getElementsByTagName('p');
+        for (var i in tabs){
+            tabs[i].index = i;
+            tabs[i].onmouseover = function () {
+                for (var j in tabs){
+                    tabs[j].className = '';
+                    ps[j].className = '';
+                }
+                this.className = 'active';
+                ps[this.index].className = 'active';
+            }
+        }
+    </script>
+</body>
+</html>

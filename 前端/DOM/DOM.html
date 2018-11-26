@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dom</title>
+</head>
+<body>
+    <div id="box" class="box">
+
+    </div>
+    <div id="box2" class="box"></div>
+    <script>
+
+        //获取文档对象
+        console.log(document);
+
+        //获取html
+        console.log(document.documentElement);
+        console.dir(document.documentElement);
+
+        //获取body
+        console.log(document.body);
+
+        //获取body中元素节点对象的三种方式
+            //1.通过ID获取
+            var oDIV = document.getElementById('box');
+            console.log(oDIV);
+
+            //2.通过类名获取
+            var oDivs = document.getElementsByClassName('box');
+            console.log(oDivs);
+
+            //3.通过标签名获取
+            var oDivs2 = document.getElementsByTagName('div');
+            console.log(oDivs2);//HTMLCollection(2) [div#box.box, div#box2.box, box: div#box.box, box2: div#box2.box]
+            //通过标签与类名获取的对象是以伪数组形式表示， 通过索引可以获取单个，或者可以遍历伪数组
+
+
+    </script>
+</body>
+</html>

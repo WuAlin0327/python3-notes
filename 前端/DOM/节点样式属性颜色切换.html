@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>颜色切换</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<script>
+    var odiv = document.getElementById('box');
+    var isRed = true;
+    odiv.onclick = function () {
+        if (isRed){
+            odiv.style.backgroundColor = 'green';
+            isRed = false;
+        }else{
+            odiv.style.backgroundColor = 'red';
+            isRed = true
+        }
+
+    }
+</script>
+</body>
+</html>

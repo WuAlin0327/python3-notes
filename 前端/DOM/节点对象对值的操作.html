@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节点对象对值的操作</title>
+</head>
+<body>
+    <button id="btn">设置</button>
+    <br>
+    <input type="text" name="user" value="alex" id="oinput">
+    <div id="box">
+        哈哈哈
+        <h3>这是一个h3标签</h3>
+    </div>
+    <script>
+        function $ (id) {
+            return document.getElementById(id);
+        }
+        $('btn').onclick = function () {
+            //只获取文本
+            console.log($('box').innerText);
+
+            //对标签文本内容的设置
+            //$('box).innerText = 'egon';
+
+            //innerHTML获取所有的节点(文本和标签 换行),trim()清除换行和空格
+            //console.log($('box').innerHTML.trim())
+            console.log($('box').innerHTML);
+
+            $('box').innerHTML = '<h2>egon</h2>';
+
+            //表单控件中有value属性的 必须通过value来设置值和赋值
+            console.log($('oinput').value);
+            $('oinput').value = '321';
+
+
+        }
+    </script>
+</body>
+</html>

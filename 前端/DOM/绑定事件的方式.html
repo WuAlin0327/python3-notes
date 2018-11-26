@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绑定事件</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <script>
+        function func(){
+            alert(1);
+        }
+        window.onload = function () {
+            var ODiv = document.getElementById('box');
+            console.log(ODiv);
+            //ODiv.onclick = func
+            ODiv.onclick = function () {
+                alert(1)
+            }
+        };
+
+    </script>
+</body>
+</html>

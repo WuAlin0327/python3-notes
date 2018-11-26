@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素隐藏的两种方式</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+        .active{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">隐藏</button>
+    <div id="box" class="box"></div>
+    <script>
+        function $(id){
+            return document.getElementById(id);
+        }
+        var isShow = true;
+        window.onload = function () {
+
+            /*
+            方式1 直接操作标签元素属性
+            $('btn').onclick = function () {
+                if (isShow){
+                    $('box').style.display = 'none';
+                    isShow = false;
+                    this.innerText = '显示';
+                } else{
+                    $('box').style.display = 'block';
+                    isShow = true;
+                    this.innerText = '隐藏';
+                }
+
+            }*/
+            //方式2：操作类
+            $('btn').onclick = function () {
+                if (isShow){
+                    //className设置标签的类名
+                    $('box').className = 'active';
+                    isShow = false;
+                    this.innerText = '显示';
+                }else{
+                    $('box').className = 'box';
+                    isShow = true;
+                    this.innerText = '隐藏';
+                }
+            }
+        }
+    </script>
+</body>
+</html>

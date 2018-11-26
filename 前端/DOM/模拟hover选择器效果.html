@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模拟hover选择器效果</title>
+    <style>
+        button{
+            height: 40px;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            cursor: pointer;
+            line-height: 40px;
+        }
+        .active{
+            background-color: red;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <button>按钮1</button>
+    <button>按钮2</button>
+    <button>按钮3</button>
+    <button>按钮4</button>
+    <button>按钮5</button>
+    <button>按钮6</button>
+    <script>
+        var btns = document.getElementsByTagName('button');
+        for (var i in btns){
+            btns[i].onmouseover = function () {
+                //排他思想：先把所有按钮的className设置为空，然后把this这个按钮的className设置为active
+                //排他思想与for循环连用
+                for (var j in btns){
+                    btns[j].className = '';
+                }
+                this.className = 'active'
+            }
+        }
+        //鼠标离开button时还原背景色
+        for (var x in btns){//为每一个按钮绑定事件，使用for循环
+            btns[x].onmouseout = function () {
+                this.className = '';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>client</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            padding: 80px;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+
+    </div>
+    <script>
+        /*
+        clientTop 内容区域到边框顶部的距离 ，说白了，就是边框的高度
+        clientLeft 内容区域到边框左部的距离，说白了就是边框的乱度
+        clientWidth 内容区域+左右padding   可视宽度
+        clientHeight 内容区域+ 上下padding   可视高度
+        var oDiv = document.getElementById('box');
+        console.log(oDiv.clientTop);
+        console.log(oDiv.clientHeight);
+        console.log(oDiv.clientLeft);
+        console.log(oDiv.clientWidth);
+        */
+        //屏幕的可视宽度
+        //屏幕的可视区域
+        window.onload = function () {
+
+            //随着浏览器的大小而发生变化
+            window.onresize = function () {
+                console.log(document.documentElement.clientWidth);
+                console.log(document.documentElement.clientHeight);
+            }
+        }
+
+    </script>
+
+</body>
+</html>

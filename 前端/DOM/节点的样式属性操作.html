@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节点的样式属性操作</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+
+</div>
+<script>
+    //获取事件源
+    var ODiv = document.getElementById('box');
+
+    //事件
+    ODiv.onclick = function(){
+        //事件驱动 CSSStyleDeclaration对象
+        console.log(ODiv.style);
+
+        //点语法 get和set方法
+        //获取只 get方法 获取的是行内样式的属性 与内接和外接没有任何关系
+        console.log(ODiv.style.backgroundColor);
+        //设置值 set方法
+
+        //在style中书写的比如background-color通过js设置的时候，要写成驼峰标示
+        ODiv.style.backgroundColor = 'green';
+        ODiv.style.width = '300px';
+        ODiv.style.marginLeft = '30px';
+
+    }
+</script>
+</body>
+</html>
