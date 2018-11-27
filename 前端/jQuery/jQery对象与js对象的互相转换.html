@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>转换</title>
+</head>
+<body>
+    <div id="box"></div>
+    <div id="box2"></div>
+
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+    $(function () {
+        //转换为jqery对象 js对象更加希望转换成jquery对象操作简便的dom
+        //转换为js对象的原因：因为js是包含jquery，jquery只是封装了DOM，事件，ajax，动画。
+            //假如说jquery对象要使用的方法不在封装里面，只能转换成js对象
+
+        //js对象与jquery对象一定要分清除，对应对象只能调用对应的方法，不能混淆
+
+        //获取jquery对象
+        console.log($('#box2'));
+
+        //获取js对象
+        var box = document.getElementById('box2');
+        console.log(box);
+
+        //jquery对象转换成js对象
+        console.log($('#box2')[0]);
+
+        //js对象转换为jquery,直接将js对象传到$()中
+        console.log($(box));
+    })
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一键待办事项</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="content">
+        <form action="javascript:present()" id="form">
+            <label for="title">ToDoList</label>
+            <input type="text" id="title" name="title" placeholder="添加todo">
+        </form>
+        </div>
+    </div>
+    <div class="subject">
+        <div class="content">
+        <h2>正在进行<span id="todocount">0</span></h2>
+        <ul id="todo">
+
+            <!--<li class="proceed">-->
+                <!--<button id="btn1"></button>-->
+                <!--<span>11111</span>-->
+                <!--<a href="javascript:remove(1)">-</a>-->
+            <!--</li>-->
+
+        </ul>
+        <h2>已经完成 <span id="donecount">0</span></h2>
+        <ul id="done">
+            <!--<li class="donelist">-->
+                <!--<button id="btn2"></button>-->
+                <!--<span>1111</span>-->
+                <!--<a href="javascript:remove(1)">-</a>-->
+
+            <!--</li>-->
+
+        </ul>
+    </div>
+    </div>
+    <div class="stern">
+        <p>Copyright © 2018.11.27 todolist.cn <a href="javascript:clear_cache()">clear</a></p>
+    </div>
+    <script type="text/javascript" src="./js/index.js">
+        var butt = document.getElementsByTagName('button');
+        for (var i in butt){
+            butt[i].onclick = function () {
+                console.log('点击了')
+                }
+            }
+    </script>
+</body>
+</html>

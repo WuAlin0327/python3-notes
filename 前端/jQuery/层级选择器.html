@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>层级选择器</title>
+</head>
+<body>
+    <div>
+        <ul class="list">
+            <li class="item1">
+                喵
+                <ul>
+                    <li>喵的女朋友</li>
+                </ul>
+            </li>
+            <li class="item2">汪</li>
+            <li>嗷呜</li>
+            <li>咩</li>
+
+        </ul>
+    </div>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            //后代选择器
+            $('.list li').css('list-style','none');
+
+            //子代选择器
+            $('.item1>ul').css('font-size','20px');
+
+            //+紧邻选择器：只选中紧邻的一个
+            $('.item1+.item2').css('backgroundColor','red');
+
+            //~兄弟选择器：匹配所有.tiem1之后的所有兄弟姐妹元素
+            $('.tiem1~li').css('backgroundColor','yellow')
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>入口函数</title>
+</head>
+<body>
+<!--Jquery框架封装的时候模仿得失伪数组对象，有索引和length，以及n个方法-->
+<script type="text/javascript" src="jQuery3.3.1.js"></script>
+<script>
+    //window.onload() 1 覆盖现象。2 等待图片资源加载完成之后才调用脚本代码，用户体验极差
+
+    //入口函数
+    //返回的是jquery
+    //jquery对象与js对象之间的转换
+    console.log($(document)[0]);
+
+    //等待文档资源加载完成之后调用此方法：
+    $(document).ready(function () {
+        alert(1)
+    });
+
+    //jquery简便写法入口函数，两种入口函数没有覆盖现象
+    $(function () {
+        alert(2)
+    });
+
+    $(window).ready(function () {
+        alert(3)
+        //表示图片资源加载完成之后
+    })
+</script>
+</body>
+</html>

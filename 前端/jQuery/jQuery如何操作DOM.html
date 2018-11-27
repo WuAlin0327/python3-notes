@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery操作DOM</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: #666666;
+            text-align: center;
+            line-height: 100px;
+            margin-top:10px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">喵</div>
+    <div id="box1">汪</div>
+    <div>嗷呜</div>
+<script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            //标签选择器
+            //获取的标签有三个，jquery内部进行遍历
+            $('div').click(function () {
+                alert($(this).text());
+            });
+
+            //类选择器
+            console.log($('.box'));
+
+            //id选择器
+            console.log($('#box1'))
+        })
+    </script>
+
+</body>
+</html>
