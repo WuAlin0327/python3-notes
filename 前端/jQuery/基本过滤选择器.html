@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本过滤选择器</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+
+        </ul>
+    </div>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            //基本过滤选择器
+                //:eq(index)，选择序号为index元素
+                $('ul li:eq(2)').css('background','red');
+
+                //:gt(index)，匹配所有大于给定索引值的元素
+                $('ul li:gt(0)').css('color','yellow');
+
+                // :lt(index) 匹配所有小于给定索引值的元素
+                $('ul li:lt(4)').css('color','#666');
+
+                //:even 匹配所有索引值为偶数的元素，从0开始计数
+                $('ul li:even').css('color','red');
+
+                //:odd 匹配所有索引值为奇数的元素，从0开始计数
+                $('ul li:odd').css('color','green');
+
+                //:first  获取第一个元素
+                $('ul li:first').text('真的吗？');
+
+                //:last 获取最后一个元素
+                $('ul li:last').html('我是最后一个元素？');
+
+        })
+    </script>
+</body>
+</html>

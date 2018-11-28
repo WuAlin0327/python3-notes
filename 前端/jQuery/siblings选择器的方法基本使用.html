@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本使用</title>
+    <style>
+        button{
+            width: 100px;
+            height: 40px;
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+    <button>按钮1</button>
+    <button>按钮2</button>
+    <button>按钮3</button>
+    <button>按钮4</button>
+    <button>按钮5</button>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            $('button').click(function () {
+                //使用siblings选择器（选中所有兄弟元素，不包括自己）一行代码实现选项卡
+                //点击之后设置自己的样式为红色，然后使用选中兄弟选择器，设置兄弟选择器的背景颜色为透明色（在css设置中设置了）
+                $(this).css('backgroundColor','red').siblings('button').css('background','transparent')
+                alert($(this).text())
+            })
+        })
+    </script>
+</body>
+</html>

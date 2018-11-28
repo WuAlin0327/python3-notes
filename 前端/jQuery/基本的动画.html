@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画</title>
+    <style>
+        div{
+            display: none;
+            height: 200px;
+            background-color: #ff7e79;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<button class="btn1">显示</button>
+<button class="btn2">隐藏</button>
+<button class="btn3">开关</button>
+<div class="box"></div>
+<script type="text/javascript" src="jQuery3.3.1.js"></script>
+<script>
+    $(function () {
+        $('.btn1').click(function () {
+            //show(speed,callback)
+            //speed：三种预定速度之一的字符串('slow','normal','fast')或表示动画时长的毫秒值（如：1000毫秒==1秒）
+            //callback:在动画完成时执行的函数，每个元素执行一次
+            $('.box').show(2000);
+        });
+        $('.btn2').click(function () {
+            //隐藏
+            $('.box').hide(2000);
+
+        });
+        $('.btn3').click(function () {
+            //一个按键控制div开关
+            $('.box').stop().toggle(2000);
+
+        })
+
+    })
+</script>
+
+</body>
+</html>

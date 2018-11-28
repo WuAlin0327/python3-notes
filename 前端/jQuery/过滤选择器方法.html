@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤选择器方法</title>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li class="item">
+                <span>喵喵喵1</span>
+            </li>
+            <li class="item2">
+                <span>喵喵喵2</span>
+            </li>
+            <li>喵喵喵3</li>
+            <li>喵喵喵4</li>
+            <li class="children">喵喵喵5</li>
+
+
+        </ul>
+        <div class="children">你大爷！</div>
+    </div>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            //find(selector)  括号中放的是选择器
+            //查找后代，包括子子孙孙
+            $('.box').find('ul').css('color','red');
+            //jquery中的链式编程：一行代码可完成的事情：拿到DOM后可接着做其他操作
+            $('.box').find('.item').css('color','green').click(function () {
+                alert($(this).text())
+            })
+
+            //子代children() 获取的是亲儿子
+            $('.box').children('.children').css('color','yellow');
+
+            //选择自己的父级parent()，亲爹
+            $('.children').parent('.box').css('background','#666')
+
+            //eq(index) index从0开始，
+            $('.box li').eq(3).css('font-size',20)
+        })
+    </script>
+</body>
+</html>

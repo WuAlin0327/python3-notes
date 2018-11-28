@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>siblings</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+
+        }
+        ul{
+            width: 400px;
+            height: 40px;
+
+        }
+        ul li{
+            float: left;
+            list-style: none;
+            margin-right: 10px;
+            width: 80px;
+            height: 40px;
+            text-align: center;
+        }
+        ul li a{
+            display: block;
+            width: 80px;
+            height: 40px;
+            line-height: 40px;
+            background-color:#666666 ;
+        }
+        p{
+            display: none;
+        }
+        p.active{
+            display: block;
+            background-color: #ff7e79;
+            text-align: center;
+            height: 200px;
+            width: 350px;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <a href="#">1</a>
+            </li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">4</a>
+            </li>
+
+        </ul>
+        <p>1👌</p>
+        <p>2👌</p>
+        <p>3👌</p>
+        <p>4👌</p>
+    </div>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            $('ul li a').mouseover(function () {
+                $(this).css('backgroundColor','#ff7e79').parent('li').siblings('li').find('a').css('backgroundColor','#666');
+                var i = $(this).parent('li').index();
+                console.log(i);
+                $('p').eq(i).addClass('active').siblings('p').removeClass('active');
+
+            })
+
+
+        })
+    </script>
+
+</body>
+</html>

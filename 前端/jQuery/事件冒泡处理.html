@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件冒泡处理</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <button>按钮</button>
+    </div>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            $('.box button').click(function (event) {
+                alert('点击了button');
+            });
+            $('.box').click(function (event) {
+                alert('点击了box');
+                //事件冒泡阻止
+                event.stopPropagation()
+            })
+        })
+        /*事件冒泡，当一个div标签里面有一个button元素时
+       给div与button绑定点击事件，当点击button的时候也会触发div绑定的事件
+       jquery中只有事件冒泡阶段，没有puhuo
+       事件冒泡阶段：button->body->html->document
+       使用stopPropagation()可以处理事件冒泡这种情况
+       或者使用return false也可以处理事件冒泡，不过return false也会处理默认的js事件，比如说a标签的跳转
+
+         */
+    </script>
+</body>
+</html>

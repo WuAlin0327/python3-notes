@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>父子之间的插入操作</title>
+</head>
+<body>
+    <div class="box">
+
+
+    </div>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            //append()方法与appendTo方法，插入到最后
+            $('.box').append('<h2>哈哈哈</h2>');
+            $('<span>这是一个span标签</span>').appendTo($('.box')).click(function () {
+                alert($(this).text());
+            });
+            //prepend()方法与prependTo()方法，插入到第一，用法与append和appendTo一样
+            $('.box').prepend('<p>这是第一个p标签，插入到第一个</p>');
+            $('<p>这是第二个p标签，插入到第一个</p>').prependTo($('.box'));
+        })
+    </script>
+</body>
+</html>

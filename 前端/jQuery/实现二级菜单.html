@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实现二级菜单</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        div{
+            width: 600px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin-left: 200px;
+            margin-top: 200px;
+        }
+        .list1{
+            width: 180px;
+            height: 40px;
+            background-color: #ff7e79;
+            float: left;
+            margin-right: 10px;
+        }
+        .list2{
+            display: none;
+            background-color: #ff7e79;
+        }
+        .list2 ul li{
+            width: 180px;
+            height: 40px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li class="list1">一级菜单
+                <ul class="list2">
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                </ul>
+            </li>
+            <li class="list1">一级菜单
+                <ul class="list2">
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                </ul>
+            </li>
+            <li class="list1">一级菜单
+                <ul class="list2">
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                    <li>二级菜单</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var list = $('.box>ul>li');
+            list.mouseenter(function () {
+               $(this).children('ul').stop().slideDown(1000);
+            });
+            list.mouseleave(function () {
+                $(this).children('ul').stop().slideUp(1000);
+
+            })
+
+        })
+    </script>
+</body>
+</html>

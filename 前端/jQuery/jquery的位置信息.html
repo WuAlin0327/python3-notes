@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery的位置信息</title>
+    <style>
+        body{
+            height: 2000px;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            top: 100px;
+            left: 200px;
+            border: 1px solid red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            //获取.box的宽度,不包含padding与border的宽度
+            console.log($('.box').width());
+            //设置.box的宽度
+            // $('.box').width(300);
+            //height()高度。与width()使用方法一样
+
+            //内部的宽和内部的高innerWidth() innerHeight(),内部宽包含padding,不包含border
+            // console.log($('.box').innerWidth());
+            // console.log($('.box').innerHeight());
+            //设置内部的宽和高，只会更改内容区域的宽度，不会改变padding与border的宽高
+            // $('.box').innerWidth(300);
+            // $('.box').innerHeight(100);
+
+            //外部宽outerWidth() 外部高outerHeight()  包含内部宽高+padding+border
+            // console.log($('.box').outerWidth())//222
+            //设置宽高时也是设置内容的宽度，不会改变padding与border
+            // $('.box').outerWidth(400);
+
+            //offset()他的返回值是一个对象，对象中包含了top和left属性
+            //距离是页面顶部与左侧的距离，与绝对定位相对定位没有关系
+            //offset()的属性是只读属性，不可以进行设置
+            // console.log($('.box').offset().top);
+            // console.log($('.box').offset().left)；
+
+            //滚动的偏移距离-->页面卷起的高度和宽度
+            //jquery监听文档滚动事件：scroll
+            $(document).scroll(function () {
+                console.log($(this).scrollTop());
+
+                //实现滚动页面到.box补偿高度的时候隐藏.box
+                var scollHeight = $(this).scrollTop();
+                var boxOffset = $('.box').offset().top;
+
+                if (scollHeight > boxOffset){
+                    $('.box').hide(1000);
+                }
+            })
+        })
+
+    </script>
+</body>
+</html>
