@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9162a10-74c4-47b6-b8b1-01ad969744ca" name="默认" comment="jquery">
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/jquery的位置信息.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/siblings选择器的方法基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/siblings选择器的深入.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/事件冒泡处理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/事件对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/基本的动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/基本过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/实现二级菜单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/属性选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/父子之间的插入操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端/jQuery/过滤选择器方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端/jQuery/jquery鼠标移入移出事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端/jQuery/select事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端/jQuery/submit事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端/jQuery/事件委托.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端/jQuery/单击与双击事件处理冲突.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端/jQuery/键盘事件.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -227,18 +222,18 @@
     <session id="1601645466">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="57" />
+          <entry key="project.closed" value="58" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="14" />
+          <entry key="project.open.time.5" value="15" />
           <entry key="project.open.time.6" value="8" />
           <entry key="project.open.time.7" value="11" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="58" />
+          <entry key="project.opened" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -246,7 +241,7 @@
           <entry key="JavaScript-modules-diagram//Users/wualin/Documents/pychon/python3-notes" value="1" />
           <entry key="crdownload" value="1" />
           <entry key="css" value="34" />
-          <entry key="html" value="113" />
+          <entry key="html" value="121" />
           <entry key="ico" value="3" />
           <entry key="img" value="2" />
           <entry key="jack" value="1" />
@@ -263,7 +258,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="34" />
-          <entry key="HTML" value="113" />
+          <entry key="HTML" value="121" />
           <entry key="Image" value="10" />
           <entry key="JavaScript" value="9" />
           <entry key="Markdown" value="6" />
@@ -278,7 +273,7 @@
           <entry key="JavaScript Console" value="1" />
           <entry key="css" value="11412" />
           <entry key="dummy" value="14" />
-          <entry key="html" value="49492" />
+          <entry key="html" value="51391" />
           <entry key="js" value="7523" />
           <entry key="md" value="751" />
           <entry key="py" value="21919" />
@@ -289,7 +284,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="11412" />
-          <entry key="HTML" value="49512" />
+          <entry key="HTML" value="51411" />
           <entry key="JavaScript" value="7504" />
           <entry key="Markdown" value="751" />
           <entry key="PLAIN_TEXT" value="256" />
@@ -306,15 +301,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端/DOM/节点的样式属性操作.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端/DOM/节点样式属性颜色切换.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
@@ -324,55 +310,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端/DOM/绑定事件的方式.html">
+        <entry file="file://$PROJECT_DIR$/前端/jQuery/jQery对象与js对象的互相转换.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端/DOM/节点对象对值的操作.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端/DOM/节点属性的操作.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端/jQuery/实现二级菜单.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端/jQuery/父子之间的插入操作.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端/jQuery/jquery的位置信息.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -380,17 +321,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端/jQuery/事件冒泡处理.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="608">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端/jQuery/单击与双击事件处理冲突.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端/jQuery/jquery鼠标移入移出事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端/jQuery/submit事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端/jQuery/select事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端/jQuery/键盘事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/前端/jQuery/事件对象.html">
+        <entry file="file://$PROJECT_DIR$/前端/jQuery/事件委托.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="22">
+              <caret line="6" selection-start-line="6" selection-end-line="26" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -425,12 +411,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/前端/JavaScript/数组.html" />
-        <option value="$PROJECT_DIR$/前端/JavaScript/数组的常用方法.html" />
-        <option value="$PROJECT_DIR$/前端/JavaScript/字符串的常用方法.html" />
-        <option value="$PROJECT_DIR$/前端/JavaScript/函数.html" />
-        <option value="$PROJECT_DIR$/前端/JavaScript/对象.html" />
-        <option value="$PROJECT_DIR$/前端/JavaScript/arguments的使用.html" />
         <option value="$PROJECT_DIR$/前端/JavaScript/JSON的使用.html" />
         <option value="$PROJECT_DIR$/leecode.py" />
         <option value="$PROJECT_DIR$/数据库开发/往mysql写数据.py" />
@@ -476,6 +456,12 @@
         <option value="$PROJECT_DIR$/前端/jQuery/jquery的位置信息.html" />
         <option value="$PROJECT_DIR$/前端/jQuery/事件冒泡处理.html" />
         <option value="$PROJECT_DIR$/前端/jQuery/事件对象.html" />
+        <option value="$PROJECT_DIR$/前端/jQuery/单击与双击事件处理冲突.html" />
+        <option value="$PROJECT_DIR$/前端/jQuery/jquery鼠标移入移出事件.html" />
+        <option value="$PROJECT_DIR$/前端/jQuery/submit事件.html" />
+        <option value="$PROJECT_DIR$/前端/jQuery/select事件.html" />
+        <option value="$PROJECT_DIR$/前端/jQuery/键盘事件.html" />
+        <option value="$PROJECT_DIR$/前端/jQuery/事件委托.html" />
       </list>
     </option>
   </component>
@@ -492,8 +478,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="70" />
+    <option name="x" value="440" />
+    <option name="y" value="178" />
     <option name="width" value="1920" />
     <option name="height" value="981" />
   </component>
@@ -511,7 +497,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showMembers ProjectPane="true" />
@@ -531,12 +519,6 @@
               <item name="python3-notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="python3-notes" type="462c0819:PsiDirectoryNode" />
               <item name="前端" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3-notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3-notes" type="462c0819:PsiDirectoryNode" />
-              <item name="前端" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python3-notes" type="b2602c69:ProjectViewProjectNode" />
@@ -590,32 +572,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.事件冒泡处理.html">
-    <configuration name="父子之间的插入操作.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/父子之间的插入操作.html">
+  <component name="RunManager" selected="JavaScript Debug.事件委托.html">
+    <configuration name="键盘事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/键盘事件.html">
       <method v="2" />
     </configuration>
-    <configuration name="事件冒泡处理.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/事件冒泡处理.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="节点属性的操作.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/DOM/节点属性的操作.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="实现二级菜单.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/实现二级菜单.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="文本与字体元素.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/CSS/文本与字体元素.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="多行文本居中.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/CSS/多行文本居中.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="浮动.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/CSS/浮动.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="流程控制.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/流程控制.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="求随机数.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/求随机数.html">
+    <configuration name="事件委托.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/事件委托.html">
       <method v="2" />
     </configuration>
     <configuration name="逻辑运算符.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/逻辑运算符.html">
@@ -648,6 +609,9 @@
     <configuration name="节点的样式属性操作.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/DOM/节点的样式属性操作.html">
       <method v="2" />
     </configuration>
+    <configuration name="事件冒泡处理.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/事件冒泡处理.html">
+      <method v="2" />
+    </configuration>
     <configuration name="节点样式属性颜色切换.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/DOM/节点样式属性颜色切换.html">
       <method v="2" />
     </configuration>
@@ -657,10 +621,34 @@
     <configuration name="节点属性的操作.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/DOM/节点属性的操作.html">
       <method v="2" />
     </configuration>
-    <configuration name="jQuery的入口函数.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/jQuery的入口函数.html">
+    <configuration name="节点属性的操作.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/DOM/节点属性的操作.html">
       <method v="2" />
     </configuration>
-    <configuration name="jquery的位置信息.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/jquery的位置信息.html">
+    <configuration name="实现二级菜单.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/实现二级菜单.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="文本与字体元素.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/CSS/文本与字体元素.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="多行文本居中.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/CSS/多行文本居中.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="浮动.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/CSS/浮动.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="流程控制.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/流程控制.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="求随机数.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/JavaScript/求随机数.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="jquery鼠标移入移出事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/jquery鼠标移入移出事件.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="select事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/select事件.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="submit事件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python3-notes/前端/jQuery/submit事件.html">
       <method v="2" />
     </configuration>
     <configuration name="变量与数据类型" type="PythonConfigurationType" factoryName="Python">
@@ -721,182 +709,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day3/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="客户端" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day1/简单套接字通讯/客户端.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="开启子进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发/多进程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发/多进程/开启子进程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="协程" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多线程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多线程/协程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="信号量" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多线程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多线程/信号量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="修改员工信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day3/修改员工信息.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="进程池" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多进程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多进程/进程池.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day4/字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="作业" type="PythonConfigurationType" factoryName="Python">
-      <module name="python学习笔记" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day10/作业.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1125,6 +937,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="客户端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day1/简单套接字通讯/客户端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1337,6 +1171,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象编程/day4/异常处理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="开启子进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发/多进程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发/多进程/开启子进程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1565,6 +1421,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="协程" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多线程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多线程/协程.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="回掉函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1777,6 +1655,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发/多进程/开启子进程.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="信号量" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多线程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多线程/信号量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -2005,6 +1905,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="修改员工信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/文件、函数与常用模块/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/文件、函数与常用模块/day3/修改员工信息.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="员工信息增删改查" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2217,6 +2139,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day3/打印商品列表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="进程池" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/并发编程/多进程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/并发编程/多进程/进程池.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -2445,6 +2389,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day4/字符串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python学习笔记" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2481,6 +2447,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/day1/03 模拟ssh远程执行命令/执行命令.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="作业" type="PythonConfigurationType" factoryName="Python">
+      <module name="python学习笔记" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/基础语法/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python基础/day10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python基础/day10/作业.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -2537,19 +2525,19 @@
       <item itemvalue="Python.变量与数据类型" />
       <item itemvalue="Python.作业1" />
       <item itemvalue="Python.test" />
-      <item itemvalue="JavaScript Debug.节点属性的操作.html" />
-      <item itemvalue="JavaScript Debug.实现二级菜单.html" />
-      <item itemvalue="JavaScript Debug.父子之间的插入操作.html" />
-      <item itemvalue="JavaScript Debug.jquery的位置信息.html" />
-      <item itemvalue="JavaScript Debug.事件冒泡处理.html" />
+      <item itemvalue="JavaScript Debug.jquery鼠标移入移出事件.html" />
+      <item itemvalue="JavaScript Debug.submit事件.html" />
+      <item itemvalue="JavaScript Debug.select事件.html" />
+      <item itemvalue="JavaScript Debug.键盘事件.html" />
+      <item itemvalue="JavaScript Debug.事件委托.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.事件冒泡处理.html" />
-        <item itemvalue="JavaScript Debug.jquery的位置信息.html" />
-        <item itemvalue="JavaScript Debug.父子之间的插入操作.html" />
-        <item itemvalue="JavaScript Debug.实现二级菜单.html" />
-        <item itemvalue="JavaScript Debug.节点属性的操作.html" />
+        <item itemvalue="JavaScript Debug.事件委托.html" />
+        <item itemvalue="JavaScript Debug.键盘事件.html" />
+        <item itemvalue="JavaScript Debug.select事件.html" />
+        <item itemvalue="JavaScript Debug.submit事件.html" />
+        <item itemvalue="JavaScript Debug.jquery鼠标移入移出事件.html" />
       </list>
     </recent_temporary>
   </component>
@@ -2567,13 +2555,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534123438943</updated>
-    </task>
-    <task id="LOCAL-00035" summary="更新了好多笔记">
-      <created>1537190011136</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1537190011136</updated>
     </task>
     <task id="LOCAL-00036" summary="作业">
       <created>1537369689987</created>
@@ -2911,7 +2892,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543235858999</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="jquery">
+      <created>1543410609956</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1543410609959</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2929,16 +2917,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="70" width="1920" height="981" extended-state="0" />
+    <frame x="440" y="178" width="1920" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" show_stripe_button="false" sideWeight="0.3846154" weight="0.20593081" />
       <window_info x="905" y="307" width="166" height="416" id="Favorites" order="1" sideWeight="0.3814433" side_tool="true" type="FLOATING" weight="0.16916488" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.61538464" visible="true" weight="0.17891374" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.61538464" visible="true" weight="0.18051118" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49892932" weight="0.32681242" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.87901497" weight="0.3693901" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39838338" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40415704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49892932" weight="0.32681242" />
@@ -3166,40 +3154,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据库开发/pymysql增删该查.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/JavaScript/数组的常用方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/JavaScript/字符串的常用方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象编程/+1s.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/HTML/fav.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/HTML/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端/DOM/image/car2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -3288,13 +3242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" selection-start-line="6" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/jQuery/jQery对象与js对象的互相转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -3424,13 +3371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端/DOM/节点样式属性颜色切换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端/DOM/绑定事件的方式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -3447,14 +3387,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端/DOM/节点属性的操作.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="361">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/前端/jQuery/实现二级菜单.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
+        <state relative-caret-position="1406">
           <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
         </state>
       </provider>
@@ -3462,28 +3402,84 @@
     <entry file="file://$PROJECT_DIR$/前端/jQuery/父子之间的插入操作.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/前端/jQuery/jquery的位置信息.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端/jQuery/事件冒泡处理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="1216">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/前端/jQuery/事件对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="133">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/DOM/节点样式属性颜色切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/jQuery/jQery对象与js对象的互相转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/jQuery/事件冒泡处理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/jQuery/单击与双击事件处理冲突.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/jQuery/jquery鼠标移入移出事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/jQuery/submit事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/jQuery/select事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/jQuery/键盘事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端/jQuery/事件委托.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="6" selection-start-line="6" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>

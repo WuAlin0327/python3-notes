@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text">
+<script type="text/javascript" src="jQuery3.3.1.js"></script>
+<script>
+    $('input[type=text]').keyup(function (e) {
+        //e.keyCode是键盘的键码
+        //可以通过键盘键码使用流程控制判断进行控制
+        console.log(e.keyCode)
+    })
+</script>
+</body>
+</html>

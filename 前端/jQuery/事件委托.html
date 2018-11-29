@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li>111</li>
+        <li>222</li>
+    </ul>
+    <button>按钮</button>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            //事件委托（如果是未来追加的元素，需要绑定事件，可以使用事件委托）
+            //on() 第一个属性事件名，第二个属性是标签名，第三个是fun
+            $('ul').on('click','li',function () {
+                alert($(this).text())
+            });
+            //未来动态的往ul中追加了li标签，如果只是ul>li标签绑定了click事件，那么可以考虑使用事件委托
+            $('button').click(function () {
+                $('ul').append('<li>喵</li>')
+            })
+        })
+    </script>
+</body>
+</html>

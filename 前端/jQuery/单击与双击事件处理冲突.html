@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单击双击处理</title>
+</head>
+<body>
+    <button>按钮</button>
+    <script type="text/javascript" src="jQuery3.3.1.js"></script>
+    <script>
+        $(function () {
+            //解决单双击事件冲突问题
+            var timeer = null;
+            $('button').click(function () {
+                //上来先把timer定时器清空了
+                clearTimeout(timeer);
+                //定时器，延时300毫秒
+                timeer=setTimeout(function () {
+                    console.log('单击了');
+                },300)
+            });
+            $('button').dblclick(function () {
+                //触发了双击事件也把定时器清空了
+                clearTimeout(timeer);
+                console.log('双击了')
+            });
+        })
+    </script>
+</body>
+</html>

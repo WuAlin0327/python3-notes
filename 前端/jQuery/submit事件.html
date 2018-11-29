@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>submit事件</title>
+</head>
+<body>
+<form action="http://www.baidu.com/s">
+    <input type="text" name="wd">
+    <input type="submit" value="🔍">
+</form>
+<script type="text/javascript" src="jQuery3.3.1.js"></script>
+<script>
+    $(function () {
+        //原声js的是onsubmit事件
+        $('from').submit(function (e) {
+            //阻止form表单的默认事件（submit触发form表单的action，往action发请求）
+            e.preventDefault();
+
+            //自定义去发请求
+            console.log('form被submit了')
+        })
+    })
+</script>
+</body>
+</html>
