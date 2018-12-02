@@ -1,0 +1,104 @@
+
+.login{
+    width: 700px;
+    height: 375px;
+    position: fixed;
+    top:19%;
+    left: 32%;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.login-box{
+    float: left;
+    width: 349px;
+    height: 375px;
+    border-right: 1px dashed black;
+}
+.register-box{
+    float: left;
+    width: 350px;
+    height: 375px
+}
+.login-bar{
+    width: 330px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: #e7ecf2;
+    color: #abb6d2;
+    font-weight: bold;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.login-tab{
+    padding: 20px 0;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #abb6d2;
+    cursor: pointer;
+}
+.info-box{
+    text-align: center;
+    height: 105px;
+
+}
+.info-box select{
+    width: 210px;
+    margin-bottom: 15px;
+}
+.phone{
+    display: block;
+    width: 210px;
+    padding: 5px 0;
+}
+.pr{
+    margin-bottom: 15px;
+}
+.login-btn{
+    padding: 0 68px;
+}
+.login-btn.check{
+    display: inline-block;
+    width: 20px;
+    float: left;
+}
+.login-btn span{
+    float: left;
+}
+.login-btn a{
+    float: right;
+}
+.login-btn button{
+
+}
+.close{
+    width: 20px;
+    height: 20px;
+    float: right;
+    cursor:pointer;
+    text-align: center;
+}
+.register-tab{
+    padding: 20px 0;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #abb6d2;
+    cursor: pointer;
+}
+.register-info{
+    padding: 0 70px;
+}
+.register-info select{
+    width: 210px;
+}
+.button{
+    margin-top: 20px;float: left;width: 95px;height: 31px;background-color: #2459a2;color: #fff;border-radius: 5px
+}
+.button-1{
+    float: left;width: 60px;height: 31px;background-color: #2459a2;color: #fff;border-radius: 5px;margin-right: 10px;
+}

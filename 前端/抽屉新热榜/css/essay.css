@@ -1,0 +1,64 @@
+.item{
+    width: 630px;
+    padding-top: 10px;
+    border-bottom: 1px solid #dce7f4;
+    overflow: hidden;
+    font-size: 16px;
+    position: relative;
+
+}
+.profile-photo{
+    width: 64px;
+    height: 64px;
+    float: right;
+    margin-bottom: 5px;
+}
+.digest a{
+    color: #369;
+    float: left;
+    width: 500px;
+}
+.digest{
+    overflow: hidden;
+}
+.digest a:hover{
+    text-decoration: underline;
+}
+.little-btn-bar{
+    width: 630px;
+    padding-top: 6px;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+}
+.little-btn-bar a{
+    width: 54px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    color: #99aecb;
+}
+.little-btn-bar span{
+    margin-left: 30px;
+    font-size: 4px;
+    color: #99aecb;
+
+}
+.img-content{
+    width: 500px;
+    height: 300px;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.review{
+    display: inline-block;
+
+}
+.review-box{
+    padding: 12px 15px 0;
+    border: 1px solid #cbdcee;
+    width: 598px;
+    background-color: #f6f6f6;
+}

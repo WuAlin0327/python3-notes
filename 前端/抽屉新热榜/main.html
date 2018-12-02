@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抽屉新热榜</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/top-bar.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/main-content.css">
+    <link rel="stylesheet" href="./css/essay.css">
+    <style>
+        /*图片的切换在这里*/
+        .bg-style {
+            color: #333;
+            background: url('./images/tip.png');
+            background-position: 0 -299px;
+        }
+
+        /*没选中的发布类型*/
+        .issue-type-not-pitch-on{
+            background-image: url('./images/bottom.png');
+            background-position: 0 0;
+        }
+        /*选中的发布类型*/
+        .issue-type-pitch-on{
+            background-image: url('./images/bottom.png');
+            background-position: 0 -74px;
+            border: 1px solid #fff;
+            color: #787878;
+        }
+        /*发布框中的链接发布的button的背景图片*/
+        .buttn-image{
+            background-image: url('./images/bottom-2.png');
+        }
+
+        .not-btn-image{
+            /*没有选中的背景图片*/
+            background-position: 0 -470px;
+        }
+        .btn-image{
+            /*这个是选中了的背景图片*/
+            background-position: 0 -410px;
+        }
+        .pinglun{
+            background-image: url('./images/pinglun.png');
+            position: absolute;
+            top: 102px;
+            left: 63px;
+            width: 11px;
+            height: 7px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <!--这里面是顶部导航栏-->
+    <div class="nav">
+        <div class="header-content">
+            <div>
+                <a href="#" class="log-png"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <div class="header-bar">
+                <ul>
+                    <li><a href="#" class="bar-a">全部</a></li>
+                    <li><a href="#" class="bar-a">42区</a></li>
+                    <li><a href="#" class="bar-a">段子</a></li>
+                    <li><a href="#" class="bar-a">图片</a></li>
+                    <li><a href="#" class="bar-a">挨踢1024</a></li>
+                    <li><a href="#" class="bar-a">你问我答</a></li>
+                </ul>
+            </div>
+            <div class="top-login-bar" style="float: right;">
+
+                    <ul>
+                        <li> <input type="text" class="search"><a href="#" class="bar-a">搜索</a></li>
+                        <li><a href="#" class="bar-a active">登陆</a></li>
+                        <li><a href="#" class="bar-a active">注册</a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--这个是发布框-->
+        <div id="issue">
+            <!--发布盒子-->
+            <div class="issue-box">
+                <div class="issue-header">分享新发现 <span>x</span></div>
+                <div class="issue-content">
+                    <div class="issue-checkbox">
+                    <ul>
+                        <li class="issue-type-list issue-type-not-pitch-on issue-type-pitch-on"><a href="#" class="issue-type" id="link">链接</a></li>
+                        <li class="issue-type-list issue-type-not-pitch-on"><a href="#" class="issue-type" id="text">文字</a></li>
+                        <li class="issue-type-list issue-type-not-pitch-on"><a href="#" class="issue-type" id="image">图片</a></li>
+                    </ul>
+                    </div>
+                    <!--选中上面的链接，然后这里的内容框要单独显示-->
+                    <div id="link-issue" class="content-hide content-show">
+                        <p class="issue-title">添加标签</p>
+                        <div class="input-link">
+                            <form action="#">
+                                <input type="text" placeholder="http://">
+                                <input type="submit" value="获取标题">
+                            </form>
+                        </div>
+                        <p class="issue-title">标题</p>
+                        <div class="input-bg">
+                                <input type="text" class="input-title" disabled>
+                            </div>
+                        <p class="issue-title">添加摘要(选填)</p>
+                        <div class="input-bg" style="height: 78px;">
+                            <input type="text" class="input-title" disabled style="height: 76px;">
+                        </div>
+                        <p class="issue-title" style="display: inline-block;float: left;">
+                            发布到:
+                            <a href="#" class="issue-to-class buttn-image not-btn-image btn-image">42区</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">段子</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">图片</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">挨踢1024</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">你问我答</a>
+                        </p>
+                        <p class="issue-tail">
+                            <a href="#" class="clear">清空</a>
+                            <a href="#" class="buttn-image issue-btn">发布</a>
+                        </p>
+                        </div>
+
+                    <!--文本发布-->
+                    <div id="text-issue" class="content-hide">
+                        <div class="text-bg" style="height: 114px;">
+                            <input type="text" placeholder="发布段子..." class='input-text'>
+                            <p style="float: right;">
+                                还可以输入150字
+                            </p>
+
+                        </div>
+                        <p class="issue-title" style="display: inline-block;float: left;">
+                            发布到:
+                            <a href="#" class="issue-to-class buttn-image not-btn-image btn-image">42区</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">段子</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">图片</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">挨踢1024</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">你问我答</a>
+                        </p>
+                        <p class="issue-tail" style="margin-bottom: 20px">
+                            <a href="#" class="clear">清空</a>
+                            <a href="#" class="buttn-image issue-btn" id="text-btn">发布</a>
+                        </p>
+
+
+                    </div>
+
+                    <!--图片发布-->
+                    <div id="img-issue" class="content-hide">
+                        <p class="issue-title">添加图片</p>
+                        <div class="text-bg">
+                            <input type="file" class="select-image-btn">
+                            <span>支持jpg、jpeg、gif、png格式，且不超过5MB</span>
+                        </div>
+                        <div class="text-bg" style="height: 114px;">
+                            <input type="text" placeholder="发布段子..." class='input-text'>
+                            <p style="float: right;">
+                                还可以输入150字
+                            </p>
+
+                        </div>
+                        <p class="issue-title" style="display: inline-block;float: left;">
+                            发布到:
+                            <a href="#" class="issue-to-class buttn-image not-btn-image btn-image">42区</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">段子</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">图片</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">挨踢1024</a>
+                            <a href="#" class="issue-to-class buttn-image not-btn-image">你问我答</a>
+                        </p>
+                        <p class="issue-tail" style="margin-bottom: 20px">
+                            <a href="#" class="clear">清空</a>
+                            <a href="#" class="buttn-image issue-btn">发布</a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    <!--这里面写的是点击登陆或者注册弹出的登陆注册框-->
+    <div id="login-background">
+        <div class="content">
+        <div class="login">
+            <div class="login-box">
+                <div class="login-bar">登陆</div>
+                <div class="login-tab">
+                    <a href="#">手机号登陆</a>
+                    <span>|</span>
+                    <a href="#">用户名</a>
+                </div>
+                <div class="info-box">
+                    <div>
+                        <select name="city">
+                            <option value="86">中国(+86)</option>
+                            <option value="852">中国香港(+852)</option>
+                            <option value="853">中国澳门(+583)</option>
+                            <option value="886">中国台湾(+886)</option>
+                            <option value="1">美国(+1)</option>
+                        </select>
+                        <form action="#" class="login-info" style="padding: 0 68px;">
+                            <div class="pr">
+                                <input type="text" name="user" placeholder="手机号码" class="phone">
+                            </div>
+                            <div class="pr">
+                                <input type="text" name="user" placeholder="密码" class="phone">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="login-btn">
+                        <input type="checkbox" style="float: left;"><p style="float: left;display: inline-block;padding-left:5px;">一个月内免登陆</p>
+                        <a href="#">忘记密码？</a>
+                        <br>
+                        <button class="button">登陆</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="register-box">
+                <div class="login-bar">注册 <span class="close">x</span></div>
+                <div class="register-tab">
+                    <a href="#">1 填写手机号</a>
+                    <span> ></span>
+                    <a href="#">2 填写基本信息</a>
+                </div>
+                <div class="register-info">
+                    <div class="pr">
+                        <select name="city">
+                            <option value="86">中国(+86)</option>
+                            <option value="852">中国香港(+852)</option>
+                            <option value="853">中国澳门(+583)</option>
+                            <option value="886">中国台湾(+886)</option>
+                            <option value="1">美国(+1)</option>
+                        </select>
+                    </div>
+                    <div class="pr">
+                        <input type="text" style="width: 120px;padding: 6px;display: inline-block" placeholder="手机号码">
+                        <button class="button-1" style="display: inline-block">获取验证码</button>
+                        <p style="float: right;margin-top: 5px">收不到短信？<a href="#">获取语音验证码</a></p>
+                    </div>
+                    <div class="pr">
+                        <input type="text" class="phone" style="float: left;margin-top: 15px" placeholder="验证码">
+                    </div>
+                    <div class="pr">
+                        <input type="text" class="phone" style="float: left;margin-top: 15px" placeholder="密码">
+                    </div>
+                    <div class="pr">
+                        <button class="button">下一步</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--这里面是主内容区域-->
+    <div class="main-box">
+        <div class="main-content">
+            <div class="top-bar">
+                <ul>
+                    <li><a href="#" class="daf-style bg-style">最新</a></li>
+                    <li><a href="#" class="daf-style">发现</a></li>
+                    <li><a href="#" class="daf-style">人类发布</a></li>
+                </ul>
+                <div class="time-sort">
+                    <a href="#">即时排序</a>
+                    <a href="#">24小时</a>
+                    <a href="#">3天</a>
+                </div>
+                <button class="main-top-button">+   发布</button>
+
+            </div>
+            <div class="yellow-bar">
+                <a href="#">2条入热榜，点击查看</a>
+            </div>
+            <div class="essay-scope">
+                <ul id="content">
+                    <li class="item">
+                           <div class="digest">
+                               <a href="#">2222222222</a>
+                               <img src="./images/car1.png" alt="" class="profile-photo">
+                           </div>
+                           <div class="little-btn-bar">
+                               <a href="javascript:update(1,'likecount',1)" id="like-${i}">👍 <b>1</b></a>
+
+                               <a href="#">💬<b>1</b></a>
+                                   <a href="#">❤️私藏</a>
+                              <span>来自我自己发布</span>
+
+                           </div>
+                            <div class="pinglun-box">
+                                <div class="pinglun">
+
+                            </div>
+                            <div class="review">
+                                   <div class="review-box">
+                                       评论框
+                                   </div>
+                            </div>
+
+                            </div>
+
+                        </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="./js/jQuery3.3.1.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

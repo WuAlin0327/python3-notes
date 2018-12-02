@@ -1,0 +1,40 @@
+.nav{
+    width: 100%;
+    height: 44px;
+    background-color: #2459a2;
+    position: fixed;
+    z-index: 1050;
+}
+.header-content{
+    width: 1016px;
+    height: 44px;
+    line-height: 44px;
+    margin: 0 auto;
+}
+.log-png{
+    height: 44px;
+    float: left;
+    margin-top: 8px;
+    padding-right: 16px;
+}
+.header-bar ul li{
+    float: left;
+
+}
+.bar-a{
+        display: inline-block;
+        color: #fff;
+        padding: 0 13px 0 16px;
+}
+.header-bar-active{
+    background-color: #204982;
+}
+.top-login-bar ul li{
+    float: right;
+}
+.search{
+    width: 100px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+

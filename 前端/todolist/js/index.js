@@ -29,7 +29,6 @@ function loadData() {
     }else{
         return []
     }
-
 }
 
 //清除之前todo列表和done列表中的标签，便于重新加载HTML

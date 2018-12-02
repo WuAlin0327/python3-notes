@@ -1,0 +1,222 @@
+.main-box{
+    background-color: #ededed;
+    padding-top: 44px;
+    width: 100%;
+    height: 100%;
+}
+
+.bar{
+    width: 100%;
+    height: 500px;
+}
+.top-bar{
+    width: 630px;
+    height: 43px;
+    border-bottom: 1px solid #ccdcef;
+}
+.top-bar ul li{
+    margin-left: 3px;
+    margin-bottom: 13px;
+    margin-top: 3px;
+    float: left;
+
+}
+.daf-style{
+    width: 60px;
+    height: 26px;
+    line-height: 26px;
+    color:#369;
+    display: inline-block;
+    text-align: center;
+}
+.time-sort{
+    margin-left: 144px;
+    margin-top: 10px;
+    float: left;
+    height: 33px;
+
+}
+.time-sort a{
+    margin-left: 10px;
+}
+.main-top-button{
+    width: 136px;
+    height: 32px;
+    text-align: center;
+    background-color: #84a42b;
+    border: 1px solid #8aab30;
+    float: right;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*下面是发布框的样式*/
+.issue-box{
+    width: 581px;
+    position: absolute;
+    top:11%;
+    left: 35%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.issue-header{
+    width: 561px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: #e7ecf2;
+    color: #abb6d2;
+    font-weight: bold;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.issue-header span{
+    width: 20px;
+    height: 20px;
+    float: right;
+    cursor:pointer;
+}
+.issue-content{
+    padding: 15px 20px 0;
+    width: 541px;
+
+}
+.issue-checkbox{
+    width: 100%;
+    height: 35px;
+    border-bottom:1px solid #ccdcef;
+}
+.issue-checkbox ul li{
+    float: left;
+    text-align: center;
+    line-height: 36px;
+    width: 90px;
+    height: 35px;
+    margin-right: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.issue-type{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    color: #787878;
+}
+#link-issue{
+    width: 541px;
+    height: 374px;
+    padding-top: 15px;
+}
+.issue-title{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 5px;
+}
+#text-issue{
+    width: 541px;
+    padding-top: 15px;
+}
+#img-issue{
+    width: 541px;
+    padding-top: 15px;
+}
+.input-link{
+    width: 531px;
+    height: 30px;
+    padding: 5px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.input-link [type='text']{
+    width: 420px;
+    height: 30px;
+}
+.input-link [type='submit']{
+    width: 95px;
+    height: 31px;
+    color: #ffffff;
+    background-color: #b9d6e6;
+    font-size: 16px;
+}
+.input-bg{
+    width: 531px;
+    height: 33px;
+    padding: 5px;
+    background-color: #e6ecf3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.input-title{
+    width: 526px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(236, 233, 216);
+}
+.issue-to-class{
+    width: 60px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 3px;
+    display: inline-block;
+    color: #ffffff;
+}
+.issue-tail{
+    margin-top: 40px;
+    float: right;
+    display: block;
+}
+.issue-btn{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    margin-left: 30px;
+    width: 96px;
+    height: 30px;
+    line-height: 30px;
+    background-position: 0 -563px;
+}
+.content-hide{
+    display: none;
+}
+.content-show{
+    display: block;
+}
+.text-bg{
+    background-color: #e6ecf3;
+    width: 531px;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.input-text{
+    height: 72px;
+    width: 523px;
+    line-height: 1.3px;
+    border: 1px solid rgb(204, 220, 239);
+    padding: 2px;
+    outline:0;
+    overflow:auto;
+    margin-bottom: 20px;
+}
+.select-image-btn{
+    width: 62px;
+    height: 31px;
+    line-height: 31px;
+}
+.text-bg span{
+    padding-left: 6px;
+    color: #8ca1c1;
+    font-size: 14px;
+}
+.yellow-bar{
+    height: 20px;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+}
