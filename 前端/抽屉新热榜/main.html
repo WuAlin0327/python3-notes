@@ -282,7 +282,7 @@
 
             </div>
             <div class="yellow-bar">
-                <a href="#">2条入热榜，点击查看</a>
+                <a href="#">n条加入热榜，点击查看</a>
             </div>
             <div class="essay-scope">
                 <ul id="content">
@@ -294,7 +294,7 @@
                            <div class="little-btn-bar">
                                <a href="javascript:update(1,'likecount',1)" id="like-${i}">👍 <b>1</b></a>
 
-                               <a href="#">💬<b>1</b></a>
+                               <a href="#" id="review-btn">💬<b>1</b></a>
                                    <a href="#">❤️私藏</a>
                               <span>来自我自己发布</span>
 
@@ -302,10 +302,25 @@
                             <div class="pinglun-box">
                                 <div class="pinglun">
 
-                            </div>
-                            <div class="review">
+                                </div>
+                                <div class="review" >
                                    <div class="review-box">
-                                       评论框
+                                       <!--
+                                       评论应该是动态去加载的，也就是说应该是在点击评论按钮的时候
+                                       去本地服务器上读取数据
+                                       服务器保存数据的时候以id去保存读取的时候也是以读取的方式去读取，id就使用review-count动态命名
+                                       -->
+                                       <div class="review-details">
+                                           <span class="review-details-title">最新评论</span>
+                                           <ul>
+                                               <li>
+                                                   <p>admin: <span>这是评论详情</span></p>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                       <div class="review-box-input">
+                                           <input type="text" placeholder="请输入..." class="review-input"><a href="" class="review-box-input-btn">评论</a>
+                                       </div>
                                    </div>
                             </div>
 
@@ -316,11 +331,31 @@
             </div>
 
         </div>
+
+        <!--这是尾部-->
+        <div class="tail-content">
+            <div class="call-me">
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">服务条款</a></li>
+                    <li><a href="#">隐私政策</a></li>
+                    <li><a href="#">抽屉新热榜工具</a></li>
+                    <li><a href="#">下载客户端</a></li>
+                    <li><a href="#">意见与反馈</a></li>
+                    <li><a href="#">友情链接</a></li>
+                    <li><a href="#">公告</a></li>
+
+                </ul>
+
+            </div>
+            <p><img src="./images/gozap-logo-50_15.gif" alt="" style="margin-right: 13px">旗下站点 ©2018 chouti.com <span style="font-size: 10px;color: #666">京ICP备09053974号-3 京公网安备 110102004562</span></p>
+            <p style="padding-top: 10px">违法和不良信息举报： 电话：010-58302039 邮箱：<a href="#">jubao@chouti.com</a></p>
+            <p style="padding-top: 10px">版权所有：北京格致璞科技有限公司</p>
+        </div>
     </div>
-
-
-
     <script type="text/javascript" src="./js/jQuery3.3.1.js"></script>
     <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="js/protogenesis.js"></script>
 </body>
 </html>

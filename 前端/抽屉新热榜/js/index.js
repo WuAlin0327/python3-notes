@@ -1,6 +1,7 @@
 $(function () {
     //加载页面内容
-    // load();
+    load();
+
 
     $('.bar-a').mouseenter(function () {
         $(this).addClass('header-bar-active');
@@ -69,73 +70,15 @@ $(function () {
                 likecount:likecount,
                 comment:comment,
             };
-            data = loadData();
+            data = loadData('local-content');
             data.push(newList);
-            saveData(data);
+            saveData(data,'local-content');
              $('#issue').css('display','none');
              $('.input-text').val('');
             load()
         }
         });
 
+
 });
-    function load() {
-        var data_reverse = loadData();
-        var data = data_reverse.reverse();
-        var Html = '';
-        var content = document.getElementById('content');
-        for (var i in data) {
-            var text = data[i].text;
-            var likeCount = data[i].likecount;
-            var commentCount = data[i].comment;
-            Html += `<li class="item">
-                           <div class="digest">
-                               <a href="#">${text}</a>
-                               <img src="./images/car1.png" alt="" class="profile-photo">
-                           </div>
-                           <div class="little-btn-bar">
-                               <a href="javascript:update(${i},'likecount',1)" id="like-${i}">👍 <b>${likeCount}</b></a>
-                               <div class="review">
-                                    <a href="#">💬<b>${commentCount}</b></a>  
-                               </div>
-                                   <a href="#">❤️私藏</a>
-                                
-                              
-                               <span>来自我自己发布</span>
-                           </div>
-                            <div class="pinglun">
-
-                            </div>
-                            <div class="review">
-                                   <div class="review-box">
-                                       评论框
-                                   </div>
-                            </div>
-                        </li>`;
-            }
-        content.innerHTML = Html;
-    };
-    function saveData(data) {
-     localStorage.setItem('local-content',JSON.stringify(data));
-}
-
-    function loadData() {
-        var localdata = localStorage.getItem('local-content');
-        if (localdata != null){
-            return JSON.parse(localdata)
-        }else{
-            return []
-        }
-    }
-    function update(i,msg,value) {
-        var data = loadData().reverse();
-        var newContent = data.splice(i,1)[0];
-        console.log(newContent);
-        newContent[msg] += value;
-        data.splice(i,0,newContent);
-        saveData(data.reverse());
-        load()
-        }
-
-
 
