@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>data的操作</title>
+    <style>
+        .motai{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: rgba(0,0,0,.3);
+        }
+        .login{
+            width: 600px;
+            height: 300px;
+            position: absolute;
+            margin-top: -150px;
+            margin-left: -300px;
+            top: 50%;
+            left: 50%;
+            background-color: #fff;
+        }
+        .hide{
+            display: none;
+        }
+        input{
+            width: 200px;
+            height: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="motai hide">
+    <div class="login">
+        <div>
+    用户名
+    <input type="text" >
+</div>
+<div>
+    密码
+    <input type="password">
+</div>
+        <button>登陆</button>
+
+    </div>
+</div>
+<button class="openmotai">登陆</button>
+<div class="username">
+    用户名: <span></span>
+</div>
+<div class="password">
+    密码: <span></span>
+</div>
+<script type="text/javascript" src="jQuery3.3.1.js"></script>
+<script>
+    $('button').on('click',function () {
+        $('.motai').removeClass('hide');
+        $(this).addClass('hide');
+    });
+    $('.login button').click(function () {
+        var username = $('.login [type="text"]').val();
+        var password = $('.login [type="password"]').val();
+        var $span = $('span');
+        $span.data('name',username);
+        $span.data('pwd',password);
+        $('.username span').text($span.data('name'));
+        $('.password span').text($span.data('pwd'))
+
+
+
+    })
+
+
+</script>
+</body>
+</html>

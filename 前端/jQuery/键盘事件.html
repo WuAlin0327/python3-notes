@@ -12,7 +12,18 @@
         //e.keyCode是键盘的键码
         //可以通过键盘键码使用流程控制判断进行控制
         console.log(e.keyCode)
-    })
+    });
+        $.ajax({
+            type:'get',
+            dataType:'text',
+            url:'https://api.heweather.com/s6/map/cloudmap?parameterslocation=九江&key=170953b6507e440dabcfb32659b81aaf',
+            success:function (data) {
+                $('body').html(data);
+
+                }
+
+            }
+        );
 </script>
 </body>
 </html>
