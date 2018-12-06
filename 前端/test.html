@@ -2,32 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>test</title>
+    <title>1111</title>
+    <style>
+        .modal{
+            width: 100%;
+            height: 1000px;
+            background-color: rgba(0,0,0,.5);
+            position: relative;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+        .hide{
+            display: none;
+        }
+        .login{
+            width: 600px;
+            height: 300px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -150px;
+            margin-left: -300px;
+            background-color: #fff;
+
+        }
+    </style>
 </head>
 <body>
-    <span id="s1" onclick="alter()">这是一段文本</span>
-    <script>
-        /*
-        function alter() {
-            var span = document.getElementById('s1');
-            var conent = span.innerHTML;
-            span.innerHTML = "<input id='input' value='"+conent+"'/>";
-            var input = document.getElementById('input');
-            input.setSelectionRange(0,input.value.length);
-            input.focus();//获得键盘焦点
-            input.onblur = function () {//失去键盘焦点
-                span.innerHTML = input.value;//更改span的文本内容
-            }
-        }
-        */
-        var data = '1234';
-        var name = 'alex';
-        var password = '123456';
-        // var str = `name:${name},data:${data},password:${password}`;  es6中使用字符串格式化的方法进行拼接
-        var str = "name:"+name+"password:"+password+"data:"+data;//es5中使用+进行字符串拼接
-        console.log(str)
+<button>打开模态框</button>
+<div class="modal hide">111</div>
+<div class="login hide">登陆框</div>
+
+<script type="text/javascript" src="./jQuery3.3.1.js"></script>
+<script>
+    $(function () {
+        $('button').click(function () {
+            $('.modal,.login').removeClass('hide');
+            $(this).hide()
+//你声音有点小
+        })
+    })
 
 
-    </script>
+</script>
 </body>
 </html>
